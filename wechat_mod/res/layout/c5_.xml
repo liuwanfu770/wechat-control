@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/le" android:layout_width="fill_parent" android:layout_height="@dimen/bk" />
+    <TextView android:textSize="@dimen/q" android:textColor="@color/y3" android:id="@id/ity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:layout_marginStart="@dimen/c8" />
+    <com.tencent.mm.ui.widget.happybubble.LabelsView android:id="@id/iu2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0" android:layout_marginBottom="@dimen/c5" android:layout_marginStart="@dimen/c8" android:layout_marginEnd="@dimen/c8" app:oa="@drawable/ck8" app:oe="@drawable/ck9" app:of="@dimen/c9" app:oh="@dimen/d" app:oi="@dimen/jn" app:oj="@dimen/jn" app:ok="@dimen/d" app:ol="@dimen/gx" app:om="h6x" app:r0="@dimen/c0" app:wf="l" app:a2_="@dimen/ci" />
+</LinearLayout>

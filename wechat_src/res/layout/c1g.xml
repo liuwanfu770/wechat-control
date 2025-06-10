@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.HardTouchableLayout android:id="@id/i_j" android:background="@color/FG_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:id="@id/i_l" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.AppBarLayout android:orientation="vertical" android:id="@id/i92" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="wrap_content" app:jg="10.0dip" app:ka="true">
+            <FrameLayout android:layout_gravity="start|center" android:id="@id/iid" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/b5" app:qt="bpj|f7g" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.view.HardTouchableLayout android:id="@id/huw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/c5">
+                    <android.support.design.widget.TabLayout android:layout_gravity="center" android:id="@id/g3o" android:layout_width="wrap_content" android:layout_height="@dimen/c_" app:yb="@color/a7c" app:yd="ahg" app:yg="@drawable/cck" app:yi="@color/y4" app:yl="2.0dip" app:yp="c3p" app:ys="0.0dip" app:yt="0.0dip" app:yv="@color/a7c" app:yw="@color/y4" app:yz="@color/km" />
+                </com.tencent.mm.view.HardTouchableLayout>
+            </FrameLayout>
+        </android.support.design.widget.AppBarLayout>
+        <com.tencent.mm.plugin.finder.view.FinderViewPager android:id="@id/hvz" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ow="@string/xz" />
+    </android.support.design.widget.CoordinatorLayout>
+    <include layout="@layout/c1d" />
+</com.tencent.mm.view.HardTouchableLayout>

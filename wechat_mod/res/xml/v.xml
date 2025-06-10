@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.NormalProfileHeaderPreference android:o8="contact_info_header_normal" android:oq="@layout/ul" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_signature" android:oq="@layout/aop" android:a0p="@string/b_a" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/b9t" android:o8="contact_profile_say_hi" android:oq="@layout/aop" android:a13="@color/a_j" />
+    <PreferenceCategory />
+    <com.tencent.mm.plugin.profile.ui.MultiButtonPreference android:o8="contact_profile_multi_button" />
+</PreferenceScreen>

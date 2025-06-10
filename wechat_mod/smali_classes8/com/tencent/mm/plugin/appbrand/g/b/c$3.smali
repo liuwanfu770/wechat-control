@@ -1,0 +1,142 @@
+.class final Lcom/tencent/mm/plugin/appbrand/g/b/c$3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/tencent/mm/plugin/appbrand/g/c/a/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/plugin/appbrand/g/b/c;->blh()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/appbrand/g/b/c;)V
+    .locals 0
+
+    .prologue
+    .line 350
+    iput-object p1, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/tencent/mm/plugin/appbrand/g/c/b/e;)V
+    .locals 3
+
+    .prologue
+    const v2, 0x26cc7
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 362
+    if-eqz p1, :cond_0
+
+    .line 363
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    iget-object v0, v0, Lcom/tencent/mm/plugin/appbrand/g/b/c;->krc:Lcom/tencent/mm/plugin/appbrand/g/b/b;
+
+    if-eqz v0, :cond_0
+
+    .line 364
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    iget-object v1, v1, Lcom/tencent/mm/plugin/appbrand/g/b/c;->krc:Lcom/tencent/mm/plugin/appbrand/g/b/b;
+
+    iget-object v1, v1, Lcom/tencent/mm/plugin/appbrand/g/b/b;->kqW:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, " unSubscribeAVTransportEvent fail response code : "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p1, Lcom/tencent/mm/plugin/appbrand/g/c/b/e;->responseCode:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 367
+    :cond_0
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public final b(Lcom/tencent/mm/plugin/appbrand/g/c/b/e;)V
+    .locals 3
+
+    .prologue
+    const v2, 0x26cc6
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 353
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    const/4 v1, 0x0
+
+    iput-boolean v1, v0, Lcom/tencent/mm/plugin/appbrand/g/b/c;->krl:Z
+
+    .line 354
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    const/4 v1, 0x0
+
+    iput-object v1, v0, Lcom/tencent/mm/plugin/appbrand/g/b/c;->kri:Lcom/tencent/mm/plugin/appbrand/g/c/b/c;
+
+    .line 355
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    iget-object v0, v0, Lcom/tencent/mm/plugin/appbrand/g/b/c;->krc:Lcom/tencent/mm/plugin/appbrand/g/b/b;
+
+    if-eqz v0, :cond_0
+
+    .line 356
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/appbrand/g/b/c$3;->krn:Lcom/tencent/mm/plugin/appbrand/g/b/c;
+
+    iget-object v1, v1, Lcom/tencent/mm/plugin/appbrand/g/b/c;->krc:Lcom/tencent/mm/plugin/appbrand/g/b/b;
+
+    iget-object v1, v1, Lcom/tencent/mm/plugin/appbrand/g/b/b;->kqW:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, " unSubscribeAVTransportEvent success"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 358
+    :cond_0
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

@@ -1,0 +1,27 @@
+.class public final Lcom/tencent/mm/plugin/sns/storage/AdLandingPagesStorage/AdLandingPageComponent/w;
+.super Lcom/tencent/mm/plugin/sns/storage/AdLandingPagesStorage/AdLandingPageComponent/q;
+.source "SourceFile"
+
+
+# instance fields
+.field public BjP:Ljava/lang/String;
+
+.field public BjQ:Ljava/lang/String;
+
+.field public BjR:Ljava/lang/String;
+
+.field public dfg:Ljava/lang/String;
+
+.field public iaf:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 3
+    invoke-direct {p0}, Lcom/tencent/mm/plugin/sns/storage/AdLandingPagesStorage/AdLandingPageComponent/q;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/cf0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/caw" android:paddingLeft="@dimen/c5" android:paddingTop="@dimen/c8" android:paddingRight="@dimen/c5" android:paddingBottom="@dimen/c8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/c5" android:paddingVertical="@dimen/c8">
+        <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@id/arm" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" app:w2="@dimen/c8" app:w3="@dimen/c8" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ia" android:textColor="#ff907744" android:ellipsize="end" android:id="@id/arp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{test title}" android:maxLines="1" android:shadowRadius="4.0" />
+            <TextView android:textSize="@dimen/jo" android:textColor="#cc907744" android:ellipsize="end" android:id="@id/arl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="{test title}" android:maxLines="1" android:shadowRadius="4.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/i_c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/aqu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:layout_marginRight="@dimen/ci" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

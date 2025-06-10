@@ -1,0 +1,143 @@
+.class final Lcom/tencent/mm/ui/chatting/d/ab$8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/tencent/mm/ui/base/o$g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/ui/chatting/d/ab;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic MBw:Lcom/tencent/mm/ui/chatting/d/ab;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/d/ab;)V
+    .locals 0
+
+    .prologue
+    .line 675
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/d/ab$8;->MBw:Lcom/tencent/mm/ui/chatting/d/ab;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onMMMenuItemSelected(Landroid/view/MenuItem;I)V
+    .locals 5
+
+    .prologue
+    const v4, 0x329fe
+
+    invoke-static {v4}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 678
+    if-nez p2, :cond_0
+
+    .line 679
+    const-class v0, Lcom/tencent/mm/live/a;
+
+    invoke-static {v0}, Lcom/tencent/mm/kernel/g;->H(Ljava/lang/Class;)Lcom/tencent/mm/kernel/b/a;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tencent/mm/live/a;
+
+    invoke-interface {v0}, Lcom/tencent/mm/live/a;->liveEntranceJumper()Lcom/tencent/mm/live/api/a;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/d/ab$8;->MBw:Lcom/tencent/mm/ui/chatting/d/ab;
+
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/d/ab;->cMI:Lcom/tencent/mm/ui/chatting/e/a;
+
+    .line 1131
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/e/a;->MGo:Lcom/tencent/mm/ui/chatting/BaseChattingUIFragment;
+
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/BaseChattingUIFragment;->getContext()Landroid/app/Activity;
+
+    move-result-object v1
+
+    .line 679
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/d/ab$8;->MBw:Lcom/tencent/mm/ui/chatting/d/ab;
+
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/d/ab;->cMI:Lcom/tencent/mm/ui/chatting/e/a;
+
+    invoke-virtual {v2}, Lcom/tencent/mm/ui/chatting/e/a;->getTalkerUserName()Ljava/lang/String;
+
+    move-result-object v2
+
+    sget v3, Lcom/tencent/mm/live/api/LiveConfig;->gKN:I
+
+    invoke-static {v2, v3}, Lcom/tencent/mm/live/api/LiveConfig;->V(Ljava/lang/String;I)Lcom/tencent/mm/live/api/LiveConfig;
+
+    move-result-object v2
+
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/live/api/a;->a(Landroid/content/Context;Lcom/tencent/mm/live/api/LiveConfig;)Z
+
+    invoke-static {v4}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    .line 684
+    :goto_0
+    return-void
+
+    .line 682
+    :cond_0
+    const-class v0, Lcom/tencent/mm/live/a;
+
+    invoke-static {v0}, Lcom/tencent/mm/kernel/g;->H(Ljava/lang/Class;)Lcom/tencent/mm/kernel/b/a;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tencent/mm/live/a;
+
+    invoke-interface {v0}, Lcom/tencent/mm/live/a;->liveEntranceJumper()Lcom/tencent/mm/live/api/a;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/d/ab$8;->MBw:Lcom/tencent/mm/ui/chatting/d/ab;
+
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/d/ab;->cMI:Lcom/tencent/mm/ui/chatting/e/a;
+
+    .line 2131
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/e/a;->MGo:Lcom/tencent/mm/ui/chatting/BaseChattingUIFragment;
+
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/BaseChattingUIFragment;->getContext()Landroid/app/Activity;
+
+    move-result-object v1
+
+    .line 682
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/d/ab$8;->MBw:Lcom/tencent/mm/ui/chatting/d/ab;
+
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/d/ab;->cMI:Lcom/tencent/mm/ui/chatting/e/a;
+
+    invoke-virtual {v2}, Lcom/tencent/mm/ui/chatting/e/a;->getTalkerUserName()Ljava/lang/String;
+
+    move-result-object v2
+
+    sget v3, Lcom/tencent/mm/live/api/LiveConfig;->gKN:I
+
+    invoke-static {v2, v3}, Lcom/tencent/mm/live/api/LiveConfig;->V(Ljava/lang/String;I)Lcom/tencent/mm/live/api/LiveConfig;
+
+    move-result-object v2
+
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/live/api/a;->c(Landroid/content/Context;Lcom/tencent/mm/live/api/LiveConfig;)Z
+
+    .line 684
+    invoke-static {v4}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+.end method

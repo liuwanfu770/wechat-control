@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/biv" android:padding="@dimen/ci" android:layout_width="@dimen/a0s" android:layout_height="@dimen/a0s" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/jo" android:textColor="@color/mi" android:gravity="center_horizontal" android:id="@id/biw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci" android:maxLines="2" android:layout_below="@id/biv" android:layout_centerHorizontal="true" />
+    <com.tencent.mm.plugin.emojicapture.ui.capture.StickerSelectFrame android:id="@id/bj1" android:visibility="gone" android:layout_width="@dimen/a0s" android:layout_height="@dimen/a0s" android:layout_centerHorizontal="true" />
+</RelativeLayout>

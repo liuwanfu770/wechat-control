@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.address.ui.MMScrollView android:id="@id/gzt" android:background="@color/a_r" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/qp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:address="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/c5" android:paddingRight="@dimen/c5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/fi" android:inputType="text" app:at="dy6" app:av="@string/eq" app:ay="@raw/icons_outlined_subscriptions" app:b1="@string/ep" style="@style/m9" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/fk" android:inputType="phone" android:imeOptions="actionDone" app:at="ec3" app:av="@string/ev" app:b1="@string/eu" style="@style/m9" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/f6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/jm" android:inputType="text" app:at="f3" app:au="false" app:av="@string/e0" app:aw="@null" app:ay="@raw/icons_outlined_location" app:b1="@string/dz" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/f7" android:layout_height="wrap_content" android:minHeight="@dimen/jm" android:inputType="text" app:at="bb4" app:av="@string/e3" app:b0="false" app:b1="@string/e2" style="@style/m9" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/fu" android:inputType="number" app:at="egi" app:av="@string/ex" app:b1="@string/ew" style="@style/m9" />
+    </LinearLayout>
+</com.tencent.mm.plugin.address.ui.MMScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a25" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/g1s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/b8">
+            <LinearLayout android:gravity="center_vertical" android:background="@drawable/ado" android:paddingLeft="@dimen/ha" android:paddingRight="@dimen/ha" android:layout_width="fill_parent" android:layout_height="@dimen/b8">
+                <TextView android:textSize="@dimen/ia" android:textColor="@color/BW_0_Alpha_0_9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ae3" android:layout_weight="1.0" android:layout_centerVertical="true" />
+                <include android:id="@id/g1p" layout="@layout/aox" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/BW_0_Alpha_0_5" android:id="@id/g1r" android:paddingTop="@dimen/hd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ha" android:text="@string/ae2" />
+        <com.tencent.mm.msgsubscription.ui.MaxRecyclerView android:id="@id/g1o" android:background="@drawable/ado" android:paddingTop="1.0px" android:paddingBottom="1.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jn" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</ScrollView>

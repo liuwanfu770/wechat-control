@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:id="@id/ito" android:layout_width="0.0dip" android:layout_height="fill_parent" android:paddingStart="@dimen/ci" android:paddingEnd="@dimen/ci" app:pd="@id/iu1" app:pn="1.0" app:pv="ea8">
+        <TextView android:textSize="@dimen/ji" android:textStyle="bold" android:textColor="@color/y4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/itm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ilk" android:paddingStart="@dimen/hk" android:paddingEnd="@dimen/hk" app:p8="ea8" app:pd="ea8" app:pu="ea8" app:px="ea8" />
+        <View android:id="@id/itn" android:background="@color/fd" android:layout_width="0.0dip" android:layout_height="2.0dip" app:p7="ea8" app:pc="@id/itm" app:pv="@id/itm" />
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout android:id="@id/iu1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:paddingStart="@dimen/ci" android:paddingEnd="@dimen/ci" app:pd="@id/itw" app:pn="1.0" app:pu="@id/ito">
+        <TextView android:textSize="@dimen/ji" android:textStyle="bold" android:textColor="@color/km" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/itz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ilm" android:paddingStart="@dimen/hk" android:paddingEnd="@dimen/hk" app:p8="ea8" app:pd="ea8" app:pu="ea8" app:px="ea8" />
+        <View android:id="@id/iu0" android:background="@color/fd" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="2.0dip" app:p7="ea8" app:pc="@id/itz" app:pv="@id/itz" />
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout android:id="@id/itw" android:layout_width="0.0dip" android:layout_height="fill_parent" android:paddingStart="@dimen/ci" android:paddingEnd="@dimen/ci" app:pc="ea8" app:pn="1.0" app:pu="@id/iu1">
+        <TextView android:textSize="@dimen/ji" android:textStyle="bold" android:textColor="@color/km" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/itv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ill" app:p8="ea8" app:pd="ea8" app:pu="ea8" app:px="ea8" />
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/a39" android:layout_height="@dimen/ci" android:src="@raw/icon_biz_profile_tab_service" android:layout_marginStart="@dimen/bq" app:mj="@color/FG_3" app:p7="@id/itv" app:pu="@id/itv" app:py="@id/itv" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

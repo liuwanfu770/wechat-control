@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory android:o8="settings_tag_name_category" />
+    <Preference android:o8="settings_tag_name" android:oq="@layout/aop" android:a0p="@string/fq2" />
+    <PreferenceTitleCategory android:o8="outside" android:a0p="@string/fq4" />
+    <PreferenceTitleCategory android:o8="black" android:a0p="@string/fq3" />
+    <PreferenceTitleCategory android:o8="group" android:a0p="@string/fpz" />
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:o8="roominfo_contact_anchor" />
+    <PreferenceSmallCategory android:o8="delete_tag_name_category" />
+    <Preference android:o8="delete_tag_name" android:oq="@layout/ajc" android:a0p="@string/f2p" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

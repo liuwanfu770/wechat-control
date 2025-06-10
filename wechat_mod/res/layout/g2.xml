@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/oc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/b8" android:paddingStart="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/s4" android:layout_width="@dimen/jr" android:layout_height="@dimen/jr" android:src="@drawable/bj" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+    <RelativeLayout android:background="@drawable/amv" android:paddingTop="@dimen/i_" android:paddingBottom="@dimen/i_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/c5" android:layout_toEndOf="@id/s4">
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:gravity="center|left" android:id="@id/s7" android:layout_width="wrap_content" android:layout_height="@dimen/i8" android:text="@string/frw" android:layout_centerVertical="true" android:paddingEnd="@dimen/ha" />
+        <com.tencent.mm.plugin.sns.ui.PreviewContactView android:id="@id/s3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/i8" android:layout_toStartOf="@id/f27" />
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/f27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/arrow_right" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ci" android:layout_marginEnd="@dimen/c5" android:layout_alignParentEnd="true" app:mj="@color/ee" />
+    </RelativeLayout>
+</RelativeLayout>

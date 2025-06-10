@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:a0p="@string/f4w" />
+    <CheckBoxPreference android:o8="settings_need_verify" android:oq="@layout/aop" android:a0p="@string/f8m" />
+    <CheckBoxPreference android:o8="settings_recommend_mobilefriends_to_me" android:y5="@string/f_a" android:a0p="@string/b9b" />
+    <CheckBoxPreference android:o8="settings_find_google_contact" android:y5="@string/f__" android:a0p="@string/f6b" />
+    <Preference android:o8="settings_add_me_way" android:oq="@layout/aop" android:a0p="@string/f4q" />
+    <Preference android:o8="settings_about_blacklist" android:oq="@layout/aop" android:a0p="@string/f_6" />
+    <Preference android:o8="settings_unfamiliar_contact" android:oq="@layout/aop" android:a0p="@string/fc3" />
+    <PreferenceTitleCategory android:o8="settings_add_friends_timeline_tip" android:a0p="@string/f4x" />
+    <Preference android:o8="timline_outside_permiss" android:a0p="@string/fo3" />
+    <Preference android:o8="timeline_black_permiss" android:a0p="@string/fk8" />
+    <Preference android:o8="edit_timeline_group" android:a0p="@string/f_4" />
+    <CheckBoxPreference android:o8="timeline_stranger_show" android:oq="@layout/aop" android:a0p="@string/b6a" />
+    <IconPreference android:o8="timeline_recent_show_select" android:a0p="@string/b66" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="timeline_live_list_show" android:oq="@layout/aop" android:a0p="@string/ii8" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_auth_manage" android:a0p="@string/f4u" />
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/a7c" android:layout_width="wrap_content" android:layout_height="@dimen/cb" android:paddingStart="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/gu" android:textStyle="bold" android:textColor="@color/km" android:ellipsize="end" android:gravity="center" android:id="@id/huy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <ImageView android:id="@id/hux" android:visibility="invisible" android:layout_width="@dimen/ci" android:layout_height="@dimen/ci" android:layout_marginTop="-4.0dip" android:layout_alignTop="@id/huy" android:layout_toEndOf="@id/huy" style="@style/yj" />
+        <ImageView android:id="@id/g2t" android:visibility="visible" android:layout_width="@dimen/c0" android:layout_height="@dimen/c0" android:layout_marginTop="-5.5dip" android:layout_alignTop="@id/huy" android:layout_marginStart="1.0dip" android:layout_toEndOf="@id/huy" />
+        <FrameLayout android:id="@id/ipv" android:background="@drawable/cc2" android:visibility="invisible" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="-10.0dip" android:layout_alignTop="@id/huy" android:layout_marginStart="-6.0dip" android:layout_toEndOf="@id/huy">
+            <ImageView android:id="@id/ipu" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@raw/finder_icon_live_onlive" />
+        </FrameLayout>
+        <TextView android:textSize="9.0dip" android:textColor="@color/aj" android:id="@id/ipw" android:background="@drawable/ccl" android:paddingLeft="4.0dip" android:paddingTop="0.0dip" android:paddingRight="4.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="-9.0dip" android:layout_alignTop="@id/huy" android:layout_alignRight="@id/i8y" />
+        <View android:id="@id/i8y" android:layout_width="@dimen/c5" android:layout_height="1.0dip" android:layout_alignTop="@id/huy" android:layout_toEndOf="@id/huy" />
+    </RelativeLayout>
+</LinearLayout>

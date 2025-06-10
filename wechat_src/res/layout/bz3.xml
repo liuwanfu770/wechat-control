@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/kh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/ias" android:background="@color/a7c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/a7c" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" />
+    <View android:id="@id/ip5" android:background="@color/a_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/s5" android:layout_gravity="center_horizontal" android:id="@id/by1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="@string/c6c" />
+    <com.tencent.mm.pluginsdk.ui.tools.DropdownListView android:id="@id/iab" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/iat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a4p" />
+</FrameLayout>

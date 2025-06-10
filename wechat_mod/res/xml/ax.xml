@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:newtip="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.FriendSnsPreference newtip:o8="album_dyna_photo_ui_title" newtip:a0p="@string/fku" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.FinderIconViewTipPreference newtip:mf="@raw/icons_outlined_finder_icon" newtip:mj="@color/Orange" newtip:o8="find_friends_by_finder" newtip:ut="finder" newtip:a0p="@string/c73" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference newtip:mf="@raw/icons_outlined_scan" newtip:mj="@color/Indigo" newtip:o8="find_friends_by_qrcode" newtip:a0p="@string/c7c" />
+    <NormalIconPreference newtip:mf="@raw/icons_outlined_shake" newtip:mj="@color/Indigo" newtip:o8="find_friends_by_shake" newtip:a0p="@string/ffd" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="@raw/icons_outlined_news" newtip:mj="@color/Yellow" newtip:o8="find_friends_by_look" newtip:ut="topstories" newtip:a0p="@string/c7j" />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="@raw/icons_outlined_searchlogo" newtip:mj="@color/Red" newtip:o8="find_friends_by_search" newtip:ut="search" newtip:a0p="@string/c7n" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference newtip:mf="@raw/icons_outlined_nearby" newtip:mj="@color/Indigo" newtip:o8="find_friends_by_near" newtip:a0p="@string/dxl" />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="@raw/my_life_around_default_icon" newtip:o8="my_life_around" newtip:ut="dining_nearby" newtip:a0p="@string/FF_Entry_Nearby" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="@raw/icons_outlined_shop" newtip:mj="@color/Red" newtip:o8="jd_market_entrance" newtip:ut="shopping" />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="?g0" newtip:o8="more_tab_game_recommend" newtip:ut="game" newtip:a0p="@string/ctm" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference newtip:mf="@raw/icons_outlined_miniprogram" newtip:mj="@color/Purple" newtip:o8="app_brand_entrance" newtip:a0p="@string/jo" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference newtip:mf="@raw/icons_outlined_wechatout" newtip:mj="@color/Brand" newtip:o8="ip_call_entrance" newtip:a0p="@string/d5u" />
+</PreferenceScreen>

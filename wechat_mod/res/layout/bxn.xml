@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/h_x" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.constraint.ConstraintLayout android:background="@drawable/a_c" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/ce">
+            <ImageView android:id="@id/he6" android:layout_width="@dimen/as" android:layout_height="@dimen/as" android:layout_marginLeft="@dimen/c5" app:p7="ea8" app:pp="ea8" app:py="ea8" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ef6" android:paddingLeft="@dimen/c0" android:paddingRight="@dimen/c5" android:layout_width="wrap_content" android:layout_height="fill_parent" app:p7="ea8" app:pt="ea8" app:py="ea8">
+                <TextView android:textSize="@dimen/gu" android:textColor="@color/Link_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f9y" />
+            </LinearLayout>
+            <TextView android:ellipsize="end" android:gravity="left" android:id="@id/he_" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0" android:singleLine="true" app:p7="@id/he6" app:pn="1.0" app:pq="@id/he6" app:ps="@id/he7" app:py="@id/he6" style="@style/wf" />
+            <View android:id="@id/hbz" android:background="@drawable/x8" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/cf" app:p7="ea8" app:pp="ea8" />
+            <View android:id="@id/hy4" android:background="@color/os" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </android.support.constraint.ConstraintLayout>
+        <View android:id="@id/hov" android:background="@color/a" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/ci" app:p7="ea8" app:pp="ea8" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/hw1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/hv4" android:layout_width="fill_parent" android:layout_height="@dimen/ce">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:clickable="false" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:layout_marginLeft="@dimen/c5" android:src="@raw/icon_outlined_awesome" app:mj="@color/Link_100" />
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/Link_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" android:text="@string/hsd" />
+        </LinearLayout>
+        <View android:background="@color/a" android:layout_width="fill_parent" android:layout_height="@dimen/ci" />
+    </LinearLayout>
+</FrameLayout>

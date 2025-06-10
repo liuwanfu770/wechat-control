@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="61" android:drawable="@drawable/chk" />
+    <item android:duration="62" android:drawable="@drawable/chl" />
+    <item android:duration="61" android:drawable="@drawable/chm" />
+    <item android:duration="62" android:drawable="@drawable/chn" />
+    <item android:duration="61" android:drawable="@drawable/cho" />
+    <item android:duration="62" android:drawable="@drawable/chp" />
+    <item android:duration="61" android:drawable="@drawable/chq" />
+    <item android:duration="62" android:drawable="@drawable/chr" />
+    <item android:duration="61" android:drawable="@drawable/chs" />
+    <item android:duration="62" android:drawable="@drawable/cht" />
+    <item android:duration="61" android:drawable="@drawable/chu" />
+    <item android:duration="62" android:drawable="@drawable/chv" />
+    <item android:duration="61" android:drawable="@drawable/chw" />
+    <item android:duration="62" android:drawable="@drawable/chx" />
+    <item android:duration="61" android:drawable="@drawable/chy" />
+    <item android:duration="62" android:drawable="@drawable/chz" />
+    <item android:duration="61" android:drawable="@drawable/ci0" />
+    <item android:duration="62" android:drawable="@drawable/ci1" />
+    <item android:duration="61" android:drawable="@drawable/ci2" />
+    <item android:duration="62" android:drawable="@drawable/ci3" />
+    <item android:duration="61" android:drawable="@drawable/ci4" />
+    <item android:duration="62" android:drawable="@drawable/ci5" />
+    <item android:duration="61" android:drawable="@drawable/ci6" />
+    <item android:duration="62" android:drawable="@drawable/ci7" />
+    <item android:duration="61" android:drawable="@drawable/ci8" />
+    <item android:duration="62" android:drawable="@drawable/ci9" />
+    <item android:duration="61" android:drawable="@drawable/ci_" />
+    <item android:duration="62" android:drawable="@drawable/cia" />
+    <item android:duration="61" android:drawable="@drawable/cib" />
+    <item android:duration="62" android:drawable="@drawable/cic" />
+    <item android:duration="61" android:drawable="@drawable/cid" />
+    <item android:duration="62" android:drawable="@drawable/cie" />
+    <item android:duration="61" android:drawable="@drawable/cif" />
+    <item android:duration="62" android:drawable="@drawable/cig" />
+    <item android:duration="61" android:drawable="@drawable/cih" />
+    <item android:duration="62" android:drawable="@drawable/cii" />
+    <item android:duration="61" android:drawable="@drawable/cij" />
+    <item android:duration="62" android:drawable="@drawable/cik" />
+</animation-list>

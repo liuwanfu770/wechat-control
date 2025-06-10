@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/x" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ioq" android:layout_width="fill_parent" android:layout_height="@dimen/cd" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/iot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/ios" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/iop" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:gravity="bottom" android:id="@id/iou" android:layout_width="fill_parent" android:layout_height="128.0dip" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/ior" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/iol" android:layout_width="fill_parent" android:layout_height="@dimen/ch" android:layout_alignParentBottom="true" />
+</RelativeLayout>

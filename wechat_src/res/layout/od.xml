@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/am8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/ann" android:layout_width="fill_parent" android:layout_height="@dimen/vy">
+        <ImageView android:id="@id/b5b" android:background="@drawable/fn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/b5o" android:layout_width="fill_parent" android:layout_height="@dimen/cb" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/i_" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/edf" android:padding="1.0dip" android:layout_width="20.0dip" android:layout_height="16.0dip" />
+            <TextView android:textSize="@dimen/jo" android:textColor="@color/a_u" android:id="@id/edm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/d" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/fiz" android:background="@color/ip" android:paddingTop="@dimen/sh" android:paddingBottom="@dimen/sh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ann" android:paddingStart="@dimen/sl" android:paddingEnd="@dimen/sl">
+        <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/jo" android:textColor="@color/BW_0_Alpha_0_5" android:ellipsize="end" android:id="@id/fiw" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:lineSpacingExtra="@dimen/sq" />
+    </LinearLayout>
+    <ImageView android:orientation="vertical" android:id="@id/egz" android:background="@drawable/ms" android:layout_width="fill_parent" android:layout_height="@dimen/vy" />
+</RelativeLayout>

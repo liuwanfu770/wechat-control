@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference android:i5="false" android:o8="follow_system" android:y5="@string/f2z" android:a0p="@string/u3" />
+    <PreferenceTitleCategory android:o8="manual_title" android:a0p="@string/f30" />
+    <SelectPreference android:o8="normal_mode" android:a0p="@string/f37" />
+    <SelectPreference android:o8="dark_mode" android:a0p="@string/f5n" />
+</PreferenceScreen>

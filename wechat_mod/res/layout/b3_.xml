@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a_r" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/kg" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be6" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be4" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be8" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be9" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be7" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be3" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/kf" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/be5" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/a2u" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/c3" android:gravity="center" android:id="@id/f9b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i5" />
+    <com.tencent.mm.chatroom.ui.DayPickerView android:id="@id/edo" android:layout_width="fill_parent" android:layout_height="fill_parent" calendar:fv="@color/Brand" calendar:ix="false" />
+</LinearLayout>

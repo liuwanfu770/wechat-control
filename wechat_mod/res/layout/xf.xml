@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/a0s" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/emoji_capture_sticker_bg" android:layout_width="@dimen/a0s" android:layout_height="@dimen/a0s" />
+    <ImageView android:id="@id/biv" android:padding="@dimen/c5" android:layout_width="@dimen/a0s" android:layout_height="@dimen/a0s" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/jo" android:textColor="?zw" android:gravity="center_horizontal" android:id="@id/biw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:text="@string/bk6" android:maxLines="2" android:layout_below="@id/biv" android:layout_centerHorizontal="true" />
+</RelativeLayout>

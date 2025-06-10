@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="settings_chatting_bg_select_bg" android:oq="@layout/aop" android:a0p="@string/f5g" />
+    <Preference android:o8="settings_chatting_bg_select_from_album" android:oq="@layout/aop" android:a0p="@string/f5h" />
+    <Preference android:o8="settings_chatting_bg_take_photo" android:oq="@layout/aop" android:a0p="@string/f5i" />
+    <Preference android:o8="settings_chatting_bg_apply_to_all" android:oq="@layout/aop" android:a0p="@string/f5f" />
+</PreferenceScreen>

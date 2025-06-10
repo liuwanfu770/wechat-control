@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:i5="false" android:o8="sns_outside_permiss" android:uu="false" android:a0p="@string/fo3" />
+    <CheckBoxPreference android:i5="false" android:o8="sns_black_permiss" android:uu="false" android:a0p="@string/fk8" />
+    <PreferenceFooterCategory android:o8="sns_openim_desc_footer" android:a0p="@string/fo6" />
+</PreferenceScreen>

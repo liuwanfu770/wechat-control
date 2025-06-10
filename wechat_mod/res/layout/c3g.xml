@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a_r" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/c_" android:paddingEnd="@dimen/c_"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginTop="@dimen/c_" android:layout_marginBottom="@dimen/c8" android:src="@raw/teen_mode" />
+        <TextView android:textSize="@dimen/gy" android:textColor="@color/y4" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/igk" />
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ha" android:text="@string/ifp" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bt" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ij9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/ij7" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:scaleX="0.6" android:scaleY="0.6" style="@style/lj" />
+            <TextView android:textSize="@dimen/b_" android:id="@id/ij8" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c8" android:layout_below="@id/ij9">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/ipy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/igh" style="@style/o7" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

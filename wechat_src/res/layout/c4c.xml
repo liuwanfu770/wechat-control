@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/g3e" android:background="@drawable/afz" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/g4t" android:layout_width="fill_parent" android:layout_height="@dimen/cg" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/c6">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/g3d" android:padding="@dimen/bq" android:layout_width="@dimen/c_" android:layout_height="@dimen/c_" android:src="@raw/actionbar_icon_dark_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/b09" app:mj="@color/BW_0_Alpha_0_9" />
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/g_5" android:padding="@dimen/bq" android:layout_width="@dimen/c_" android:layout_height="@dimen/c_" android:src="@raw/icons_outlined_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/uh" app:mj="@color/BW_0_Alpha_0_9" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/BW_0_Alpha_0_9" android:ellipsize="end" android:id="@id/hzh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ikr" android:maxLines="1" android:lines="1" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/lq" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.tencent.mm.plugin.appbrand.ui.MaxHeightRecyclerView android:id="@id/i7k" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

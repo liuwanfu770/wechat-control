@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:o8="roominfo_contact_anchor" />
+    <Preference android:o8="revert_pref" android:oq="@layout/bej" android:a0p="" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="desc" android:oq="@layout/bei" android:a0p="" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

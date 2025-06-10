@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:background="@color/c" android:layout_width="fill_parent" android:layout_height="@dimen/cd">
+        <TextView android:id="@id/dmi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:layout_marginRight="@dimen/ci" app:p7="ea8" app:pp="ea8" app:py="ea8" style="@style/ya" />
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/c5" android:layout_height="@dimen/c_" android:src="@raw/icons_outlined_arrow" app:p7="ea8" app:pq="@id/dmi" app:py="ea8" />
+        <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/dvr" android:layout_width="@dimen/k2" android:layout_height="@dimen/jz" android:layout_marginRight="@dimen/c5" app:p7="ea8" app:pt="ea8" app:py="ea8" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ci" android:text="@string/ca4" app:p7="ea8" app:ps="@id/dvr" app:py="ea8" style="@style/fl" />
+    </android.support.constraint.ConstraintLayout>
+    <GridView android:id="@id/dm4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

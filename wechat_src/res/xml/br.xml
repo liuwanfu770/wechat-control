@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android" xmlns:newtip="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference newtip:o8="roominfo_contact_anchor" />
+    <Preference newtip:o8="see_room_member" newtip:oq="@layout/n7" newtip:a0p="@string/ezi" />
+    <NormalIconPreference newtip:mf="@drawable/anc" newtip:o8="add_selector_btn" newtip:a0p="@string/d4" />
+    <NormalIconPreference newtip:mf="@drawable/aqc" newtip:o8="del_selector_btn" newtip:a0p="@string/beo" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.chatroom.ui.story.StoryLoadIconPreference newtip:o8="chat_room_story_videos" newtip:a0p="@string/aq5" />
+    <Preference newtip:o8="room_name" newtip:oq="@layout/aop" newtip:a0p="@string/eqv" />
+    <Preference newtip:o8="room_qr_code" newtip:oq="@layout/aop" newtip:a0p="@string/era" newtip:a1z="@layout/aq7" />
+    <com.tencent.mm.chatroom.ui.preference.RoomCardPreference newtip:o8="room_card" newtip:oq="@layout/aop" />
+    <com.tencent.mm.plugin.newtips.NewTipPreference newtip:o8="manage_room" newtip:oq="@layout/aop" newtip:ut="chatroommgr" newtip:a0p="@string/do5" />
+    <KeyValuePreference newtip:o8="room_remark" newtip:oq="@layout/aop" newtip:a0p="@string/eri" />
+    <PreferenceSmallCategory />
+    <Preference newtip:o8="room_search_chatting_content" newtip:oq="@layout/aop" newtip:a0p="@string/es2" />
+    <PreferenceSmallCategory />
+    <Preference newtip:o8="room_upgrade_entry" newtip:oq="@layout/aop" newtip:a0p="@string/esj" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.SpecialCheckBoxPreference newtip:o8="chatroom_info_chexboxes" newtip:oq="@layout/aow" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference newtip:o8="room_notify_new_msg" newtip:oq="@layout/aop" newtip:a0p="@string/eqs" />
+    <CheckBoxPreference newtip:o8="room_placed_to_the_top" newtip:oq="@layout/aop" newtip:a0p="@string/er_" />
+    <CheckBoxPreference newtip:o8="room_save_to_contact" newtip:oq="@layout/aop" newtip:a0p="@string/erw" />
+    <PreferenceSmallCategory />
+    <KeyValuePreference newtip:o8="room_nickname" newtip:oq="@layout/aop" newtip:a0p="@string/equ" />
+    <CheckBoxPreference newtip:o8="room_msg_show_username" newtip:a0p="@string/eqt" />
+    <PreferenceSmallCategory />
+    <Preference newtip:o8="room_set_chatting_background" newtip:oq="@layout/aop" newtip:a0p="@string/es9" />
+    <Preference newtip:o8="room_report_it" newtip:oq="@layout/aop" newtip:a0p="@string/epw" />
+    <PreferenceSmallCategory />
+    <Preference newtip:o8="room_clear_chatting_history" newtip:oq="@layout/aop" newtip:a0p="@string/ep8" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference newtip:cs="@string/epc" newtip:o8="room_del_quit" newtip:oq="@layout/awu" newtip:a13="@color/Red" />
+    <PreferenceCategory newtip:o8="chatroom_bottom_pc" />
+    <Preference newtip:o8="room_openim_about" newtip:oq="@layout/aqc" newtip:a0p="@string/er6" />
+</PreferenceScreen>

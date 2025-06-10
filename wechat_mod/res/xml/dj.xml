@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="phone_and_pad" android:a0p="@string/ide" />
+    <Preference android:o8="only_pad" android:a0p="@string/idc" />
+</PreferenceScreen>

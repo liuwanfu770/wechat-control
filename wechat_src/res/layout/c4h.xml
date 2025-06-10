@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/isv" android:layout_width="wrap_content" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" style="@style/a7c" />
+    <TextView android:id="@id/isw" android:text="@string/ikf" style="@style/a7b" />
+    <TextView android:id="@id/isx" style="@style/a7c" />
+    <TextView android:id="@id/it0" android:text="@string/ikg" style="@style/a7b" />
+    <TextView android:id="@id/isy" style="@style/a7c" />
+    <TextView android:id="@id/it1" android:text="@string/ikg" style="@style/a7b" />
+    <TextView android:id="@id/isz" android:layout_marginEnd="0.0dip" style="@style/a7c" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/a_d" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mc"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/cur" android:background="@drawable/od" android:paddingTop="@dimen/jn" android:paddingBottom="@dimen/jn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i9">
+        <ImageView android:id="@id/fna" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/agp" android:layout_marginRight="@dimen/agq" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/a_u" android:id="@id/fnh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ha" android:layout_marginBottom="@dimen/d" android:layout_toRightOf="@id/fna" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/a3h" android:id="@id/fng" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ha" android:layout_toRightOf="@id/fna" android:layout_below="@id/fnh" />
+    </RelativeLayout>
+</LinearLayout>

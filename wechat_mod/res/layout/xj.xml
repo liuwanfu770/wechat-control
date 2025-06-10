@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/biz" android:layout_width="47.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:src="@raw/icons_panel_close" app:p8="@id/bix" app:pc="ea8" app:pv="ea8" app:py="ea8" />
+    <android.support.v7.widget.RecyclerView android:id="@id/bix" android:paddingLeft="@dimen/c5" android:paddingRight="@dimen/c5" android:layout_width="fill_parent" android:layout_height="0.0dip" app:p7="ea8" app:px="@id/biz" />
+</merge>

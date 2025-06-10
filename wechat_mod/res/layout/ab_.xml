@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ex" android:textColor="@color/ql" android:id="@id/d10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/ex" android:id="@id/d11" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/kl" />
+    <TextView android:textSize="@dimen/ex" android:textColor="@color/ql" android:id="@id/f2u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/f2u" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/ta" android:visibility="gone" android:layout_width="@dimen/fq" android:layout_height="@dimen/fq" android:layout_marginRight="@dimen/gc" />
+        <TextView android:textSize="@dimen/ex" android:textColor="@color/qs" android:ellipsize="end" android:layout_gravity="center" android:id="@id/e3o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gc" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ex" android:textColor="@color/ql" android:ellipsize="end" android:layout_gravity="center" android:id="@id/gji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

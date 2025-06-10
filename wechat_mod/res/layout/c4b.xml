@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/i49" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.webview.ui.tools.browser.view.BrowserIconImageView android:id="@id/hzi" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:src="@drawable/icon" />
+    <TextView android:textSize="@dimen/jv" android:textColor="@color/BW_0_Alpha_0_5" android:ellipsize="end" android:gravity="center|top" android:id="@id/ike" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq" android:layout_marginTop="@dimen/bq" android:layout_marginRight="@dimen/bq" android:maxLines="2" android:lines="2" android:includeFontPadding="false" />
+</LinearLayout>

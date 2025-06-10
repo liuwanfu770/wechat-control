@@ -1,0 +1,56 @@
+.class final Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$57;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->h(IZI)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic HyR:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)V
+    .locals 0
+
+    .prologue
+    .line 4670
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$57;->HyR:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .prologue
+    const v1, 0x32715
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 4673
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$57;->HyR:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
+
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->bs(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)V
+
+    .line 4674
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:a0p="@string/gpl" />
+    <IconPreference android:o8="wallet_lock_fingerprint" android:oq="@layout/aop" android:a0p="@string/gp9" />
+    <IconPreference android:o8="wallet_lock_faceid" android:oq="@layout/aop" android:a0p="@string/gp2" />
+    <IconPreference android:o8="wallet_lock_gesture" android:oq="@layout/aop" android:a0p="@string/gpg" />
+    <IconPreference android:o8="wallet_lock_close" android:oq="@layout/aop" android:a0p="@string/gp0" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="wallet_lock_modify_gesture" android:oq="@layout/aop" android:a0p="@string/cw4" />
+</PreferenceScreen>

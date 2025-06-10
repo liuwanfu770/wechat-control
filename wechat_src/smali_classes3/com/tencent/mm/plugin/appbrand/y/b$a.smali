@@ -1,0 +1,50 @@
+.class public final Lcom/tencent/mm/plugin/appbrand/y/b$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/appbrand/y/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# static fields
+.field private static final mTQ:Lcom/tencent/mm/plugin/appbrand/y/b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .prologue
+    const v1, 0x225fa
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 19
+    new-instance v0, Lcom/tencent/mm/plugin/appbrand/y/b;
+
+    invoke-direct {v0}, Lcom/tencent/mm/plugin/appbrand/y/b;-><init>()V
+
+    sput-object v0, Lcom/tencent/mm/plugin/appbrand/y/b$a;->mTQ:Lcom/tencent/mm/plugin/appbrand/y/b;
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public static synthetic bFe()Lcom/tencent/mm/plugin/appbrand/y/b;
+    .locals 1
+
+    .prologue
+    .line 18
+    sget-object v0, Lcom/tencent/mm/plugin/appbrand/y/b$a;->mTQ:Lcom/tencent/mm/plugin/appbrand/y/b;
+
+    return-object v0
+.end method

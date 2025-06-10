@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:o8="contact_info_header_helper" android:oq="@layout/awl" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_go_to_sport" android:oq="@layout/aop" android:a0p="@string/b6j" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_go_to_my_profile" android:oq="@layout/aop" android:a0p="@string/b6i" />
+    <Preference android:o8="contact_info_invite_friend" android:oq="@layout/aop" android:a0p="@string/b6r" />
+    <Preference android:o8="contact_info_common_problem" android:oq="@layout/aop" android:a0p="@string/b5d" />
+    <PreferenceSmallCategory />
+    <Preference android:i5="true" android:o8="contact_info_record_data" android:oq="@layout/aop" android:uu="false" android:a0p="@string/b9d" />
+    <Preference android:o8="contact_info_privacy_and_notification" android:oq="@layout/aop" android:a0p="@string/b8d" />
+    <CheckBoxPreference android:o8="contact_info_top_sport" android:oq="@layout/aop" android:uu="false" android:a0p="@string/bb0" />
+    <CheckBoxPreference android:o8="contact_info_not_disturb" android:oq="@layout/aop" android:uu="false" android:a0p="@string/b87" />
+    <Preference android:o8="contact_info_clear_data" android:oq="@layout/aop" android:a0p="@string/b55" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/f9r" android:o8="contact_info_sport_install" android:a13="@color/rf" />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/f9x" android:o8="contact_info_sport_uninstall" android:oq="@layout/ajc" android:a13="@color/a0i" />
+    <PreferenceCategory />
+</PreferenceScreen>

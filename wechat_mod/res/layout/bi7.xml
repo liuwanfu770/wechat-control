@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/f42" android:background="@color/a_r" style="@style/qp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="22.0dip" android:textColor="@color/y4" android:id="@id/ix2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:text="@string/in7" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/y4" android:gravity="center" android:id="@id/crd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ha" android:layout_marginTop="@dimen/ha" android:layout_marginRight="@dimen/ha" android:text="@string/gvi" android:layout_below="@id/ix2" android:layout_centerHorizontal="true" />
+    <View android:id="@id/iu5" android:layout_marginLeft="32.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="32.0dip" android:layout_below="@id/crd" android:layout_centerHorizontal="true" style="@style/hp" />
+    <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/co0" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_below="@id/iu5" android:layout_centerHorizontal="true" android:imeOptions="actionNext" wallet:h3="@string/gjc" wallet:a0x="@string/gjf" style="@style/zd" />
+    <View android:id="@id/iu4" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_below="@id/co0" android:layout_centerHorizontal="true" style="@style/hp" />
+    <TextView android:id="@id/gwh" android:visibility="visible" android:text="@string/gje" android:layout_below="@id/iu4" android:layout_centerHorizontal="true" style="@style/z_" />
+    <Button android:id="@id/cri" android:layout_marginBottom="96.0dip" android:text="@string/gvs" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/o7" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/my" />
+</RelativeLayout>

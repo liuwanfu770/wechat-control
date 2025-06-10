@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bd" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="bn" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="bx" parent="@style/a6b" />
+    <style name="c4" parent="@style/a6c" />
+    <style name="dy" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="e0" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="eu" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="ev" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="f1" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="g4" parent="@style/aj">
+        <item name="dd">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="or" parent="@style/ot">
+        <item name="a9">@style/a6d</item>
+    </style>
+    <style name="oy" parent="@style/kq">
+        <item name="android:windowActionBar">true</item>
+        <item name="a9">@style/a6d</item>
+    </style>
+    <style name="a7f">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:editTextColor</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:editTextBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+    </style>
+    <style name="a6b" parent="@style/a6_">
+        <item name="w">?android:actionBarItemBackground</item>
+        <item name="a9">?android:actionMenuTextAppearance</item>
+        <item name="a_">?android:actionMenuTextColor</item>
+        <item name="hq">@drawable/ake</item>
+        <item name="vp">?android:ratingBarStyleIndicator</item>
+        <item name="vq">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="a6c" parent="@style/a6a">
+        <item name="w">?android:actionBarItemBackground</item>
+        <item name="a9">?android:actionMenuTextAppearance</item>
+        <item name="a_">?android:actionMenuTextColor</item>
+        <item name="hq">@drawable/ake</item>
+        <item name="vp">?android:ratingBarStyleIndicator</item>
+        <item name="vq">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="a6d" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>

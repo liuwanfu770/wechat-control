@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/igt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/igw" android:background="@color/aa" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/ihu" android:layout_width="0.0dip" android:layout_height="fill_parent" app:pp="ea8" app:ps="@id/ihv" />
+    <com.tencent.mm.plugin.finder.live.widget.FinderLiveShoppingPanel android:orientation="vertical" android:id="@id/ihv" android:background="@drawable/cbh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:p7="ea8" app:pt="ea8">
+        <RelativeLayout android:id="@id/igv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c6" android:layout_marginBottom="@dimen/ci" android:layout_marginStart="@dimen/c5" android:layout_marginEnd="@dimen/c5">
+            <ImageView android:id="@id/igl" android:layout_width="@dimen/c8" android:layout_height="@dimen/c0" android:src="@drawable/ccr" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/BW_0" android:id="@id/igu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i_o" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/BW_0" android:id="@id/igr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i_q" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/igv">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:id="@id/igq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bz" android:layout_centerHorizontal="true" style="@style/a4q" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/aa" android:id="@id/igs" android:paddingTop="@dimen/bq" android:paddingBottom="@dimen/bq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bz" android:text="@string/hnr" android:layout_centerHorizontal="true" />
+                <FrameLayout android:id="@id/igo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/aa" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/igp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv" android:text="@string/i_p" />
+                    <TextView android:textSize="@dimen/ia" android:textColor="@color/aj" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/ign" android:background="@drawable/cbi" android:paddingLeft="@dimen/c5" android:paddingTop="@dimen/ci" android:paddingRight="@dimen/c5" android:paddingBottom="@dimen/ci" android:layout_width="@dimen/c2" android:layout_height="@dimen/cb" android:layout_marginBottom="@dimen/bt" android:text="@string/i_m" />
+                </FrameLayout>
+                <android.support.v7.widget.RecyclerView android:id="@id/igm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/c5" android:layout_marginEnd="@dimen/c5" />
+                <include android:id="@id/igk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/igm" layout="@layout/aix" />
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </com.tencent.mm.plugin.finder.live.widget.FinderLiveShoppingPanel>
+</android.support.constraint.ConstraintLayout>

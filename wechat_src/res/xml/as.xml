@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:i5="true" android:o8="join_rank" android:uu="false" android:a0p="@string/bu4" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:i5="true" android:o8="notify_rank" android:oq="@layout/aop" android:uu="false" android:a0p="@string/bu6" />
+    <CheckBoxPreference android:i5="true" android:o8="notify_like" android:uu="false" android:a0p="@string/bu5" />
+    <PreferenceSmallCategory />
+    <PreferenceSmallCategory />
+    <Preference android:o8="black_contact_list" android:oq="@layout/aop" android:a0p="@string/bt9" />
+</PreferenceScreen>

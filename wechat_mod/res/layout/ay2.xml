@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/adw"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c3_" style="@style/nt" />
+    <ImageView android:id="@id/f9w" style="@style/nt" />
+    <ImageView android:id="@id/g7z" style="@style/nt" />
+    <ImageView android:id="@id/c6q" style="@style/nt" />
+</LinearLayout>

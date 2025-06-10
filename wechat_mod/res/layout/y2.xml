@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="bottom|center" android:id="@id/abb" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@raw/emoji_add_capture" android:contentDescription="@string/bjr" app:p8="@id/bk1" app:pc="ea8" app:pv="ea8" app:py="ea8" app:q0="ea0" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/y4" android:id="@id/bk1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/bjr" app:p8="@id/bk0" app:pc="ea8" app:pv="ea8" app:px="@id/abb" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/km" android:id="@id/bk0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/bk8" app:p7="ea8" app:pc="ea8" app:pv="ea8" app:px="@id/bk1" />
+</android.support.constraint.ConstraintLayout>

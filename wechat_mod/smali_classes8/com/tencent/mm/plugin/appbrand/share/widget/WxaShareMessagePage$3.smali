@@ -1,0 +1,62 @@
+.class public final Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage$3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/tencent/mm/au/r$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic mTg:Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage;
+
+.field final synthetic mTh:Z
+
+
+# direct methods
+.method public constructor <init>(Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage;Z)V
+    .locals 0
+
+    .prologue
+    .line 283
+    iput-object p1, p0, Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage$3;->mTg:Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage;
+
+    iput-boolean p2, p0, Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage$3;->mTh:Z
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/String;Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    .locals 2
+
+    .prologue
+    const v1, 0x2c08f
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 286
+    new-instance v0, Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage$3$1;
+
+    invoke-direct {v0, p0, p2}, Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage$3$1;-><init>(Lcom/tencent/mm/plugin/appbrand/share/widget/WxaShareMessagePage$3;Landroid/graphics/Bitmap;)V
+
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/av;->f(Ljava/lang/Runnable;)V
+
+    .line 301
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

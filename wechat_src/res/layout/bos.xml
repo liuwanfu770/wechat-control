@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/hdw" android:background="@drawable/c51" android:padding="@dimen/bq" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" app:p7="ea8" app:pc="ea8" app:pv="ea8" app:py="ea8" />
+    <View android:id="@id/hdy" android:background="@drawable/c50" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:p7="@id/hdw" app:pc="@id/hdw" app:pv="@id/hdw" app:py="@id/hdw" />
+    <ProgressBar android:id="@id/hdx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:p7="@id/hdw" app:pc="@id/hdw" app:pv="@id/hdw" app:py="@id/hdw" style="@style/a5q" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.widget.MMEditText android:id="@id/iui" android:layout_width="fill_parent" android:layout_height="@dimen/cd" android:text="0x27001530" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/e7h" android:layout_width="120.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/c5" android:text="@string/v1" style="@style/o6" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/bpc" android:layout_width="300.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/c5" android:text="@string/ili" style="@style/o6" />
+</LinearLayout>

@@ -1,0 +1,178 @@
+.class public final Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed;
+.super Lcom/tencent/mm/plugin/appbrand/jsapi/b;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$WebPagePrefetchTask;,
+        Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/tencent/mm/plugin/appbrand/jsapi/b",
+        "<",
+        "Lcom/tencent/mm/plugin/appbrand/jsapi/d;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lf/l;
+    gPh = {
+        0x1,
+        0x1,
+        0x10
+    }
+    gPi = {
+        "\u0000&\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0003\u0018\u0000 \u000b2\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0002\u000b\u000cB\u0005\u00a2\u0006\u0002\u0010\u0003J%\u0010\u0004\u001a\u00020\u00052\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u00082\u0006\u0010\t\u001a\u00020\nH\u0096\u0002\u00a8\u0006\r"
+    }
+    gPj = {
+        "Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed;",
+        "Lcom/tencent/mm/plugin/appbrand/jsapi/AppBrandAsyncJsApi;",
+        "Lcom/tencent/mm/plugin/appbrand/jsapi/AppBrandComponent;",
+        "()V",
+        "invoke",
+        "",
+        "env",
+        "data",
+        "Lorg/json/JSONObject;",
+        "callbackId",
+        "",
+        "Companion",
+        "WebPagePrefetchTask",
+        "plugin-appbrand-integration_release"
+    }
+.end annotation
+
+
+# static fields
+.field public static final CTRL_INDEX:I = 0x361
+
+.field public static final NAME:Ljava/lang/String; = "private_onWebPageUrlExposed"
+
+.field public static final kHM:Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    const v2, 0x383ba
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    new-instance v0, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$a;-><init>(B)V
+
+    sput-object v0, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed;->kHM:Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$a;
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 16
+    invoke-direct {p0}, Lcom/tencent/mm/plugin/appbrand/jsapi/b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/tencent/mm/plugin/appbrand/jsapi/d;Lorg/json/JSONObject;I)V
+    .locals 3
+
+    .prologue
+    const v2, 0x383b9
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 26
+    const-string/jumbo v0, "MicroMsg.JsApiOnWebPageUrlExposed"
+
+    const-string/jumbo v1, "invoke"
+
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ai;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 27
+    if-eqz p2, :cond_0
+
+    const-string/jumbo v0, "urlList"
+
+    invoke-virtual {p2, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 28
+    :goto_0
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/by;->isNullOrNil(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    .line 29
+    const-string/jumbo v0, "MicroMsg.JsApiOnWebPageUrlExposed"
+
+    const-string/jumbo v1, "fail:urlList is null"
+
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ai;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 30
+    if-eqz p1, :cond_1
+
+    const-string/jumbo v0, "fail:urlList is null"
+
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed;->UL(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-interface {p1, p3, v0}, Lcom/tencent/mm/plugin/appbrand/jsapi/d;->i(ILjava/lang/String;)V
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    .line 37
+    :goto_1
+    return-void
+
+    .line 27
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    .line 31
+    :cond_1
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_1
+
+    .line 34
+    :cond_2
+    new-instance v1, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$WebPagePrefetchTask;
+
+    check-cast p0, Lcom/tencent/mm/plugin/appbrand/jsapi/n;
+
+    invoke-direct {v1, p0, p1, p3, v0}, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$WebPagePrefetchTask;-><init>(Lcom/tencent/mm/plugin/appbrand/jsapi/n;Lcom/tencent/mm/plugin/appbrand/jsapi/d;ILjava/lang/String;)V
+
+    .line 35
+    invoke-virtual {v1}, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$WebPagePrefetchTask;->bny()V
+
+    .line 36
+    invoke-virtual {v1}, Lcom/tencent/mm/plugin/appbrand/jsapi/JsApiOnWebPageUrlExposed$WebPagePrefetchTask;->aTy()V
+
+    .line 37
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_1
+.end method

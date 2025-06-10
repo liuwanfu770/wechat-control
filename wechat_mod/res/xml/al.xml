@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:o8="contact_info_header_helper" android:oq="@layout/awl" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_wxpay_notify_go_to" android:oq="@layout/aop" android:a0p="@string/bbm" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="contact_info_wxpay_notify_top" android:oq="@layout/aop" android:uu="false" android:a0p="@string/bbq" />
+    <CheckBoxPreference android:o8="contact_info_wxpay_notify_not_disturb" android:oq="@layout/aop" android:uu="false" android:a0p="@string/bbo" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_wxpay_notify_help" android:oq="@layout/aop" android:a0p="@string/bbn" />
+    <Preference android:o8="contact_info_wxpay_notify_clear_data" android:oq="@layout/aop" android:a0p="@string/b55" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/f9r" android:o8="contact_info_wxpay_notify_install" android:a13="@color/rf" />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/f9x" android:o8="contact_info_wxpay_notify_uninstall" android:oq="@layout/ajc" android:a13="@color/a0i" />
+    <PreferenceCategory />
+</PreferenceScreen>

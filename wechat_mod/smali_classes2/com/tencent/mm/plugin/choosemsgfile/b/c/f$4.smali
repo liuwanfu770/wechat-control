@@ -1,0 +1,76 @@
+.class public final Lcom/tencent/mm/plugin/choosemsgfile/b/c/f$4;
+.super Landroid/support/v7/widget/RecyclerView$h;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/choosemsgfile/b/c/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic pwE:Lcom/tencent/mm/plugin/choosemsgfile/b/c/f;
+
+.field final synthetic val$context:Landroid/content/Context;
+
+
+# direct methods
+.method public constructor <init>(Lcom/tencent/mm/plugin/choosemsgfile/b/c/f;Landroid/content/Context;)V
+    .locals 0
+
+    .prologue
+    .line 252
+    iput-object p1, p0, Lcom/tencent/mm/plugin/choosemsgfile/b/c/f$4;->pwE:Lcom/tencent/mm/plugin/choosemsgfile/b/c/f;
+
+    iput-object p2, p0, Lcom/tencent/mm/plugin/choosemsgfile/b/c/f$4;->val$context:Landroid/content/Context;
+
+    invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$h;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/graphics/Rect;Landroid/view/View;Landroid/support/v7/widget/RecyclerView;Landroid/support/v7/widget/RecyclerView$t;)V
+    .locals 3
+
+    .prologue
+    const v2, 0x1e1c8
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 255
+    iget-object v0, p0, Lcom/tencent/mm/plugin/choosemsgfile/b/c/f$4;->val$context:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v1, 0x7f07014f
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
+
+    move-result v0
+
+    float-to-int v0, v0
+
+    .line 256
+    iput v0, p1, Landroid/graphics/Rect;->bottom:I
+
+    iput v0, p1, Landroid/graphics/Rect;->top:I
+
+    iput v0, p1, Landroid/graphics/Rect;->left:I
+
+    iput v0, p1, Landroid/graphics/Rect;->right:I
+
+    .line 257
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

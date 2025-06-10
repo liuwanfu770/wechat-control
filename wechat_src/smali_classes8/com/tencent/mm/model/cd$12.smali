@@ -1,0 +1,121 @@
+.class final Lcom/tencent/mm/model/cd$12;
+.super Lcom/tencent/mm/model/cd$a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/model/cd;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic hQU:Lcom/tencent/mm/model/cd;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/model/cd;)V
+    .locals 1
+
+    .prologue
+    .line 247
+    iput-object p1, p0, Lcom/tencent/mm/model/cd$12;->hQU:Lcom/tencent/mm/model/cd;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Lcom/tencent/mm/model/cd$a;-><init>(Lcom/tencent/mm/model/cd;B)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/tencent/mm/model/cb;)Z
+    .locals 7
+
+    .prologue
+    const/4 v0, 0x0
+
+    const v6, 0x23180
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 251
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    iget-wide v4, p1, Lcom/tencent/mm/model/cb;->gTu:J
+
+    sub-long/2addr v2, v4
+
+    const-wide/32 v4, 0x36ee80
+
+    cmp-long v1, v2, v4
+
+    if-lez v1, :cond_0
+
+    iget-object v1, p1, Lcom/tencent/mm/model/cb;->hQM:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/by;->getInt(Ljava/lang/String;I)I
+
+    move-result v1
+
+    if-lez v1, :cond_0
+
+    .line 252
+    const/16 v0, 0x17
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object v2, p1, Lcom/tencent/mm/model/cb;->hQM:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, "_43"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/tencent/mm/model/cd;->I(ILjava/lang/String;)V
+
+    .line 253
+    const-string/jumbo v0, "0"
+
+    iput-object v0, p1, Lcom/tencent/mm/model/cb;->hQM:Ljava/lang/String;
+
+    .line 254
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iput-wide v0, p1, Lcom/tencent/mm/model/cb;->gTu:J
+
+    .line 255
+    const/4 v0, 0x1
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    .line 258
+    :goto_0
+    return v0
+
+    :cond_0
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+.end method

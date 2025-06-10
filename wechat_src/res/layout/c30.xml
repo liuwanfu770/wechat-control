@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/cb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/im7" android:background="@drawable/ceh" android:layout_width="wrap_content" android:layout_height="@dimen/cb" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/im6" android:background="@drawable/ceh" android:layout_width="wrap_content" android:layout_height="@dimen/cb" android:scaleType="centerCrop" />
+</RelativeLayout>

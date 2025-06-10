@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ct" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/qy" android:layout_marginTop="@dimen/qx" android:layout_marginRight="@dimen/qy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/e6" />
+    <View android:background="@color/dv" android:layout_width="fill_parent" android:layout_height="@dimen/r6" android:layout_marginTop="2.0dip" android:layout_marginBottom="18.0dip" android:layout_marginStart="@dimen/qw" android:layout_marginEnd="@dimen/qw" />
+    <LinearLayout android:id="@id/o6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qw" android:layout_marginEnd="@dimen/qw">
+        <android.support.constraint.ConstraintLayout android:orientation="horizontal" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/chh" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pg="0.75" />
+            <android.support.constraint.ConstraintLayout android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="8.0dip" app:p7="ea8" app:pd="@id/chh" app:pv="ea8" app:py="ea8">
+                <TextView android:textSize="@dimen/i" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/od" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:pv="ea8" app:py="ea8" />
+                <TextView android:textSize="@dimen/gx" android:textColor="#fffa7834" android:id="@id/o9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:p7="ea8" app:pv="ea8" app:px="@id/od" />
+                <TextView android:textSize="@dimen/gx" android:textColor="#4d000000" android:id="@id/oe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qx" app:p7="@id/o9" app:pu="@id/o9" app:py="@id/o9" />
+            </android.support.constraint.ConstraintLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/o8" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="fitCenter" app:p7="ea8" app:pc="ea8" app:py="ea8" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+    <include layout="@layout/e4" />
+</LinearLayout>

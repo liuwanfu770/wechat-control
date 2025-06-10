@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.profile.ui.BizInfoHeaderPreference android:o8="contact_info_header_bizinfo" android:oq="@layout/tx" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_user_desc" android:oq="@layout/aop" android:a0p="@string/b6u" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_verifyuser" android:oq="@layout/aop" android:a0p="@string/bb_" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_trademark" android:oq="@layout/aop" android:a0p="@string/bb4" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_privilege" android:a0p="@string/b8e" />
+    <Preference android:o8="contact_info_service_phone" android:oq="@layout/aop" android:a0p="@string/b_3" />
+    <com.tencent.mm.plugin.profile.ui.IconWidgetPreference android:o8="contact_info_kf_worker" android:oq="@layout/aop" android:a0p="@string/f6v" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.BizBindWxaInfoPreference android:o8="contact_info_bindwxainfo" android:oq="@layout/t9" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="near_field_service" android:oq="@layout/aop" android:a0p="@string/dwp" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference android:o8="contact_info_reputation" android:oq="@layout/ua" android:a0p="@string/b9n" />
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference android:o8="contact_info_guarantee_info" android:oq="@layout/ua" android:a0p="@string/b6q" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_scope_of_business" android:oq="@layout/aop" android:a0p="@string/b9u" />
+    <Preference android:o8="contact_info_time_expired" android:oq="@layout/aqa" android:a0p="@string/bax" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_verifyuser_weibo" android:oq="@layout/aop" android:a0p="@string/bbg" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="biz_placed_to_the_top" android:oq="@layout/aop" android:a0p="@string/b8b" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="contact_info_subscribe_bizinfo" android:oq="@layout/aop" android:uu="false" android:a0p="@string/bau" />
+    <CheckBoxPreference android:o8="contact_info_stick_biz" android:oq="@layout/aop" android:uu="false" android:a0p="@string/bas" />
+    <Preference android:o8="contact_info_template_recv" android:oq="@layout/aop" android:a0p="@string/baw" />
+    <CheckBoxPreference android:o8="contact_is_mute" android:oq="@layout/aop" android:uu="false" android:a0p="@string/eqs" />
+    <CheckBoxPreference android:o8="contact_info_locate" android:oq="@layout/aop" android:uu="false" android:a0p="@string/b7j" />
+    <PreferenceSmallCategory />
+    <PreferenceSmallCategory android:o8="contact_info_category2" />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/bpk" android:o8="contact_info_biz_disable" android:oq="@layout/aoq" android:a13="@color/a0i" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/b41" android:o8="contact_info_biz_add" android:oq="@layout/aoq" android:a13="@color/rf" />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/b4d" android:o8="contact_info_biz_go_chatting" android:oq="@layout/aoq" android:a13="@color/rf" />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/bpm" android:o8="contact_info_biz_enable" android:oq="@layout/aoq" android:a13="@color/rf" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/b5n" android:o8="contact_info_expose_btn" android:oq="@layout/aoq" android:a13="@color/rf" />
+    <PreferenceCategory />
+</PreferenceScreen>

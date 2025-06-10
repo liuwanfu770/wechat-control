@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/c0" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tm" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginBottom="@dimen/c0" android:src="@drawable/aq8" />
+    <android.support.constraint.ConstraintLayout android:id="@id/cud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0" android:layout_toRightOf="@id/tm" android:layout_centerVertical="true">
+        <TextView android:ellipsize="end" android:id="@id/e3x" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" app:p8="@id/sv" app:pl="0.0" app:pp="ea8" app:pt="ea8" app:py="ea8" app:q0="ea0" app:q2="h6w" style="@style/wf" />
+        <ImageView android:id="@id/ss" android:layout_width="@dimen/c5" android:layout_height="@dimen/c5" android:layout_marginLeft="@dimen/bq" app:p7="@id/e3x" app:pl="0.0" app:pq="@id/e3x" app:pt="ea8" app:py="@id/e3x" />
+        <com.tencent.mm.plugin.finder.view.FinderLiveOnliveWidget android:id="@id/ifp" android:paddingLeft="@dimen/bq" android:paddingRight="@dimen/bq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="@dimen/bq" android:layout_marginRight="@dimen/ci" app:p7="@id/e3x" app:pl="0.0" app:pq="@id/ss" app:pt="ea8" app:py="@id/e3x" app:a51="true" app:a57="imr" app:a58="ist" />
+        <TextView android:textColor="@color/FG_1" android:ellipsize="end" android:id="@id/sv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" app:p7="ea8" app:pp="ea8" app:pt="ea8" app:px="@id/e3x" style="@style/hn" />
+    </android.support.constraint.ConstraintLayout>
+    <ImageView android:background="@drawable/x8" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/cf" android:layout_alignParentBottom="true" />
+</RelativeLayout>

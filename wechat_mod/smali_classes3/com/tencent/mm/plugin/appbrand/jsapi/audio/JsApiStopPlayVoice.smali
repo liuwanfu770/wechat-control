@@ -1,0 +1,157 @@
+.class public final Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStopPlayVoice;
+.super Lcom/tencent/mm/plugin/appbrand/jsapi/b;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStopPlayVoice$StopPlayVoice;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/tencent/mm/plugin/appbrand/jsapi/b",
+        "<",
+        "Lcom/tencent/mm/plugin/appbrand/s;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final CTRL_INDEX:I = 0x23
+
+.field public static final NAME:Ljava/lang/String; = "stopVoice"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 20
+    invoke-direct {p0}, Lcom/tencent/mm/plugin/appbrand/jsapi/b;-><init>()V
+
+    return-void
+.end method
+
+.method public static bos()V
+    .locals 3
+
+    .prologue
+    const v2, 0xb3ad
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 60
+    sget-object v0, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStartPlayVoice;->kLU:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/by;->isNullOrNil(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 61
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    .line 65
+    :goto_0
+    return-void
+
+    .line 63
+    :cond_0
+    new-instance v0, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStopPlayVoice$StopPlayVoice;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStopPlayVoice$StopPlayVoice;-><init>(B)V
+
+    .line 1092
+    invoke-static {v0}, Lcom/tencent/mm/plugin/appbrand/ipc/AppBrandMainProcessService;->a(Lcom/tencent/mm/plugin/appbrand/ipc/MainProcessTask;)V
+
+    .line 64
+    const/4 v0, 0x0
+
+    sput-object v0, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStartPlayVoice;->kLU:Ljava/lang/String;
+
+    .line 65
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Lcom/tencent/mm/plugin/appbrand/jsapi/d;Lorg/json/JSONObject;I)V
+    .locals 8
+
+    .prologue
+    const/4 v7, 0x0
+
+    const v6, 0xb3ae
+
+    const/4 v5, 0x0
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 19
+    check-cast p1, Lcom/tencent/mm/plugin/appbrand/s;
+
+    .line 2028
+    const-string/jumbo v0, "localId"
+
+    invoke-virtual {p2, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 2029
+    const-string/jumbo v1, "MicroMsg.JsApiStopPlayVoice"
+
+    const-string/jumbo v2, "doStopVoice, appId : %s, localId : %s"
+
+    const/4 v3, 0x2
+
+    new-array v3, v3, [Ljava/lang/Object;
+
+    invoke-virtual {p1}, Lcom/tencent/mm/plugin/appbrand/s;->getAppId()Ljava/lang/String;
+
+    move-result-object v4
+
+    aput-object v4, v3, v5
+
+    const/4 v4, 0x1
+
+    aput-object v0, v3, v4
+
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ai;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 2031
+    new-instance v0, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStopPlayVoice$StopPlayVoice;
+
+    invoke-direct {v0, v5}, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStopPlayVoice$StopPlayVoice;-><init>(B)V
+
+    .line 2092
+    invoke-static {v0}, Lcom/tencent/mm/plugin/appbrand/ipc/AppBrandMainProcessService;->a(Lcom/tencent/mm/plugin/appbrand/ipc/MainProcessTask;)V
+
+    .line 2032
+    const-string/jumbo v0, "ok"
+
+    .line 3039
+    invoke-virtual {p0, v0, v7}, Lcom/tencent/mm/plugin/appbrand/jsapi/n;->e(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 2032
+    invoke-virtual {p1, p3, v0}, Lcom/tencent/mm/plugin/appbrand/s;->i(ILjava/lang/String;)V
+
+    .line 2033
+    sput-object v7, Lcom/tencent/mm/plugin/appbrand/jsapi/audio/JsApiStartPlayVoice;->kLU:Ljava/lang/String;
+
+    .line 19
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.HeadImgNewPreference android:o8="settings_avatar" android:oq="@layout/aop" android:a0p="@string/c8x" />
+    <Preference android:o8="settings_nickname" android:oq="@layout/aop" android:a0p="@string/cb_" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_sex" android:oq="@layout/aop" android:a0p="@string/f_v" />
+    <Preference android:o8="settings_district" android:oq="@layout/aop" android:a0p="@string/c_0" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_signature" android:oq="@layout/aop" android:a0p="@string/cde" />
+</PreferenceScreen>

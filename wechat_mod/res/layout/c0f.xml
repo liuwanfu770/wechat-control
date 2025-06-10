@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ifw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/bzo" />
+    <ProgressBar android:id="@id/ibr" android:visibility="gone" android:layout_width="@dimen/c_" android:layout_height="@dimen/c_" android:indeterminateDrawable="@drawable/a7e" android:layout_centerInParent="true" />
+</RelativeLayout>

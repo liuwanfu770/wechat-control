@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:o8="contact_info_header_helper" android:oq="@layout/awl" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_lbs_go_lbs" android:oq="@layout/aop" android:a0p="@string/b6y" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_lbs_clear_info" android:oq="@layout/aup" android:a0p="@string/b6x" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_lbs_install" android:oq="@layout/ag2" android:a0p="@string/f9r" />
+    <Preference android:o8="contact_info_lbs_uninstall" android:oq="@layout/ajc" android:a0p="@string/f9x" />
+    <PreferenceCategory />
+</PreferenceScreen>

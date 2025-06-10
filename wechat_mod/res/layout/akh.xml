@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left|top" android:orientation="horizontal" android:background="@color/a_r" android:paddingLeft="@dimen/a8o" android:paddingTop="@dimen/hu" android:paddingRight="@dimen/a8o" android:paddingBottom="@dimen/hu" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ju" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:ellipsize="end" android:id="@id/dcj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/dch" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/bp7" android:layout_toRightOf="@id/dcj" android:layout_alignBottom="@id/dcj" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/uj" android:ellipsize="end" android:id="@id/dck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/dcj" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:gravity="right" android:id="@id/dcf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/uj" android:ellipsize="end" android:gravity="right" android:id="@id/a53" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/f40" android:background="@drawable/a9y" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/g74" android:paddingTop="@dimen/c0" android:paddingBottom="@dimen/c0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/tb" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/td" android:textColor="@color/y4" android:id="@id/gam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uo" />
+            <TextView android:textSize="@dimen/tc" android:textColor="@color/fr" android:id="@id/b__" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uo" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_vertical" android:id="@id/cn1" android:visibility="gone" android:layout_width="@dimen/ta" android:layout_height="@dimen/ta" android:src="@drawable/b94" android:scaleType="fitCenter" android:layout_toLeftOf="@id/g74" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/ci" />
+        <TextView android:id="@id/e22" android:visibility="gone" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/g74" style="@style/qq" />
+        <TextView android:id="@id/eva" android:visibility="gone" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/g74" style="@style/yj" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/bdj" style="@style/hp" />
+</LinearLayout>

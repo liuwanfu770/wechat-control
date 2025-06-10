@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/a_r" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/iuk" android:paddingRight="@dimen/c_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce" android:paddingStart="@dimen/c_">
+            <ImageView android:id="@id/qx" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" />
+            <TextView android:textSize="@dimen/jo" android:textColor="@color/fg" android:id="@id/qy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gy" android:layout_gravity="center_horizontal" android:id="@id/brb" android:paddingRight="@dimen/c_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:layout_below="@id/iuk" android:paddingStart="@dimen/c_" style="@style/ok" />
+        <TextView android:textSize="@dimen/jo" android:textColor="@color/to" android:gravity="center_horizontal" android:id="@id/bra" android:paddingRight="@dimen/c_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c8" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/c_" style="@style/ok" />
+        <Button android:enabled="false" android:id="@id/fsb" android:paddingRight="@dimen/c_" android:layout_marginBottom="@dimen/bt" android:text="@string/bwg" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/c_" style="@style/o7" />
+        <RelativeLayout android:id="@id/iv8" android:paddingTop="@dimen/ci" android:paddingRight="@dimen/c_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c_" android:layout_above="@id/fsb" android:paddingStart="@dimen/c_">
+            <CheckBox android:layout_gravity="center" android:id="@id/brc" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="4.0dip" android:button="@null" android:layout_alignTop="@id/brd" style="@style/lj" />
+            <TextView android:textSize="@dimen/jo" android:textColor="@color/s5" android:id="@id/brd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq" android:layout_marginTop="3.0dip" android:text="@string/bwi" android:includeFontPadding="false" android:layout_toRightOf="@id/brc" android:layout_alignParentTop="true" android:lineSpacingMultiplier="1.25" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

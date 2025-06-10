@@ -1,0 +1,59 @@
+.class public abstract Lcom/tencent/mm/sticker/c/i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/tencent/mm/sticker/c/i$a;
+    }
+.end annotation
+
+.annotation runtime Lf/l;
+    gPh = {
+        0x1,
+        0x1,
+        0x10
+    }
+    gPi = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\u0008&\u0018\u0000 \u00032\u00020\u0001:\u0001\u0003B\u0005\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0004"
+    }
+    gPj = {
+        "Lcom/tencent/mm/sticker/task/GetLensListTask;",
+        "",
+        "()V",
+        "Companion",
+        "plugin-sticker_release"
+    }
+.end annotation
+
+
+# static fields
+.field public static final Lar:Lcom/tencent/mm/sticker/c/i$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/tencent/mm/sticker/c/i$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sticker/c/i$a;-><init>(B)V
+
+    sput-object v0, Lcom/tencent/mm/sticker/c/i;->Lar:Lcom/tencent/mm/sticker/c/i$a;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 31
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

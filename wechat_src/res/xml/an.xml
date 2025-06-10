@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.PluginTextPreference android:o8="tip_other" android:uz="@layout/app" android:v0="@string/eo3" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="common_chatroom" android:oq="@layout/aop" android:a0p="@string/b59" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="friend_source" android:oq="@layout/aop" android:a0p="@string/bap" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="district" android:oq="@layout/aop" android:a0p="@string/b5i" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="signature" android:oq="@layout/aop" android:a0p="@string/b_a" />
+    <com.tencent.mm.ui.base.preference.PluginTextPreference android:o8="tip_about_account" android:uz="@layout/app" android:v0="@string/b76" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="weishop" android:oq="@layout/aop" android:a0p="@string/b_j" />
+    <PreferenceSmallCategory android:o8="contact_info_category_1" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="send_to_friend" android:oq="@layout/aop" android:a0p="@string/b9z" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:i5="false" android:o8="add_to_black" android:uu="false" android:y5="@string/b80" android:a0p="@string/b7z" />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="expose" android:oq="@layout/aop" android:a0p="@string/asw" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.Preference android:o8="delete_contact" android:oq="@layout/aop" android:a0p="@string/b5f" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

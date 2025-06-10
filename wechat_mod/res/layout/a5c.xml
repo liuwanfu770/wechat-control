@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:ht="@dimen/bq"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a5d" />
+        <include layout="@layout/a5b" />
+    </LinearLayout>
+    <com.tencent.mm.plugin.finder.view.FinderLiveOnliveWidget android:id="@id/ifp" android:paddingLeft="@dimen/bq" android:paddingRight="@dimen/bq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="@dimen/bq" android:layout_marginTop="@dimen/bq" app:a51="true" app:a57="imq" app:a58="ist" />
+</com.tencent.mm.ui.widget.RoundedCornerFrameLayout>

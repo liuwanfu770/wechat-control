@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/cu6" android:paddingLeft="@dimen/c5" style="@style/n5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.MaskLayout android:id="@id/s9" android:layout_width="@dimen/i4" android:layout_height="@dimen/i4">
+        <ImageView android:id="@id/b3b" android:layout_width="@dimen/i2" android:layout_height="@dimen/i2" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+    </com.tencent.mm.ui.base.MaskLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/amv" android:paddingRight="@dimen/c5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/i9" android:layout_weight="1.0">
+        <com.tencent.mm.ui.base.EllipsizeTextView android:ellipsize="end" android:gravity="center|left" android:id="@id/s_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/js" android:text="{nick}" android:singleLine="true" style="@style/m3" />
+    </LinearLayout>
+</LinearLayout>

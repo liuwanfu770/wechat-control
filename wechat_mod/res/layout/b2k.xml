@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/BW_95" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/qp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/f7x" android:background="@color/xo" android:visibility="gone" style="@style/ld">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/xo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/cg" android:layout_height="@dimen/cg" android:layout_marginTop="@dimen/ce" android:src="@raw/icons_outlined_error" app:mj="#fffa5151" />
+            <TextView android:textSize="@dimen/i" android:textColor="@color/y4" android:gravity="center" android:id="@id/fgw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_" android:text="@string/fgp" android:lineSpacingMultiplier="1.2" android:paddingStart="@dimen/cb" android:paddingEnd="@dimen/cb" />
+            <TextView android:textSize="@dimen/b_" android:textColor="@color/BW_0_Alpha_0_5" android:gravity="center" android:id="@id/isu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:lineSpacingMultiplier="1.2" android:paddingStart="@dimen/cb" android:paddingEnd="@dimen/cb" />
+        </LinearLayout>
+        <Button android:layout_gravity="bottom|center" android:id="@id/u6" android:layout_marginBottom="@dimen/bt" android:maxLines="1" style="@style/o7" />
+    </FrameLayout>
+</LinearLayout>

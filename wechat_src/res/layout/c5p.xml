@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/hx" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:minWidth="@dimen/hx" android:minHeight="120.0dip" style="@style/r_">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_" android:layout_marginBottom="@dimen/c_">
+            <TextView android:textSize="@dimen/q" android:textStyle="bold" android:textColor="@color/FG_0" android:ellipsize="end" android:gravity="center" android:id="@id/iuw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/im5" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/q" android:textColor="@color/FG_1" android:ellipsize="end" android:gravity="center" android:id="@id/iux" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:text="@string/im6" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView style="@style/hp" />
+        <TextView android:textSize="@dimen/q" android:textStyle="bold" android:textColor="@color/Link" android:gravity="center" android:id="@id/iuv" android:background="@drawable/ajy" android:layout_width="fill_parent" android:layout_height="@dimen/cg" android:text="@string/d9z" />
+        <ImageView style="@style/hp" />
+        <TextView android:textSize="@dimen/q" android:textStyle="bold" android:textColor="@color/Link" android:gravity="center" android:id="@id/iuy" android:background="@drawable/ajy" android:layout_width="fill_parent" android:layout_height="@dimen/cg" android:text="@string/im7" />
+        <ImageView style="@style/hp" />
+        <TextView android:textSize="@dimen/q" android:textStyle="bold" android:textColor="@color/FG_0" android:gravity="center" android:id="@id/iuu" android:background="@drawable/ck_" android:layout_width="fill_parent" android:layout_height="@dimen/cg" android:text="@string/im1" />
+    </LinearLayout>
+</LinearLayout>

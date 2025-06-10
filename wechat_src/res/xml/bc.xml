@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.matrix.MatrixSettingHeaderPreference android:o8="matrix_header_pref" android:oq="@layout/an5" android:uu="false" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="anr_preference" android:uu="false" android:a0p="@string/dov" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="startup_preference" android:uu="false" android:a0p="@string/dp5" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="jank_preference" android:uu="false" android:a0p="@string/doz" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="fps_preference" android:uu="false" android:a0p="@string/dox" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="false" android:o8="fps_decorator_preference" android:uu="false" android:a0p="@string/doy" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="battery_preference" android:uu="false" android:a0p="@string/dow" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="thread_preference" android:uu="false" android:a0p="@string/dp6" />
+    <com.tencent.mm.ui.matrix.MatrixSettingSeekBarPreference android:o8="matrix_jank_seek_bar" android:oq="@layout/an6" android:uu="false" />
+    <Preference android:o8="dump_hprof" android:oq="@layout/aop" android:uu="false" android:a0p="@string/dos" />
+    <PreferenceTitleCategory android:o8="matrix_dev_wording" android:uu="false" android:a0p="@string/dor" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="make_leak_preference" android:uu="false" android:a0p="@string/dp2" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="true" android:o8="methodBeat_preference" android:uu="false" android:y5="@string/dp4" android:a0p="@string/dp3" />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:i5="false" android:o8="trace_dev_log_preference" android:uu="false" android:y5="@string/dp8" android:a0p="@string/dp7" />
+    <PreferenceCategory />
+</PreferenceScreen>

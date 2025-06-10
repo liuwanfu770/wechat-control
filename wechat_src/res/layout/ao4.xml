@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.Placeholder android:id="@id/edz" android:layout_width="wrap_content" android:layout_height="wrap_content" app:p7="ea8" app:pp="ea8" app:pt="ea8" app:py="ea8" />
+    <android.support.constraint.Placeholder android:id="@id/ee0" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pp="ea8" app:py="ea8" />
+    <android.support.constraint.Placeholder android:id="@id/edw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" app:pp="ea8" app:px="@id/ee0" />
+    <android.support.constraint.Placeholder android:id="@id/edx" android:layout_width="wrap_content" android:layout_height="wrap_content" app:p7="@id/ee0" app:pt="ea8" />
+    <android.support.constraint.Placeholder android:id="@id/edy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" app:pt="ea8" app:px="@id/ee0" />
+    <com.tencent.mm.ui.widget.MMNeat7extView android:ellipsize="end" android:id="@id/b4d" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pp="ea8" app:pt="ea8" app:py="ea8" />
+    <TextView android:ellipsize="end" android:id="@id/b3l" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pp="ea8" app:pt="ea8" app:py="ea8" />
+    <TextView android:id="@id/aul" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bus" android:includeFontPadding="false" app:pp="ea8" app:px="@id/b4d" />
+    <ImageView android:id="@id/auk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" app:pp="ea8" app:px="@id/b4d" />
+</merge>

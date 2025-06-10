@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a1u" app:pb="366:205" app:pv="ea8" app:py="ea8" style="@style/ff" />
+    <android.support.constraint.Barrier android:id="@id/a1q" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bz="gcy" app:gu="biz_slot_show_desc_tv,biz_slot_title_neat_tv,biz_slot_pic_cnt_icon,biz_slot_pic_cnt" />
+    <include layout="@layout/tm" />
+    <ImageView android:id="@id/biz_slot_pic_cnt_icon" android:background="@raw/biz_time_line_pic_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/d" app:p7="@id/biz_slot_pic_cnt" app:ps="@id/biz_slot_pic_cnt" app:py="@id/biz_slot_pic_cnt" />
+    <TextView android:textSize="@dimen/jo" android:textColor="@color/a_u" android:id="@id/biz_slot_pic_cnt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jn" android:layout_marginBottom="@dimen/jn" app:p7="@id/a1u" app:pt="@id/a1u" />
+</android.support.constraint.ConstraintLayout>

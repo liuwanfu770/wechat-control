@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceSmallCategory android:o8="settings_notification_top" />
+    <PreferenceTitleCategory android:o8="settings_notification_title" android:a0p="@string/f93" />
+    <CheckBoxPreference android:o8="settings_new_msg_notification" android:uu="false" android:a0p="@string/f8v" />
+    <CheckBoxPreference android:o8="settings_new_voip_msg_notification" android:uu="false" android:a0p="@string/f8z" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android1:defaultValue="true" android:i7="settings_new_msg_notification" android:o8="settings_show_detail" android:uu="false" android:y5="@string/f5c" android:a0p="@string/f8w" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:i5="true" android:i7="settings_new_msg_notification" android:o8="settings_sound" android:uu="false" android:a0p="@string/fao" />
+    <Preference android:i7="settings_sound" android:o8="settings_notification_ringtone" android:uu="false" android:a0p="@string/f95" />
+    <CheckBoxPreference android:i5="true" android:i7="settings_new_msg_notification" android:o8="settings_shake" android:oq="@layout/aqx" android:uu="false" android:a0p="@string/f_w" />
+    <PreferenceTitleCategory android:o8="settings_notification_sound_shake" android:a0p="@string/f98" />
+    <SummaryBelowPreference android:o8="settings_notification_sound_and_shake" android:y5="@string/f96" android:a0p="@string/f97" />
+    <SummaryBelowPreference android:o8="settings_voip_sound_and_shake" android:y5="@string/fco" android:a0p="@string/fcp" />
+    <SummaryBelowPreference android:o8="settings_special_scene_notification_sound_and_shake" android:y5="@string/faq" android:a0p="@string/far" />
+    <PreferenceSmallCategory />
+    <PreferenceTitleCategory android:a0p="@string/hrt" />
+    <CheckBoxPreference android:i5="true" android:i7="settings_new_sns_notify" android:o8="settings_sns_notify" android:y5="@string/faf" android:a0p="@string/fae" />
+    <CheckBoxPreference android:o8="settings_notification_finder" android:y5="@string/hrq" android:a0p="@string/hrr" />
+</PreferenceScreen>

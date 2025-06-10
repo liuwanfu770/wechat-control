@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/aae" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/atd" android:paddingTop="@dimen/c6" android:layout_width="fill_parent" android:layout_height="@dimen/cg">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/wg" android:layout_height="@dimen/wf" android:src="@raw/collapse_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ip3" android:background="@drawable/emoji_search_edittext_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ca" android:layout_marginTop="@dimen/ci" android:layout_marginBottom="@dimen/ci" android:layout_below="@id/atd" android:layout_marginStart="@dimen/c5" android:layout_marginEnd="@dimen/c5">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/f8y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/actionbar_icon_light_search" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ci" app:mj="#ff8e8e93" />
+        <com.tencent.mm.emojisearch.ui.EmojiSearchEditTextView android:id="@id/iaf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textCursorDrawable="@drawable/x5" android:layout_marginStart="@dimen/bq" android:layout_toEndOf="@id/f8y" />
+    </RelativeLayout>
+    <com.tencent.mm.emoji.panel.EmojiPanelRecyclerView android:id="@id/bjp" android:background="@color/a7c" android:paddingBottom="0.0dip" android:fadingEdge="vertical" android:fadingEdgeLength="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/c5" android:layout_marginBottom="0.0dip" android:layout_below="@id/ip3" android:requiresFadingEdge="vertical" />
+</RelativeLayout>

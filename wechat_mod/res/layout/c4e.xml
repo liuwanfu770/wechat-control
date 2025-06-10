@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/g3e" android:background="@drawable/afz" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/g4t" android:layout_width="fill_parent" android:layout_height="@dimen/cg">
+        <TextView android:textSize="15.0dip" android:textColor="@color/BW_0_Alpha_0_9" android:ellipsize="end" android:id="@id/hzh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ikv" android:maxLines="1" android:lines="1" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/lq" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.tencent.mm.plugin.appbrand.ui.MaxHeightRecyclerView android:id="@id/i7k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c8" android:layout_marginRight="@dimen/c8" />
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cb" android:layout_marginBottom="@dimen/cg">
+        <TextView android:textSize="@dimen/q" android:id="@id/hdv" android:layout_width="@dimen/bw" android:layout_height="@dimen/cb" android:text="@string/r5" style="@style/of" />
+        <TextView android:textSize="@dimen/q" android:id="@id/hs3" android:layout_width="@dimen/bw" android:layout_height="@dimen/cb" android:layout_marginLeft="@dimen/c5" android:text="@string/ti" android:layout_toRightOf="@id/hdv" style="@style/o8" />
+    </RelativeLayout>
+</LinearLayout>

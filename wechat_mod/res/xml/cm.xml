@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:a0p="@string/ezm" />
+    <CheckPreference android:o8="settings_half_year_not_chat" android:oq="@layout/aop" android:a0p="@string/f6j" />
+    <CheckPreference android:o8="settings_has_not_same_chatroom" android:oq="@layout/aop" android:a0p="@string/f6m" />
+    <CheckPreference android:o8="settings_half_year_not_response" android:oq="@layout/aop" android:a0p="@string/f6k" />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <TextButtonPreference android:o8="settings_next_step" android:a0p="@string/fc4" />
+</PreferenceScreen>

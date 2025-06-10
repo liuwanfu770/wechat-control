@@ -1,0 +1,85 @@
+.class public final Lcom/tencent/mm/plugin/appbrand/widget/input/j$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/tencent/mm/plugin/appbrand/widget/input/e$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/appbrand/widget/input/j;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic lds:I
+
+.field final synthetic nBX:Lcom/tencent/mm/plugin/appbrand/widget/input/j;
+
+
+# direct methods
+.method public constructor <init>(Lcom/tencent/mm/plugin/appbrand/widget/input/j;I)V
+    .locals 0
+
+    .prologue
+    .line 47
+    iput-object p1, p0, Lcom/tencent/mm/plugin/appbrand/widget/input/j$1;->nBX:Lcom/tencent/mm/plugin/appbrand/widget/input/j;
+
+    iput p2, p0, Lcom/tencent/mm/plugin/appbrand/widget/input/j$1;->lds:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/tencent/mm/plugin/appbrand/widget/input/aa;)Z
+    .locals 3
+
+    .prologue
+    const v2, 0x214bc
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 50
+    invoke-interface {p1}, Lcom/tencent/mm/plugin/appbrand/widget/input/aa;->bLn()Landroid/widget/EditText;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {p1}, Lcom/tencent/mm/plugin/appbrand/widget/input/aa;->bLn()Landroid/widget/EditText;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tencent/mm/plugin/appbrand/widget/input/ab;
+
+    invoke-interface {v0}, Lcom/tencent/mm/plugin/appbrand/widget/input/ab;->getInputId()I
+
+    move-result v0
+
+    iget v1, p0, Lcom/tencent/mm/plugin/appbrand/widget/input/j$1;->lds:I
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+.end method

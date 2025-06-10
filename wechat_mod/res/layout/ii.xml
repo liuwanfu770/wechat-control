@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/kh" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/a5j" android:visibility="gone" style="@style/hp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a2s" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="@dimen/ha" android:layout_marginBottom="@dimen/ha">
+        <ProgressBar android:id="@id/a2t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hu" android:scaleType="centerCrop" style="@style/a5o" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/BW_0_Alpha_0_3" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/a2u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aem" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a30" android:paddingLeft="@dimen/d" android:paddingRight="@dimen/d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="@dimen/ha" android:layout_marginBottom="@dimen/ha">
+        <View android:background="@color/BW_0_Alpha_0_1" android:layout_width="24.0dip" android:layout_height="0.30000007dip" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/BW_0_Alpha_0_3" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/a2z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sh" android:layout_marginRight="@dimen/sh" android:text="@string/aem" />
+        <View android:background="@color/BW_0_Alpha_0_1" android:layout_width="24.0dip" android:layout_height="0.30000007dip" />
+    </LinearLayout>
+</LinearLayout>

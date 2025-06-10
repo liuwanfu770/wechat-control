@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:background="@color/xo" android:paddingLeft="@dimen/ha" android:paddingTop="@dimen/ha" android:paddingRight="@dimen/ha" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ho" android:layout_marginBottom="@dimen/ha">
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jn" android:text="@string/e04" />
+            <EditText android:textSize="@dimen/ia" android:textColor="@color/y4" android:textColorHint="@color/s5" android:layout_gravity="center_vertical" android:id="@id/bnl" android:background="@drawable/r2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/e01" android:singleLine="true" android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/d2z" android:background="@drawable/oc" android:layout_width="fill_parent" android:layout_height="@dimen/ho" android:layout_marginBottom="@dimen/ha">
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jn" android:text="@string/dzs" />
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/Link" android:layout_gravity="center_vertical" android:id="@id/gh6" android:paddingLeft="@dimen/jn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/dzz" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ho" android:layout_marginBottom="@dimen/ha">
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jn" android:text="@string/dzy" />
+            <EditText android:textSize="@dimen/ia" android:textColor="@color/y4" android:textColorHint="@color/s5" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/bnk" android:background="@drawable/r2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/dzr" android:singleLine="true" android:inputType="text" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/Blue" android:gravity="center_vertical" android:id="@id/gh1" android:layout_width="wrap_content" android:layout_height="@dimen/ho" android:layout_marginBottom="@dimen/ha" android:text="@string/e00" />
+        <LinearLayout android:id="@id/d2y" android:background="@drawable/oc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ho" android:layout_marginBottom="@dimen/ha">
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jn" android:text="@string/e03" />
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/Link" android:textColorHint="@color/s5" android:layout_gravity="center_vertical" android:id="@id/gh5" android:paddingLeft="@dimen/jn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/dzt" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/d30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ho" android:layout_marginBottom="@dimen/ha">
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jn" android:text="@string/e05" />
+            <EditText android:textSize="@dimen/ia" android:textColor="@color/y4" android:textColorHint="@color/s5" android:layout_gravity="center_vertical" android:id="@id/bnm" android:background="@drawable/r2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/e08" android:singleLine="true" android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

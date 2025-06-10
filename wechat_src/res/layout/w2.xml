@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/h2n" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/h2o" android:background="@null" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/icons_outlined_close" android:layout_alignParentLeft="true" />
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/h2h" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@raw/icons_outlined_help" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/ft0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/gw" android:textColor="@color/y4" android:gravity="center" android:id="@id/ft6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:layout_marginTop="@dimen/cd" android:layout_marginRight="@dimen/c5" />
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c_" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/c_">
+            <CheckBox android:id="@id/fsx" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" style="@style/oj" />
+            <TextView android:textSize="@dimen/gx" android:textColor="@color/a0i" android:id="@id/fsw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/fsx" android:lineSpacingMultiplier="1.4" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/br">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:ellipsize="end" android:id="@id/h2m" android:layout_marginBottom="@dimen/c8" android:singleLine="true" android:layout_above="@id/h2p" android:layout_alignParentLeft="true" style="@style/o7" />
+                <TextView android:textColor="@color/to" android:gravity="center" android:id="@id/h2p" android:background="@drawable/aed" android:text="@string/h_g" android:layout_centerHorizontal="true" style="@style/n9" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="settings_username" android:oq="@layout/aop" android:a0p="@string/fc_" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:o8="settings_mobile" android:oq="@layout/aop" android:a0p="@string/f7n" />
+    <com.tencent.mm.ui.base.preference.PluginTextPreference android:o8="settings_about_vusertitle" />
+    <com.tencent.mm.plugin.setting.ui.setting.SelfVuserPreference android:o8="settings_about_vuserinfo" />
+    <Preference android:o8="settings_about_vuser_about" android:oq="@layout/aop" android:a0p="@string/bba" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_independent_password" android:oq="@layout/aop" android:a0p="@string/f6n" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:o8="settings_voiceprint_title" android:oq="@layout/aop" android:a0p="@string/fce" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:o8="settings_fingerprint_title" android:oq="@layout/aop" android:a0p="@string/f6g" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:o8="settings_facedect_title" android:oq="@layout/aop" android:a0p="@string/bxk" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_trust_friend" android:oq="@layout/aop" android:a0p="@string/fbm" />
+    <Preference android:o8="settings_manage_login_device" android:oq="@layout/aop" android:a0p="@string/f7c" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:o8="settings_more_safe" android:a0p="@string/f8c" />
+    <PreferenceSmallCategory />
+    <SummaryBelowPreference android:o8="settings_security_center" android:y5="@string/f_p" android:a0p="@string/f_o" />
+</PreferenceScreen>

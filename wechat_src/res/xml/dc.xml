@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="reset_local_config_storage_key" android:oq="@layout/aop" android:a0p="@string/ieh" />
+    <Preference android:o8="reset_dynamic_config_storage_key" android:oq="@layout/aop" android:a0p="@string/ieg" />
+    <Preference android:o8="newxml_config_key" android:oq="@layout/aop" android:a0p="@string/ied" />
+    <Preference android:o8="sport_config_key" android:oq="@layout/aop" android:a0p="@string/ifg" />
+    <Preference android:o8="account_expired_setting" android:oq="@layout/aop" android:a0p="@string/ic9" />
+    <Preference android:o8="auto_updater_tips_dialog_setting" android:oq="@layout/aop" android:a0p="@string/ilj" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

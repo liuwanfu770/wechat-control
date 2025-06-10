@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:mm="http://schemas.android.com/apk/res-auto">
+    <Preference mm:o8="settings_sex" mm:oq="@layout/aop" mm:a0p="@string/f_v" />
+    <Preference mm:o8="settings_district" mm:oq="@layout/aop" mm:a0p="@string/f5o" />
+    <com.tencent.mm.chatroom.ui.preference.SignaturePreference mm:o8="settings_signature" mm:oq="@layout/aop" mm:a0p="@string/fa3" />
+    <PreferenceSmallCategory />
+    <Preference mm:o8="settings_linkedin" mm:oq="@layout/aop" mm:a0p="@string/f71" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

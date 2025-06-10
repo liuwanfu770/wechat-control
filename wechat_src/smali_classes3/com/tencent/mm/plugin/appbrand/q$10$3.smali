@@ -1,0 +1,86 @@
+.class final Lcom/tencent/mm/plugin/appbrand/q$10$3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/appbrand/q$10;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic jLu:Lcom/tencent/mm/plugin/appbrand/q$10;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/appbrand/q$10;)V
+    .locals 0
+
+    .prologue
+    .line 1519
+    iput-object p1, p0, Lcom/tencent/mm/plugin/appbrand/q$10$3;->jLu:Lcom/tencent/mm/plugin/appbrand/q$10;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    .prologue
+    const v2, 0x37ca4
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 1522
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/q$10$3;->jLu:Lcom/tencent/mm/plugin/appbrand/q$10;
+
+    iget-object v0, v0, Lcom/tencent/mm/plugin/appbrand/q$10;->jLp:Lcom/tencent/mm/plugin/appbrand/q;
+
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/appbrand/q;->isDestroyed()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 1523
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/q$10$3;->jLu:Lcom/tencent/mm/plugin/appbrand/q$10;
+
+    iget-object v0, v0, Lcom/tencent/mm/plugin/appbrand/q$10;->jLp:Lcom/tencent/mm/plugin/appbrand/q;
+
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/appbrand/q;->getAppConfig()Lcom/tencent/mm/plugin/appbrand/config/b;
+
+    move-result-object v0
+
+    .line 1524
+    if-eqz v0, :cond_0
+
+    .line 1525
+    iget-object v1, p0, Lcom/tencent/mm/plugin/appbrand/q$10$3;->jLu:Lcom/tencent/mm/plugin/appbrand/q$10;
+
+    iget-object v1, v1, Lcom/tencent/mm/plugin/appbrand/q$10;->jLp:Lcom/tencent/mm/plugin/appbrand/q;
+
+    invoke-static {v1}, Lcom/tencent/mm/plugin/appbrand/q;->k(Lcom/tencent/mm/plugin/appbrand/q;)Lcom/tencent/luggage/sdk/d/f;
+
+    move-result-object v1
+
+    invoke-interface {v1, v0}, Lcom/tencent/luggage/sdk/d/f;->a(Lcom/tencent/mm/plugin/appbrand/config/b;)V
+
+    .line 1528
+    :cond_0
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

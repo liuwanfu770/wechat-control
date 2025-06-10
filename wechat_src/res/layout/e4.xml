@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="horizontal" android:id="@id/o_" android:paddingTop="@dimen/qv" android:paddingBottom="@dimen/qw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/qw" android:paddingEnd="@dimen/qw"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/oc" android:layout_width="20.0dip" android:layout_height="20.0dip" app:p7="ea8" app:pv="ea8" app:py="ea8" />
+    <TextView android:textSize="@dimen/gx" android:textColor="@color/BW_0_Alpha_0_5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/oa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" app:p7="@id/oc" app:pu="@id/oc" app:py="@id/oc" />
+    <ImageView android:id="@id/ob" android:layout_width="12.0dip" android:layout_height="24.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="1.0dip" android:src="@raw/arrow_right" android:scaleType="center" app:p7="ea8" app:pu="@id/oa" app:py="ea8" />
+</android.support.constraint.ConstraintLayout>

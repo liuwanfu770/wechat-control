@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@color/c" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/h2w" android:layout_width="@dimen/cg" android:layout_height="@dimen/cg" android:layout_marginTop="@dimen/cd" android:src="@raw/wechat_gray_logo" app:p8="@id/ev3" app:pp="ea8" app:pt="ea8" app:py="ea8" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/ev3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_" android:text="@string/d2n" android:maxLines="1" app:p8="@id/ev2" app:pp="ea8" app:pt="ea8" app:px="@id/h2w" style="@style/ko" />
+    <TextView android:textSize="@dimen/q" android:textColor="@color/fd" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/ev2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" android:text="@string/d2m" android:maxLines="2" app:p8="@id/edu" app:pp="ea8" app:pt="ea8" app:px="@id/ev3" />
+    <View android:id="@id/edu" android:layout_width="wrap_content" android:layout_height="0.0dip" app:p8="@id/e3i" app:pp="ea8" app:pt="ea8" app:px="@id/ev2" app:q1="1.0" />
+    <Button android:id="@id/e3i" android:layout_marginBottom="@dimen/bt" android:text="@string/d2k" app:p7="ea8" app:pp="ea8" app:pt="ea8" app:px="@id/edu" style="@style/o7" />
+</android.support.constraint.ConstraintLayout>

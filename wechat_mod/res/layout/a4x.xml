@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fgo" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/a_c" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/ci" android:paddingBottom="@dimen/ci" android:layout_width="wrap_content" android:layout_height="@dimen/ch" android:layout_centerInParent="true">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/fgp" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:layout_marginRight="@dimen/ci" android:src="@raw/icons_outlined_finder_icon" app:mj="@color/Orange" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cdc" style="@style/ya" />
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/c0" android:layout_height="@dimen/c8" android:layout_marginLeft="@dimen/ci" android:src="@raw/icons_filled_arrow" />
+        </LinearLayout>
+        <View android:background="@color/lq" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</FrameLayout>

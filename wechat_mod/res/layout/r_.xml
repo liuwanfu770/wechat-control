@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/cu6" android:paddingLeft="@dimen/o" android:paddingRight="@dimen/o" style="@style/n5">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@id/f_j" android:layout_width="@dimen/i4" android:layout_height="wrap_content">
+            <ImageView android:id="@id/b3b" android:layout_width="@dimen/i2" android:layout_height="@dimen/i2" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/f3_" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="wrap_content" android:src="@drawable/b0k" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/f_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d" android:text="{nick}" android:singleLine="true" style="@style/m3" />
+            <TextView android:textSize="@dimen/gx" android:textColor="@color/a0t" android:ellipsize="end" android:gravity="center|left" android:id="@id/f_k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d" android:singleLine="true" style="@style/m3" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/a9d" android:background="@null" android:focusableInTouchMode="false" android:layout_width="@dimen/ap" android:layout_height="@dimen/an" android:src="@drawable/nb" />
+    </LinearLayout>
+</merge>

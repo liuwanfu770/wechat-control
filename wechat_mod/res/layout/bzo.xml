@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ifx" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ify" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/iak" android:layout_width="@dimen/cg" android:layout_height="@dimen/cg" android:layout_marginTop="@dimen/c1" android:src="@raw/icons_filled_error" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="22.0dip" android:textColor="@color/y4" android:gravity="center_horizontal" android:id="@id/ian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_" android:text="@string/i80" android:layout_below="@id/iak" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/y4" android:gravity="center_horizontal" android:id="@id/iam" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c_" android:layout_marginTop="@dimen/c5" android:layout_marginRight="@dimen/c_" android:text="@string/i_2" android:layout_below="@id/ian" />
+    </RelativeLayout>
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/iao" android:layout_width="@dimen/c0" android:layout_height="@dimen/c8" android:layout_marginTop="@dimen/c5" android:src="@raw/icons_outlined_back" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/c5" android:layout_alignParentStart="true" />
+    <RelativeLayout android:id="@id/ibq" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ify">
+        <Button android:textSize="17.0dip" android:id="@id/ial" android:layout_width="@dimen/c2" android:layout_height="@dimen/cb" android:layout_marginBottom="@dimen/bt" android:text="@string/i_0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/od" />
+    </RelativeLayout>
+</RelativeLayout>

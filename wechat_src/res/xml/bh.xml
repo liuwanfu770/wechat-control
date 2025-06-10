@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_wechat_account" android:oq="@layout/aop" android:a0p="@string/bbf" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_verifyuser" android:oq="@layout/aop" android:a0p="@string/bb_" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_trademark" android:oq="@layout/aop" android:a0p="@string/bb4" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_privilege" android:a0p="@string/b8e" />
+    <com.tencent.mm.plugin.profile.ui.IconWidgetPreference android:o8="contact_info_kf_worker" android:oq="@layout/aop" android:a0p="@string/f6v" />
+    <Preference android:o8="contact_info_service_phone" android:oq="@layout/aop" android:a0p="@string/b_3" />
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference android:o8="contact_info_reputation" android:oq="@layout/ua" android:a0p="@string/b9n" />
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference android:o8="contact_info_guarantee_info" android:oq="@layout/ua" android:a0p="@string/b6q" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_scope_of_business" android:oq="@layout/aop" android:a0p="@string/b9u" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="contact_info_verifyuser_weibo" android:oq="@layout/aop" android:a0p="@string/bbg" />
+    <Preference android:o8="near_field_service" android:oq="@layout/aop" android:a0p="@string/dwp" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_see_locate" android:oq="@layout/aop" android:a0p="@string/b4w" />
+    <PreferenceSmallCategory android:o8="contact_info_category2" />
+</PreferenceScreen>

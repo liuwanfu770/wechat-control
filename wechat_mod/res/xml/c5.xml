@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:o8="settings_account_info" android:oq="@layout/aop" android:a0p="@string/f4g" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:o8="settings_teen_mode" android:oq="@layout/aop" android:a0p="@string/if7" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_notification_preference" android:oq="@layout/aop" android:a0p="@string/f92" />
+    <Preference android:o8="settings_active_time" android:oq="@layout/aop" android:a0p="@string/f4j" />
+    <Preference android:o8="settings_chatting" android:oq="@layout/aop" android:a0p="@string/f5d" />
+    <IconPreference android:o8="settings_about_privacy" android:oq="@layout/aop" android:a0p="@string/f4d" />
+    <Preference android:o8="settings_about_device" android:oq="@layout/aop" android:a0p="@string/f4a" />
+    <IconPreference android:o8="settings_about_system" android:oq="@layout/aop" android:a0p="@string/f4f" />
+    <PreferenceSmallCategory />
+    <IconPreference android:o8="settings_about_micromsg" android:a0p="@string/f4c" />
+    <Preference android:o8="settings_feedback" android:oq="@layout/aop" android:a0p="@string/f67" />
+    <PreferenceSmallCategory />
+    <IconPreference android:o8="settings_welab" android:oq="@layout/aop" android:a0p="@string/fcs" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/fax" android:o8="settings_switch_account" android:a13="@color/FG_0" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.ButtonPreference android:cs="@string/f76" android:o8="settings_logout" android:oq="@layout/aop" />
+    <PreferenceCategory />
+</PreferenceScreen>

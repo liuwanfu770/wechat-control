@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.setting.ui.setting.SettingsAboutMMHeaderPreference android:o8="settings_about_mm_header" android:oq="@layout/b4c" />
+    <IconPreference android:o8="funtion_about_wechat" android:a0p="@string/fdb" />
+    <IconPreference android:o8="settings_update" android:a0p="@string/fc5" />
+    <Preference android:o8="settings_report" android:oq="@layout/aop" android:a0p="@string/f_e" />
+    <IconSummaryPreference android:o8="funtion_update" android:a0p="@string/cnt" />
+    <IconPreference android:o8="funtion_check_update" android:a0p="@string/cnr" />
+    <IconPreference android:o8="funtion_crowdtest_update" android:a0p="@string/cns" />
+    <IconPreference android:o8="funtion_about_flavor_blue" android:a0p="@string/i3p" />
+    <IconPreference android:o8="funtion_invite_flavor_blue" android:a0p="@string/imd" />
+    <PreferenceCategory />
+</PreferenceScreen>

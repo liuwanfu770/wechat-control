@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fju" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/bkb" android:background="?jn" android:layout_width="fill_parent" android:layout_height="0.0dip" app:p7="@id/fjx" app:pc="ea8" app:pv="ea8" app:py="ea8" />
+        <android.support.v7.widget.RecyclerView android:id="@id/fjx" android:scrollbars="none" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="@dimen/a1z" android:overScrollMode="never" android:paddingStart="@dimen/bq" android:paddingEnd="@dimen/bq" app:pd="@id/bk2" app:pv="ea8" app:py="ea8" />
+        <ImageView android:id="@id/bk2" android:padding="@dimen/c5" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="0.0dip" android:src="@raw/hide_emoji_panel" android:contentDescription="@string/b09" app:p7="@id/fjx" app:pc="ea8" app:pu="@id/fjx" app:py="@id/fjx" />
+    </android.support.constraint.ConstraintLayout>
+    <com.tencent.mm.emoji.panel.EmojiPanelGroupView android:id="@id/bk9" android:background="?jk" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

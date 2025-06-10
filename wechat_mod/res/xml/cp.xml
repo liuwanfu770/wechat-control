@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <IconPreference android:o8="share_micromsg_qzone" android:a0p="@string/f1e" />
+    <IconPreference android:o8="share_micromsg_to_sina" android:a0p="@string/f1f" />
+    <IconPreference android:o8="share_micromsg_to_fuckbook" android:a0p="@string/f1d" />
+</PreferenceScreen>

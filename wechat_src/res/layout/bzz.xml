@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ie3" android:layout_width="fill_parent" android:layout_height="@dimen/ch"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/abq" android:layout_width="fill_parent" android:layout_height="@dimen/ch">
+        <com.tencent.mm.ui.widget.MMProcessBar android:layout_gravity="center_horizontal" android:id="@id/d47" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:layout_marginTop="@dimen/c8" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/ijv" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c8">
+            <View android:background="@color/BW_100_Alpha_0_2" android:layout_width="@dimen/c8" android:layout_height="1.0px" android:layout_marginRight="@dimen/ci" android:layout_toLeftOf="@id/i_5" android:layout_centerVertical="true" />
+            <View android:background="@color/BW_100_Alpha_0_2" android:layout_width="@dimen/c8" android:layout_height="1.0px" android:layout_marginLeft="@dimen/ci" android:layout_toRightOf="@id/i_5" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/BW_100_Alpha_0_5" android:layout_gravity="center" android:id="@id/i_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i8w" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

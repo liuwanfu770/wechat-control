@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.scanner.ui.VcardContactUserHeaderPreference android:o8="v_contact_info_header" android:oq="@layout/bf7" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:o8="v_contact_info_photo_uri" android:oq="@layout/aop" android:a0p="@string/g6y" />
+    <PreferenceCategory android:o8="v_category_photo_uri" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:o8="v_contact_info_email" android:oq="@layout/aop" android:a0p="@string/g6q" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="v_contact_info_org" android:oq="@layout/aop" android:a0p="@string/g6x" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="v_contact_info_agent" android:oq="@layout/aop" android:a0p="@string/g6n" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:o8="c_contact_info_wx_id" android:oq="@layout/aop" android:a0p="@string/g73" />
+    <PreferenceCategory android:o8="v_category_main" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:o8="v_contact_info_home_page" android:oq="@layout/aop" android:a0p="@string/g6s" />
+    <PreferenceCategory android:o8="v_category_home_page" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="v_contact_info_birthday" android:oq="@layout/aop" android:a0p="@string/g6o" />
+    <PreferenceCategory android:o8="v_category_birthday" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="v_contact_info_remark" android:oq="@layout/aop" android:a0p="@string/g6z" />
+    <PreferenceCategory android:o8="v_category_remark" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:o8="v_contact_info_logo" android:oq="@layout/aop" android:a0p="@string/g6u" />
+    <PreferenceCategory android:o8="v_category_logo" />
+    <Preference android:o8="add_vcard_contact" android:oq="@layout/bh" android:a0p="@string/g6j" />
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,136 @@
+.class final Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;->run()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;)V
+    .locals 0
+
+    .prologue
+    .line 2465
+    iput-object p1, p0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;->ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 4
+
+    .prologue
+    const v3, 0x2dabc
+
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 2468
+    iget-object v0, p0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;->ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;->ciG:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;->ciy:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;
+
+    .line 3089
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;->cdU:Ljava/util/concurrent/atomic/AtomicBoolean;
+
+    .line 2468
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 2469
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    .line 2477
+    :goto_0
+    return-void
+
+    .line 2471
+    :cond_0
+    iget-object v0, p0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;->ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;->ciG:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;->ciy:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;
+
+    .line 4089
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;->chO:Lcom/tencent/mm/plugin/appbrand/jsapi/video/e/b;
+
+    .line 2471
+    if-eqz v0, :cond_1
+
+    .line 2472
+    iget-object v0, p0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;->ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;->ciG:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;->ciy:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;
+
+    .line 5089
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;->chO:Lcom/tencent/mm/plugin/appbrand/jsapi/video/e/b;
+
+    .line 2472
+    const/4 v1, 0x0
+
+    invoke-interface {v0, v1}, Lcom/tencent/mm/plugin/appbrand/jsapi/video/e/b;->setSurface(Landroid/view/Surface;)V
+
+    .line 2473
+    iget-object v0, p0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;->ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;->ciG:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;->ciy:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;
+
+    .line 6089
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;->chO:Lcom/tencent/mm/plugin/appbrand/jsapi/video/e/b;
+
+    .line 2473
+    invoke-interface {v0}, Lcom/tencent/mm/plugin/appbrand/jsapi/video/e/b;->isPlaying()Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    .line 2474
+    iget-object v0, p0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1$1;->ciH:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39$1;->ciG:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;
+
+    iget-object v0, v0, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c$39;->ciy:Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;
+
+    .line 7509
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/luggage/xweb_ext/extendplugin/component/video/c;->i(ZZ)Z
+
+    .line 2477
+    :cond_1
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/iu3" android:background="@color/a" android:paddingTop="@dimen/b3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:orientation="vertical" android:id="@id/i_f" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="wrap_content" app:jg="0.0dip">
+        <android.support.design.widget.CollapsingToolbarLayout android:paddingBottom="@dimen/c8" android:layout_width="fill_parent" android:layout_height="wrap_content" app:qt="bpj|f7g" app:a0q="false">
+            <include android:id="@id/ge4" layout="@layout/c56" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <View android:background="@color/BW_0_Alpha_0_1" android:layout_width="fill_parent" android:layout_height="@dimen/bk" />
+        <com.tencent.mm.plugin.profile.ui.tab.view.BizProfileTabLayout android:id="@id/itx" android:layout_width="fill_parent" android:layout_height="46.0dip" />
+        <View android:background="@color/BW_0_Alpha_0_1" android:layout_width="fill_parent" android:layout_height="@dimen/bk" />
+    </android.support.design.widget.AppBarLayout>
+    <com.tencent.mm.plugin.profile.ui.tab.view.BizProfileViewPager android:id="@id/iuj" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ow="@string/xz" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.voiceprint.ui.VoiceHeaderPreference android:o8="settings_voiceprint_header" />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:o8="settings_voiceprint_title" android:y5="@string/fcj" android:a0p="@string/fci" />
+    <SummaryBelowPreference android:o8="settings_voiceprint_create" android:y5="@string/fcg" android:a0p="@string/fcf" />
+    <Preference android:o8="settings_voiceprint_reset" android:oq="@layout/aop" android:a0p="@string/fch" />
+    <Preference android:o8="settings_voiceprint_unlock" android:oq="@layout/aop" android:a0p="@string/fck" />
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textColor="@color/y4" android:id="@id/bme" android:paddingLeft="0.0dip" android:inputType="numberDecimal" android:imeOptions="actionNone" style="@style/hc" />
+    <TextView android:textSize="@dimen/b_" android:id="@id/bmf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" />
+</LinearLayout>

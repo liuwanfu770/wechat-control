@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:orientation="vertical" android:id="@id/a1t" android:layout_width="fill_parent" android:layout_height="0.0dip" app:p7="@id/a1u" app:pc="ea8" app:pv="ea8" app:py="@id/a1r" />
+    <View android:id="@id/a1r" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/hj" app:p7="@id/a1q" app:pp="ea8" />
+    <TextView android:textSize="@dimen/jo" android:textColor="@color/a_u" android:id="@id/biz_slot_show_desc_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:layout_marginBottom="@dimen/bq" app:p8="@id/biz_slot_title_neat_tv" app:pp="ea8" app:qb="@dimen/ci" />
+    <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/ia" android:textStyle="bold" android:textColor="@color/a_u" android:ellipsize="end" android:id="@id/biz_slot_title_neat_tv" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:layout_marginRight="@dimen/c5" android:layout_marginBottom="@dimen/ci" android:maxLines="2" android:lineSpacingExtra="2.0dip" app:p7="@id/a1u" app:pp="ea8" app:pt="ea8" />
+</merge>

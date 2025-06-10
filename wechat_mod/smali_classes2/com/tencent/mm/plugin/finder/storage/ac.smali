@@ -1,0 +1,294 @@
+.class public final Lcom/tencent/mm/plugin/finder/storage/ac;
+.super Lcom/tencent/mm/sdk/e/j;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/tencent/mm/plugin/finder/storage/ac$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/tencent/mm/sdk/e/j",
+        "<",
+        "Lcom/tencent/mm/g/c/cj;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lf/l;
+    gPh = {
+        0x1,
+        0x1,
+        0x10
+    }
+    gPi = {
+        "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u0000 \u00062\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0006B\r\u0012\u0006\u0010\u0003\u001a\u00020\u0004\u00a2\u0006\u0002\u0010\u0005\u00a8\u0006\u0007"
+    }
+    gPj = {
+        "Lcom/tencent/mm/plugin/finder/storage/FinderWxMentionStorage;",
+        "Lcom/tencent/mm/sdk/storage/MAutoStorage;",
+        "Lcom/tencent/mm/autogen/table/BaseFinderMention;",
+        "db",
+        "Lcom/tencent/mm/sdk/storage/ISQLiteDatabase;",
+        "(Lcom/tencent/mm/sdk/storage/ISQLiteDatabase;)V",
+        "Companion",
+        "plugin-finder_release"
+    }
+.end annotation
+
+
+# static fields
+.field private static final INDEX_CREATE:[Ljava/lang/String;
+
+.field private static final SQL_CREATE:[Ljava/lang/String;
+
+.field public static final tSQ:Lcom/tencent/mm/plugin/finder/storage/ac$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    .prologue
+    const v6, 0x355de
+
+    const/4 v5, 0x1
+
+    const/4 v4, 0x0
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    new-instance v0, Lcom/tencent/mm/plugin/finder/storage/ac$a;
+
+    invoke-direct {v0, v4}, Lcom/tencent/mm/plugin/finder/storage/ac$a;-><init>(B)V
+
+    sput-object v0, Lcom/tencent/mm/plugin/finder/storage/ac;->tSQ:Lcom/tencent/mm/plugin/finder/storage/ac$a;
+
+    .line 12
+    const/4 v0, 0x5
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    .line 13
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "CREATE INDEX IF NOT EXISTS "
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    sget-object v2, Lcom/tencent/mm/plugin/finder/storage/ah;->tSW:Lcom/tencent/mm/plugin/finder/storage/ah$a;
+
+    .line 1009
+    invoke-static {}, Lcom/tencent/mm/plugin/finder/storage/ah;->cZP()Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 13
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, " ON "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/tencent/mm/g/c/cj;->eWY:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, " ( id, flag, type, userVersion)"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    aput-object v1, v0, v4
+
+    .line 14
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "CREATE INDEX IF NOT EXISTS Finder_Mention_Id_Create_Time ON "
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    sget-object v2, Lcom/tencent/mm/g/c/cj;->eWX:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, "(createTime, id)"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    aput-object v1, v0, v5
+
+    .line 15
+    const/4 v1, 0x2
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v3, "CREATE INDEX IF NOT EXISTS Finder_Mention_Type ON "
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    sget-object v3, Lcom/tencent/mm/g/c/cj;->eWY:Ljava/lang/String;
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string/jumbo v3, "(type)"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    aput-object v2, v0, v1
+
+    .line 16
+    const/4 v1, 0x3
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v3, "CREATE INDEX IF NOT EXISTS Finder_Object_Id ON "
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    sget-object v3, Lcom/tencent/mm/g/c/cj;->eWY:Ljava/lang/String;
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string/jumbo v3, "(objectId)"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    aput-object v2, v0, v1
+
+    .line 17
+    const/4 v1, 0x4
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v3, "CREATE INDEX IF NOT EXISTS Finder_Comment_Id ON "
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    sget-object v3, Lcom/tencent/mm/g/c/cj;->eWY:Ljava/lang/String;
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string/jumbo v3, "(commentId)"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    aput-object v2, v0, v1
+
+    .line 12
+    sput-object v0, Lcom/tencent/mm/plugin/finder/storage/ac;->INDEX_CREATE:[Ljava/lang/String;
+
+    .line 19
+    new-array v0, v5, [Ljava/lang/String;
+
+    sget-object v1, Lcom/tencent/mm/plugin/finder/storage/ah;->tSW:Lcom/tencent/mm/plugin/finder/storage/ah$a;
+
+    .line 2008
+    invoke-static {}, Lcom/tencent/mm/plugin/finder/storage/ah;->access$getInfo$cp()Lcom/tencent/mm/sdk/e/c$a;
+
+    move-result-object v1
+
+    .line 19
+    sget-object v2, Lcom/tencent/mm/g/c/cj;->eWY:Ljava/lang/String;
+
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/e/j;->getCreateSQLs(Lcom/tencent/mm/sdk/e/c$a;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    aput-object v1, v0, v4
+
+    sput-object v0, Lcom/tencent/mm/plugin/finder/storage/ac;->SQL_CREATE:[Ljava/lang/String;
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/tencent/mm/sdk/e/e;)V
+    .locals 4
+
+    .prologue
+    const v3, 0x355dd
+
+    const-string/jumbo v0, "db"
+
+    invoke-static {p1, v0}, Lf/g/b/p;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 8
+    sget-object v0, Lcom/tencent/mm/plugin/finder/storage/ah;->tSW:Lcom/tencent/mm/plugin/finder/storage/ah$a;
+
+    .line 1008
+    invoke-static {}, Lcom/tencent/mm/plugin/finder/storage/ah;->access$getInfo$cp()Lcom/tencent/mm/sdk/e/c$a;
+
+    move-result-object v0
+
+    .line 8
+    sget-object v1, Lcom/tencent/mm/g/c/cj;->eWY:Ljava/lang/String;
+
+    sget-object v2, Lcom/tencent/mm/plugin/finder/storage/ac;->INDEX_CREATE:[Ljava/lang/String;
+
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/e/j;-><init>(Lcom/tencent/mm/sdk/e/e;Lcom/tencent/mm/sdk/e/c$a;Ljava/lang/String;[Ljava/lang/String;)V
+
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public static final synthetic cJl()[Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 7
+    sget-object v0, Lcom/tencent/mm/plugin/finder/storage/ac;->SQL_CREATE:[Ljava/lang/String;
+
+    return-object v0
+.end method

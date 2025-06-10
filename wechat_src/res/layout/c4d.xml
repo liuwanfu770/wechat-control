@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/i49" android:layout_width="fill_parent" android:layout_height="@dimen/ce"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.webview.ui.tools.browser.view.BrowserIconImageView android:id="@id/hzi" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:layout_marginRight="@dimen/ci" android:src="@drawable/icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/q" android:textColor="@color/BW_0_Alpha_0_9" android:ellipsize="end" android:id="@id/ike" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/hzi" android:layout_centerVertical="true" />
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/ikb" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:layout_marginRight="@dimen/ci" android:src="@raw/icons_outlined_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:mj="@color/a_j" />
+    <TextView android:textSize="@dimen/q" android:textColor="@color/BW_0_Alpha_0_9" android:id="@id/ika" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" android:text="@string/iku" android:maxLines="1" android:lines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/hzi" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory />
+    <com.tencent.mm.plugin.setting.ui.setting.SettingsAboutMMHeaderPreference android:o8="fix_tools_micromsg_header" android:oq="@layout/b4d" />
+    <PreferenceCategory />
+    <PreferenceTitleCategory android:o8="fix_tools_wording" android:a0p="@string/cfo" />
+    <Preference android:o8="fix_tools_uplog" android:oq="@layout/aop" android:a0p="@string/cfe" />
+    <Preference android:o8="fix_tools_db_recover" android:oq="@layout/aop" android:a0p="@string/cf6" />
+    <Preference android:o8="fix_tools_search" android:oq="@layout/aop" android:a0p="@string/cfc" />
+    <Preference android:o8="fix_tools_matrix" android:oq="@layout/aop" android:a0p="@string/cfb" />
+    <Preference android:o8="fix_force_update" android:oq="@layout/aop" android:a0p="@string/hv2" />
+    <PreferenceCategory />
+</PreferenceScreen>

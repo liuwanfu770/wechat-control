@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/gu" android:textColor="@color/fg" android:id="@id/aum" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:maxLines="3" />
+    <TextView android:textSize="@dimen/gu" android:textColor="@drawable/c5_" android:id="@id/aul" android:paddingBottom="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c8u" android:layout_alignBottom="@id/aum" android:layout_alignParentRight="true" />
+</merge>

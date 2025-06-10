@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b4a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/c5" android:paddingEnd="@dimen/c5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.finder.view.FinderCollapsibleTextView android:id="@id/g6u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/io2" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/io2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ikh" android:background="@drawable/cb1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/c8" android:layout_marginTop="7.0dip" android:paddingStart="6.0dip" android:paddingEnd="@dimen/ci" android:layout_marginStart="@dimen/c5">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/iki" android:layout_width="@dimen/c5" android:layout_height="@dimen/c5" android:src="@raw/icons_filled_play2" app:mj="@color/FG_0" />
+            <TextView android:textSize="@dimen/jo" android:textColor="@color/FG_0" android:id="@id/ikj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="00:00" />
+        </LinearLayout>
+        <com.tencent.mm.plugin.finder.music.FinderImgFeedMusicTag android:id="@id/i99" android:background="@drawable/cb8" android:visibility="visible" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:layout_marginLeft="@dimen/ci" android:layout_marginTop="@dimen/ci" android:layout_weight="1.0" />
+    </FrameLayout>
+    <ViewStub android:id="@id/isi" android:layout="@layout/c41" android:layout_width="wrap_content" android:layout_height="@dimen/c8" android:layout_marginTop="7.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

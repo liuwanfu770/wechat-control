@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/cd" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/hl5" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginBottom="@dimen/bq" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/c0" android:textColor="@color/ry" android:id="@id/hl6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c5" android:singleLine="true" android:layout_below="@id/hl5" android:layout_centerHorizontal="true" />
+    <com.tencent.mm.plugin.finder.feed.RoundLinearLayout android:id="@id/ibc" android:background="@drawable/cbf" android:visibility="gone" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6" android:layout_marginRight="@dimen/bq" android:layout_marginBottom="@dimen/bq" android:layout_alignRight="@id/hl5" android:layout_alignBottom="@id/hl5">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/c0" android:layout_height="@dimen/c0" android:layout_marginLeft="@dimen/bq" android:layout_marginTop="@dimen/bq" android:src="@raw/finder_live_icon_comment_forbidden" app:mj="@color/Red" />
+    </com.tencent.mm.plugin.finder.feed.RoundLinearLayout>
+</RelativeLayout>

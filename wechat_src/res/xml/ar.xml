@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.exdevice.ui.DeviceProfileHeaderPreference android:o8="device_profile_header" android:oq="@layout/a0a" />
+    <Preference android:o8="sub_device_desc" android:oq="@layout/a16" android:a0p="@string/bue" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="message_manage" android:oq="@layout/aop" android:a0p="@string/bsu" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="connect_setting" android:oq="@layout/aop" android:a0p="@string/brq" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:o8="user_list" android:oq="@layout/aop" android:a0p="@string/buj" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_biz_go_chatting" android:oq="@layout/aop" android:a0p="@string/b4d" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="bind_device" android:oq="@layout/ag2" android:a0p="@string/bqo" />
+    <Preference android:o8="open_device_panel" android:oq="@layout/ag2" android:a0p="@string/bt1" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="unbind_device" android:oq="@layout/bmt" android:a0p="@string/buf" />
+    <PreferenceCategory />
+</PreferenceScreen>

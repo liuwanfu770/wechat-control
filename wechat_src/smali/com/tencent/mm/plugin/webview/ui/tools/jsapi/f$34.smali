@@ -1,0 +1,258 @@
+.class final Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/tencent/mm/au/d$c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->c(IILandroid/content/Intent;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+.field final synthetic GHY:Ljava/lang/String;
+
+.field final synthetic GHZ:Ljava/lang/String;
+
+.field final synthetic GIa:Ljava/lang/String;
+
+.field final synthetic GIu:J
+
+.field final synthetic GIv:Ljava/lang/String;
+
+.field final synthetic cMf:Ljava/lang/String;
+
+.field final synthetic ijO:Ljava/lang/String;
+
+.field final synthetic onL:Lcom/tencent/mm/pluginsdk/model/app/g;
+
+.field final synthetic val$appId:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;JLcom/tencent/mm/pluginsdk/model/app/g;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .prologue
+    .line 15135
+    iput-object p1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    iput-wide p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIu:J
+
+    iput-object p4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->onL:Lcom/tencent/mm/pluginsdk/model/app/g;
+
+    iput-object p5, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->val$appId:Ljava/lang/String;
+
+    iput-object p6, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->cMf:Ljava/lang/String;
+
+    iput-object p7, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->ijO:Ljava/lang/String;
+
+    iput-object p8, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHY:Ljava/lang/String;
+
+    iput-object p9, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHZ:Ljava/lang/String;
+
+    iput-object p10, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIv:Ljava/lang/String;
+
+    iput-object p11, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIa:Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/graphics/Bitmap;[B)V
+    .locals 12
+
+    .prologue
+    const v11, 0x3a20a
+
+    invoke-static {v11}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 15139
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->I(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;)Landroid/app/ProgressDialog;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 15140
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->I(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;)Landroid/app/ProgressDialog;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/app/ProgressDialog;->dismiss()V
+
+    .line 15142
+    :cond_0
+    iget-wide v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIu:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v0, v0, v2
+
+    if-ltz v0, :cond_2
+
+    .line 15143
+    invoke-static {}, Lcom/tencent/mm/ak/ag;->aKz()Lcom/tencent/mm/ak/a/d;
+
+    move-result-object v0
+
+    iget-wide v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIu:J
+
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/ak/a/d;->aY(J)Lcom/tencent/mm/ak/a/c;
+
+    move-result-object v0
+
+    .line 15144
+    sget-object v9, Lcom/tencent/mm/ak/a/e;->iba:Ljava/lang/Object;
+
+    monitor-enter v9
+
+    .line 15145
+    :try_start_0
+    invoke-static {}, Lcom/tencent/mm/ak/a/e;->VK()Ljava/lang/String;
+
+    move-result-object v10
+
+    .line 15146
+    invoke-static {v0}, Lcom/tencent/mm/ak/a/e;->d(Lcom/tencent/mm/ak/a/c;)Ljava/lang/String;
+
+    .line 15149
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->onL:Lcom/tencent/mm/pluginsdk/model/app/g;
+
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->val$appId:Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->cMf:Ljava/lang/String;
+
+    iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->ijO:Ljava/lang/String;
+
+    iget-object v5, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHY:Ljava/lang/String;
+
+    iget-object v6, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHZ:Ljava/lang/String;
+
+    iget-object v7, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIv:Ljava/lang/String;
+
+    iget-object v8, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIa:Ljava/lang/String;
+
+    invoke-static/range {v0 .. v8}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->a(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;Lcom/tencent/mm/pluginsdk/model/app/g;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+    .line 15152
+    invoke-static {v10}, Lcom/tencent/mm/ak/a/e;->JA(Ljava/lang/String;)V
+
+    .line 15153
+    monitor-exit v9
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 15158
+    :goto_0
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->i(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;)Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    .line 15159
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->i(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;)Landroid/content/Context;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    invoke-static {v1}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->i(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;)Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/tencent/mm/cb/e;->iS(Landroid/content/Context;)Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const v2, 0x7f1009f9
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 16099
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/h;->cy(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+
+    .line 15161
+    :cond_1
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    invoke-static {v1}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->j(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;)Lcom/tencent/mm/plugin/webview/c/m;
+
+    move-result-object v1
+
+    const-string/jumbo v2, "send_app_msg:ok"
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->a(Lcom/tencent/mm/plugin/webview/c/m;Ljava/lang/String;Ljava/util/Map;)V
+
+    .line 15162
+    invoke-static {v11}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+
+    .line 15153
+    :catchall_0
+    move-exception v0
+
+    :try_start_1
+    monitor-exit v9
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    invoke-static {v11}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    throw v0
+
+    .line 15155
+    :cond_2
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHT:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->onL:Lcom/tencent/mm/pluginsdk/model/app/g;
+
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->val$appId:Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->cMf:Ljava/lang/String;
+
+    iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->ijO:Ljava/lang/String;
+
+    iget-object v5, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHY:Ljava/lang/String;
+
+    iget-object v6, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GHZ:Ljava/lang/String;
+
+    iget-object v7, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIv:Ljava/lang/String;
+
+    iget-object v8, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f$34;->GIa:Ljava/lang/String;
+
+    invoke-static/range {v0 .. v8}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->a(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;Lcom/tencent/mm/pluginsdk/model/app/g;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+
+    goto :goto_0
+.end method

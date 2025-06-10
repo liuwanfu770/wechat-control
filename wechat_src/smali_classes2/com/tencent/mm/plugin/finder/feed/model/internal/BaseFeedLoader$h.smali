@@ -1,0 +1,133 @@
+.class final Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;
+.super Lf/g/b/q;
+.source "SourceFile"
+
+# interfaces
+.implements Lf/g/a/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;->request(Ljava/lang/Object;Lcom/tencent/mm/plugin/finder/feed/model/internal/f;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lf/g/b/q;",
+        "Lf/g/a/b",
+        "<",
+        "Lcom/tencent/mm/plugin/finder/feed/model/internal/IResponse",
+        "<TT;>;",
+        "Lf/z;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lf/l;
+    gPh = {
+        0x1,
+        0x1,
+        0x10
+    }
+    gPi = {
+        "\u0000\u0014\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001\"\u0008\u0008\u0000\u0010\u0002*\u00020\u00032\u000e\u0010\u0004\u001a\n\u0012\u0004\u0012\u0002H\u0002\u0018\u00010\u0005H\n\u00a2\u0006\u0002\u0008\u0006"
+    }
+    gPj = {
+        "<anonymous>",
+        "",
+        "T",
+        "Lcom/tencent/mm/plugin/finder/feed/model/internal/ILoaderData;",
+        "cache",
+        "Lcom/tencent/mm/plugin/finder/feed/model/internal/IResponse;",
+        "invoke"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic sPJ:Ljava/lang/Object;
+
+.field final synthetic sPK:Lcom/tencent/mm/plugin/finder/feed/model/internal/f;
+
+.field final synthetic this$0:Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;Ljava/lang/Object;Lcom/tencent/mm/plugin/finder/feed/model/internal/f;)V
+    .locals 1
+
+    iput-object p1, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->this$0:Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;
+
+    iput-object p2, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->sPJ:Ljava/lang/Object;
+
+    iput-object p3, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->sPK:Lcom/tencent/mm/plugin/finder/feed/model/internal/f;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lf/g/b/q;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    .prologue
+    const v3, 0x3455a
+
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 39
+    check-cast p1, Lcom/tencent/mm/plugin/finder/feed/model/internal/IResponse;
+
+    .line 1175
+    if-eqz p1, :cond_0
+
+    .line 1176
+    iget-object v0, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->this$0:Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;
+
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;->getTAG()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string/jumbo v1, "request hit cache"
+
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ai;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 1177
+    iget-object v0, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->this$0:Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;
+
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;->onFetchDone(Lcom/tencent/mm/plugin/finder/feed/model/internal/IResponse;)V
+
+    .line 39
+    :goto_0
+    sget-object v0, Lf/z;->Qbv:Lf/z;
+
+    invoke-static {v3}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-object v0
+
+    .line 1178
+    :cond_0
+    iget-object v0, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->this$0:Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;
+
+    .line 1179
+    invoke-static {v0}, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;->access$getDataFetch$p(Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader;)Lcom/tencent/mm/plugin/finder/feed/model/internal/g;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->sPJ:Ljava/lang/Object;
+
+    iget-object v2, p0, Lcom/tencent/mm/plugin/finder/feed/model/internal/BaseFeedLoader$h;->sPK:Lcom/tencent/mm/plugin/finder/feed/model/internal/f;
+
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/finder/feed/model/internal/g;->fetch(Ljava/lang/Object;Lcom/tencent/mm/plugin/finder/feed/model/internal/f;)V
+
+    goto :goto_0
+.end method

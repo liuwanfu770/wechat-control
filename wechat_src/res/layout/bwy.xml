@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.InsectRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TabLayout android:id="@id/i6_" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/c_" android:layout_marginBottom="@dimen/c8" android:layout_above="@id/imn" app:yb="@color/a7c" app:yd="ahg" app:yg="@drawable/c_i" app:yi="@color/a_r" app:yl="1.0dip" app:yp="c3p" app:yq="0.0dip" app:yv="@color/a7c" app:yw="@color/a_r" app:yy="@style/a6x" app:yz="#4cffffff">
+        <android.support.design.widget.TabItem android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/i2a" />
+        <android.support.design.widget.TabItem android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/i2b" />
+    </android.support.design.widget.TabLayout>
+    <RelativeLayout android:id="@id/i67" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bz" android:layout_marginBottom="@dimen/c5" android:layout_alignParentBottom="true">
+        <android.support.v7.widget.RecyclerView android:id="@id/i66" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/imn" android:layout_width="fill_parent" android:layout_height="@dimen/bz" android:layout_marginBottom="@dimen/c5" android:layout_alignParentBottom="true">
+        <include android:id="@id/i1n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ce" android:layout_marginLeft="@dimen/cd" android:layout_marginRight="@dimen/cd" android:layout_marginBottom="@dimen/bq" android:layout_alignParentBottom="true" layout="@layout/bxh" />
+        <include android:id="@id/i45" android:layout_width="fill_parent" android:layout_height="@dimen/cb" android:layout_marginBottom="@dimen/ci" android:layout_alignParentBottom="true" layout="@layout/bwx" />
+        <android.support.constraint.ConstraintLayout android:id="@id/hw3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci" android:layout_above="@id/i1n">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/i6w" android:background="@drawable/c_t" android:padding="@dimen/bq" android:layout_width="@dimen/c_" android:layout_height="@dimen/c_" android:layout_marginLeft="@dimen/c5" android:layout_marginRight="@dimen/ci" android:src="@raw/icons_filled_pause" app:mj="@color/aj" app:p7="ea8" app:pv="ea8" app:py="ea8" />
+            <android.support.v7.widget.RecyclerView android:id="@id/hw7" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/ci" android:layout_width="fill_parent" android:layout_height="@dimen/cd" android:layout_marginLeft="@dimen/cg" android:requiresFadingEdge="horizontal" app:p7="ea8" app:pc="ea8" app:py="ea8" />
+            <View android:id="@id/hw2" android:background="@color/aj" android:visibility="invisible" android:layout_width="2.0dip" android:layout_height="@dimen/br" app:pc="ea8" app:pv="ea8" app:py="ea8" />
+        </android.support.constraint.ConstraintLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/imm" android:layout_width="fill_parent" android:layout_height="224.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/iac" android:layout_width="fill_parent" android:layout_height="@dimen/c8" android:layout_marginBottom="@dimen/cd" android:layout_above="@id/c5z" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/br" android:layout_marginEnd="@dimen/br">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/iij" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" android:src="@raw/finder_bgm_gif_first_page" app:mj="@color/adc" />
+            <TextView android:textSize="@dimen/jo" android:textColor="@color/adc" android:ellipsize="end" android:id="@id/iil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c1" android:text="@string/i52" android:singleLine="true" android:layout_marginStart="6.0dip" />
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/iik" android:layout_width="@dimen/ci" android:layout_height="@dimen/c5" android:src="@raw/icons_filled_back" android:rotation="180.0" android:layout_marginStart="@dimen/ci" app:mj="@color/adc" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/c5z" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cg" android:layout_marginBottom="@dimen/bs" android:layout_alignParentBottom="true" />
+        <com.tencent.mm.plugin.recordvideo.plugin.doodle.PhotoDoodlePlugin android:id="@id/be_" android:background="@drawable/c9r" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.tencent.mm.ui.widget.InsectRelativeLayout>

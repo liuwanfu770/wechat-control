@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="settings_my_username" android:a0p="@string/fc_" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="settings_show_username" android:y5="@string/fa0" android:a0p="@string/f_x" />
+</PreferenceScreen>

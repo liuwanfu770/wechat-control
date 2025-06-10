@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ha" android:paddingRight="@dimen/ha" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/alc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/gpi" android:layout="@layout/ob" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/gpk" android:layout="@layout/of" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/gpg" android:layout="@layout/od" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/gpl" android:layout="@layout/og" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/gpf" android:layout="@layout/oc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/gpj" android:layout="@layout/oe" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ha">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/ajy" android:layout_marginRight="@dimen/d" android:text="@string/asn" style="@style/gf" />
+    </LinearLayout>
+</LinearLayout>

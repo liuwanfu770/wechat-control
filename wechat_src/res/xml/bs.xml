@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:o8="roominfo_contact_anchor" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="room_search_chatting_content" android:oq="@layout/aop" android:a0p="@string/es2" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="room_notify_new_msg" android:a0p="@string/eqs" />
+    <CheckBoxPreference android:o8="room_placed_to_the_top" android:oq="@layout/aop" android:a0p="@string/er_" />
+    <CheckBoxPreference android:o8="room_accept_message" android:oq="@layout/aop" android:a0p="@string/hw8" />
+    <CheckBoxPreference android:o8="force_notify" android:uu="false" android:a0p="@string/cjj" />
+    <PreferenceSmallCategory android:o8="seperate_line_between_force_notify_and_background" />
+    <Preference android:o8="room_set_chatting_background" android:oq="@layout/aop" android:a0p="@string/es9" />
+    <PreferenceSmallCategory key="seperate_line_between_background_and_clear_history" />
+    <Preference android:o8="room_clear_chatting_history" android:oq="@layout/aop" android:a0p="@string/ep8" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="room_add_blacklist" android:a0p="@string/hw9" />
+    <Preference android:o8="room_expose" android:oq="@layout/aop" android:a0p="@string/epw" />
+    <PreferenceCategory />
+</PreferenceScreen>

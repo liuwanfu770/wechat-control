@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <IconPreference android:o8="settings_dark" android:oq="@layout/aop" android:a0p="@string/f5n" />
+    <PreferenceSmallCategory android:o8="small_divider" />
+    <CheckBoxPreference android:i5="false" android:o8="settings_landscape_mode" android:a0p="@string/f6w" />
+    <CheckBoxPreference android:i5="false" android:o8="settings_nfc_switch" android:a0p="@string/f91" />
+    <Preference android:o8="settings_silence_update_mode" android:oq="@layout/aop" android:a0p="@string/fa5" />
+    <Preference android:o8="settings_language" android:oq="@layout/aop" android:a0p="@string/f6x" />
+    <Preference android:o8="settings_text_size" android:oq="@layout/aop" android:a0p="@string/fbc" />
+    <Preference android:o8="settings_take_photo" android:oq="@layout/aop" android:a0p="@string/f9g" />
+    <Preference android:o8="settings_manage_findmoreui" android:oq="@layout/aop" android:a0p="@string/f7a" />
+    <IconPreference android:o8="settings_plugins" android:a0p="@string/f9n" />
+    <Preference android:o8="settings_traffic_statistic" android:oq="@layout/aop" android:a0p="@string/fbi" />
+    <Preference android:o8="settngs_clean" android:oq="@layout/aop" android:a0p="@string/f8u" />
+    <Preference android:o8="settngs_matrix_trace" android:oq="@layout/aop" android:a0p="@string/f7g" />
+    <PreferenceCategory />
+</PreferenceScreen>

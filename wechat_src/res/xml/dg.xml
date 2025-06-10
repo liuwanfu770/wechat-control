@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="live_demo" android:oq="@layout/aop" android:a0p="@string/hml" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="mlvb_live_room" android:oq="@layout/aop" android:a0p="@string/hqu" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="source_camera" android:oq="@layout/aop" android:a0p="@string/hsa" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="source_screen" android:oq="@layout/aop" android:a0p="@string/hsb" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="live_view" android:oq="@layout/aop" android:a0p="@string/hqo" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

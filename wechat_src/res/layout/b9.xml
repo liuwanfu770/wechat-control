@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/gcw" android:background="#ff009688" android:layout_width="fill_parent" android:layout_height="@dimen/lf" app:rg="@null" app:ta="@drawable/bal" app:a0z="#ffffffff" />
+    <FrameLayout android:id="@id/b3b" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

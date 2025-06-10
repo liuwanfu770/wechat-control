@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/edp" android:background="@color/f" android:layout_width="fill_parent" android:layout_height="112.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textSize="@dimen/acp" android:id="@id/a8s" android:layout_width="120.0dip" android:layout_height="40.0dip" android:text="@string/djq" android:layout_marginStart="8.0dip" app:p7="@id/gop" app:pu="@id/gop" app:py="@id/gop" style="@style/o7" />
+    <View android:id="@id/gop" android:background="@color/a7c" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_marginTop="40.0dip" android:layout_marginBottom="32.0dip" app:p7="ea8" app:pc="ea8" app:pv="ea8" app:py="ea8" />
+    <Button android:textSize="@dimen/acp" android:id="@id/a8r" android:layout_width="120.0dip" android:layout_height="40.0dip" android:text="@string/djp" android:layout_marginEnd="8.0dip" app:p7="@id/gop" app:pd="@id/gop" app:py="@id/gop" style="@style/od" />
+</android.support.constraint.ConstraintLayout>

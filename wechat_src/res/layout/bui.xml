@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@drawable/oc" android:layout_width="fill_parent" android:layout_height="@dimen/ch" android:paddingStart="@dimen/c5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tc" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:src="@drawable/aq8" app:p7="ea8" app:pv="ea8" app:py="ea8" />
+    <TextView android:id="@id/i08" android:visibility="gone" android:minWidth="18.0dip" android:minHeight="18.0dip" app:p8="@id/hxx" app:pc="@id/chh" app:py="ea8" style="@style/yi" />
+    <TextView android:ellipsize="end" android:id="@id/i09" android:visibility="visible" android:layout_marginLeft="@dimen/ci" android:layout_marginBottom="@dimen/bq" android:singleLine="true" app:p8="@id/hxx" app:pc="@id/chh" app:py="ea8" style="@style/yj" />
+    <TextView android:textSize="@dimen/q" android:textColor="@color/fg" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/hwc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="260.0dip" android:minWidth="@dimen/cd" android:maxLines="1" android:singleLine="true" android:layout_marginStart="@dimen/c0" app:pd="@id/g97" app:pl="0.0" app:pu="@id/tc" app:py="@id/tc" />
+    <TextView android:textSize="@dimen/b_" android:textColor="@color/s5" android:ellipsize="end" android:id="@id/hwl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq" android:maxWidth="280.0dip" android:maxLines="1" android:singleLine="true" android:paddingEnd="@dimen/c5" app:ps="@id/g97" app:pv="@id/hwc" app:px="@id/hwc" />
+    <TextView android:textSize="@dimen/jv" android:textColor="@color/s5" android:ellipsize="end" android:id="@id/g97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bt" android:singleLine="true" android:paddingEnd="@dimen/c5" app:pc="ea8" app:py="@id/hwc" />
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/chh" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pe="50.0dip" />
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@id/hxx" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pe="34.0dip" />
+    <View android:background="@color/FG_3" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="@dimen/cf" app:p7="ea8" app:pc="ea8" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:id="@id/c0b" android:background="@color/BW_97" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ht="4.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="144.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/fg" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/gam" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0" android:singleLine="true" android:paddingStart="@dimen/c0" android:paddingEnd="@dimen/c0" />
+            <com.tencent.mm.plugin.finder.view.FinderFeedAlbumView android:id="@id/iaq" android:layout_width="134.0dip" android:layout_height="134.0dip" android:layout_marginTop="@dimen/ci" android:layout_marginBottom="@dimen/bq" app:ht="@dimen/bq" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/amf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" android:layout_marginRight="@dimen/ci" android:layout_marginBottom="@dimen/bq">
+                <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/amo" android:layout_width="@dimen/c0" android:layout_height="@dimen/c0" android:src="@raw/icons_outlined_finder_icon" app:mj="@color/Orange" />
+                <TextView android:textSize="8.0dip" android:textColor="@color/FG_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cdx" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.tencent.mm.ui.widget.RoundedCornerFrameLayout>
+</LinearLayout>

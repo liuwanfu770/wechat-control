@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:newtip="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.remittance.mobile.ui.BankMobileRemitChooseMMHeaderPreference newtip:o8="bank_mobile_remit_choose_header" newtip:oq="@layout/gy" />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="@raw/icons_outlined_pay_cards" newtip:mj="@color/Brand" newtip:o8="bank_mobile_remit_choose_bank" newtip:ut="transtobankreddot" newtip:a0p="@string/a8_" />
+    <com.tencent.mm.plugin.newtips.NormalIconNewTipPreference newtip:mf="@raw/icons_outlined_cellphone" newtip:mj="@color/Brand" newtip:o8="bank_mobile_remit_choose_mobile" newtip:ut="mobiletransferreddot" newtip:a0p="@string/a8b" />
+    <PreferenceCategory />
+</PreferenceScreen>

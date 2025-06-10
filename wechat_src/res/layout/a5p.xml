@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.view.HardTouchableLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/asw" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c9h" android:background="@color/fc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.plugin.finder.view.FinderMediaBanner android:layout_gravity="center" android:id="@id/dlz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/at6" android:layout_width="@dimen/c9" android:layout_height="@dimen/c9" android:layout_marginTop="60.0dip" android:layout_marginBottom="22.0dip" android:src="@raw/icons_filled_close2" android:layout_marginStart="@dimen/c5" app:mj="@android:color/white" />
+    <com.tencent.mm.plugin.finder.video.FinderVideoPlayerSeekBar android:layout_gravity="bottom" android:id="@id/iqv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0" android:layout_marginRight="@dimen/c0" android:layout_marginBottom="122.0dip" />
+    <com.tencent.mm.plugin.finder.music.FinderImgFeedMusicTag android:layout_gravity="end|bottom|center" android:id="@id/iio" android:visibility="gone" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginEnd="@dimen/c0" />
+</com.tencent.mm.view.HardTouchableLayout>

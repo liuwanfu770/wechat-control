@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a_r" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/c_" android:paddingEnd="@dimen/c_"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/iii" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginTop="@dimen/c_" android:layout_marginBottom="@dimen/c8" />
+        <com.tencent.mm.ui.MMImageView android:id="@id/iia" android:visibility="gone" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginTop="@dimen/c_" android:layout_marginBottom="@dimen/c8" android:src="@raw/icons_outlined_colorful_game" />
+        <TextView android:textSize="@dimen/gy" android:textColor="@color/y4" android:gravity="center" android:id="@id/gbv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/q" android:textColor="@color/km" android:gravity="center" android:id="@id/b_l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c5" />
+    </LinearLayout>
+</RelativeLayout>

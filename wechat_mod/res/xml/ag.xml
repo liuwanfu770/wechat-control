@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:o8="contact_info_header_helper" android:oq="@layout/awl" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="contact_info_top_story_not_disturb" android:oq="@layout/aop" android:a0p="@string/bb1" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_go_to_top_story" android:oq="@layout/aop" android:a0p="@string/b6l" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="contact_info_top_story_install" android:oq="@layout/ag2" android:a0p="@string/f9r" />
+    <Preference android:o8="contact_info_top_story_uninstall" android:oq="@layout/ajc" android:a0p="@string/f9x" />
+    <PreferenceCategory />
+</PreferenceScreen>

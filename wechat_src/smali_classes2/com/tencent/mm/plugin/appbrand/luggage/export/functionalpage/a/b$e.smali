@@ -1,0 +1,152 @@
+.class final Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation runtime Lf/l;
+    gPh = {
+        0x1,
+        0x1,
+        0x10
+    }
+    gPi = {
+        "\u0000\u0014\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0008\u0003\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u0003H\n\u00a2\u0006\u0002\u0008\u0005\u00a8\u0006\u0006"
+    }
+    gPj = {
+        "<anonymous>",
+        "",
+        "it",
+        "Landroid/view/View;",
+        "kotlin.jvm.PlatformType",
+        "onClick",
+        "com/tencent/mm/plugin/appbrand/luggage/export/functionalpage/ui/FunctionalPageJsAuthorizePresenterUIView$onCreateView$4$1"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;->mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 8
+
+    .prologue
+    const v7, 0x385c5
+
+    const/4 v6, 0x1
+
+    invoke-static {v7}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    const-string/jumbo v0, "com/tencent/mm/plugin/appbrand/luggage/export/functionalpage/ui/FunctionalPageJsAuthorizePresenterUIView$onCreateView$$inlined$also$lambda$2"
+
+    const-string/jumbo v1, "android/view/View$OnClickListener"
+
+    const-string/jumbo v2, "onClick"
+
+    const-string/jumbo v3, "(Landroid/view/View;)V"
+
+    new-instance v4, Lcom/tencent/mm/hellhoundlib/b/b;
+
+    invoke-direct {v4}, Lcom/tencent/mm/hellhoundlib/b/b;-><init>()V
+
+    invoke-virtual {v4, p1}, Lcom/tencent/mm/hellhoundlib/b/b;->aQ(Ljava/lang/Object;)V
+
+    invoke-virtual {v4}, Lcom/tencent/mm/hellhoundlib/b/b;->ajE()[Ljava/lang/Object;
+
+    move-result-object v5
+
+    move-object v4, p0
+
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/hellhoundlib/a/a;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+
+    .line 139
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;->mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+    invoke-static {v0, v6}, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;->a(Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;Z)Ljava/util/ArrayList;
+
+    move-result-object v1
+
+    .line 140
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;->mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;->getListener()Lcom/tencent/mm/plugin/appbrand/permission/a/b$c;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;->mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;->c(Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;)Lcom/tencent/mm/plugin/appbrand/widget/dialog/i$a;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    .line 1161
+    iget v0, v0, Lcom/tencent/mm/plugin/appbrand/widget/dialog/i$a;->kOd:I
+
+    .line 140
+    :goto_0
+    invoke-interface {v2, v6, v1, v0}, Lcom/tencent/mm/plugin/appbrand/permission/a/b$c;->a(ILjava/util/ArrayList;I)V
+
+    .line 141
+    :cond_0
+    iget-object v0, p0, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;->mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+    iget-object v1, p0, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b$e;->mhG:Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;
+
+    invoke-static {v1}, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;->b(Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;)Lcom/tencent/mm/plugin/appbrand/d;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/appbrand/luggage/export/functionalpage/a/b;->i(Lcom/tencent/mm/plugin/appbrand/d;)V
+
+    .line 142
+    const-string/jumbo v0, "com/tencent/mm/plugin/appbrand/luggage/export/functionalpage/ui/FunctionalPageJsAuthorizePresenterUIView$onCreateView$$inlined$also$lambda$2"
+
+    const-string/jumbo v1, "android/view/View$OnClickListener"
+
+    const-string/jumbo v2, "onClick"
+
+    const-string/jumbo v3, "(Landroid/view/View;)V"
+
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/hellhoundlib/a/a;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v7}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+
+    .line 140
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method

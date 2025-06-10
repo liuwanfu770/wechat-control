@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="c8w">false</item>
+    <item type="drawable" name="c8z">false</item>
+    <item type="drawable" name="b83">false</item>
+    <item type="drawable" name="b8c">false</item>
+    <item type="drawable" name="b8k">false</item>
+    <item type="drawable" name="bcf">false</item>
+    <item type="drawable" name="c3i">false</item>
+    <item type="drawable" name="c7r">false</item>
+    <item type="drawable" name="c7s">false</item>
+    <item type="drawable" name="c7t">false</item>
+    <item type="drawable" name="c7u">false</item>
+    <item type="drawable" name="c7v">false</item>
+    <item type="drawable" name="cf1">false</item>
+    <item type="drawable" name="cf2">false</item>
+    <item type="drawable" name="cf3">false</item>
+    <item type="drawable" name="cf4">false</item>
+    <item type="drawable" name="cf5">false</item>
+    <item type="drawable" name="c3k">false</item>
+    <item type="drawable" name="c3o">false</item>
+</resources>

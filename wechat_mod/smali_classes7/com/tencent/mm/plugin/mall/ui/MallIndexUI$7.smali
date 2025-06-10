@@ -1,0 +1,143 @@
+.class final Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;
+.super Lcom/tencent/mm/sdk/b/c;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/tencent/mm/sdk/b/c",
+        "<",
+        "Lcom/tencent/mm/g/a/zs;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic xqw:Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;)V
+    .locals 2
+
+    .prologue
+    const v1, 0x2742c
+
+    .line 139
+    iput-object p1, p0, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;->xqw:Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/b/c;-><init>()V
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    const-class v0, Lcom/tencent/mm/g/a/zs;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    iput v0, p0, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;->__eventId:I
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic callback(Lcom/tencent/mm/sdk/b/b;)Z
+    .locals 7
+
+    .prologue
+    const v6, 0x10238
+
+    const/4 v5, 0x0
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 139
+    check-cast p1, Lcom/tencent/mm/g/a/zs;
+
+    .line 1142
+    const-string/jumbo v0, "MicorMsg.MallIndexUI"
+
+    const-string/jumbo v1, "real name verify callback, result: %s, isDoRealNameForBalance: %s"
+
+    const/4 v2, 0x2
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    iget-object v3, p1, Lcom/tencent/mm/g/a/zs;->dFg:Lcom/tencent/mm/g/a/zs$a;
+
+    iget v3, v3, Lcom/tencent/mm/g/a/zs$a;->result:I
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    aput-object v3, v2, v5
+
+    const/4 v3, 0x1
+
+    iget-object v4, p0, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;->xqw:Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+
+    invoke-static {v4}, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;->a(Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;)Z
+
+    move-result v4
+
+    invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v4
+
+    aput-object v4, v2, v3
+
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ai;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 1143
+    iget-object v0, p1, Lcom/tencent/mm/g/a/zs;->dFg:Lcom/tencent/mm/g/a/zs$a;
+
+    iget v0, v0, Lcom/tencent/mm/g/a/zs$a;->result:I
+
+    const/4 v1, -0x1
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;->xqw:Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;->a(Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 1144
+    iget-object v0, p0, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;->xqw:Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;->b(Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;)Z
+
+    .line 1145
+    iget-object v0, p0, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI$7;->xqw:Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;->c(Lcom/tencent/mm/plugin/mall/ui/MallIndexUI;)V
+
+    .line 139
+    :cond_0
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return v5
+.end method

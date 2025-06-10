@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:o8="settings_bind_qq" android:oq="@layout/aop" android:a0p="@string/fbw" />
+    <Preference android:o8="settings_email_addr" android:oq="@layout/aop" android:a0p="@string/f5q" />
+    <Preference android:o8="settings_about_domainmail" android:oq="@layout/aop" android:a0p="@string/f4b" />
+    <Preference android:o8="settings_facebook" android:oq="@layout/aop" android:a0p="@string/cyp" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="settings_dump_personal_data" android:oq="@layout/aop" android:a0p="@string/f5p" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:o8="settings_phone_security" android:oq="@layout/aop" android:a0p="@string/e7h" />
+    <Preference android:o8="settings_delete_account" android:oq="@layout/aop" android:a0p="@string/f32" />
+</PreferenceScreen>

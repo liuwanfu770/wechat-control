@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/irr" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci">
+        <TextView android:id="@id/irm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="skinSmooth" android:layout_marginEnd="@dimen/ci" />
+        <SeekBar android:id="@id/irs" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="100" />
+        <TextView android:id="@id/irx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci">
+        <TextView android:id="@id/irn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="eyeMorph" android:layout_marginEnd="@dimen/ci" />
+        <SeekBar android:id="@id/irt" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="100" />
+        <TextView android:id="@id/iry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci">
+        <TextView android:id="@id/iro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="faceMorph" android:layout_marginEnd="@dimen/ci" />
+        <SeekBar android:id="@id/iru" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="100" />
+        <TextView android:id="@id/irz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci">
+        <TextView android:id="@id/irp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="eyeBright" android:layout_marginEnd="@dimen/ci" />
+        <SeekBar android:id="@id/irv" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="100" />
+        <TextView android:id="@id/is0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci">
+        <TextView android:id="@id/irq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="skinBright" android:layout_marginEnd="@dimen/ci" />
+        <SeekBar android:id="@id/irw" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="100" />
+        <TextView android:id="@id/is1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/iri" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

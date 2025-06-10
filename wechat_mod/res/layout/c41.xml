@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end" android:id="@id/irj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/c8" android:layout_marginTop="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:layout_gravity="end" android:id="@id/c1a" android:background="@color/Orange_100" android:layout_width="wrap_content" android:layout_height="fill_parent" app:ht="@dimen/c5" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/ci" android:paddingEnd="@dimen/ci">
+        <TextView android:textSize="@dimen/gu" android:textColor="@color/BW_100" android:id="@id/isk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ihl" android:layout_marginEnd="@dimen/ci" />
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/isl" android:layout_width="@dimen/c5" android:layout_height="@dimen/c5" android:src="@raw/icons_filled_play2" app:mj="@color/BW_100" />
+        <TextView android:textSize="@dimen/jo" android:textColor="@color/BW_100" android:id="@id/isj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="00:00" />
+    </LinearLayout>
+</FrameLayout>

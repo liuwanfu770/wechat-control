@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceTitleCategory android:o8="settings_auto_mul_terminal_sync_tip" android:a0p="@string/f50" />
+    <CheckBoxPreference android:i5="false" android:o8="settings_auto_mul_terminal_sync" android:a0p="@string/f4z" />
+    <PreferenceTitleCategory android:o8="settings_take_photo_auto_save_tip" android:a0p="@string/fb_" />
+    <CheckBoxPreference android:i5="false" android:o8="settings_take_photo_auto_save_photo" android:a0p="@string/fb9" />
+    <CheckBoxPreference android:i5="false" android:o8="settings_take_photo_auto_save_video" android:a0p="@string/fba" />
+    <PreferenceTitleCategory android:o8="settings_sns_auto_play_tip" android:a0p="@string/fa9" />
+    <CheckBoxPreference android:i5="true" android:o8="settings_sns_auto_play_switch" android:a0p="@string/fa8" />
+    <PreferenceTitleCategory android:o8="settings_voip_audio_switch_mobile_net_tip" android:a0p="@string/hrw" />
+    <CheckBoxPreference android:i5="true" android:o8="settings_voip_audio_switch_mobile_net" android:a0p="@string/hru" />
+</PreferenceScreen>

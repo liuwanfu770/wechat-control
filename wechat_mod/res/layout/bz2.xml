@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/a" android:paddingLeft="@dimen/ha" android:paddingTop="@dimen/bq" android:layout_width="fill_parent" android:layout_height="@dimen/ca"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/c_">
+        <TextView android:id="@id/cvt" android:text="7天前" style="@style/m2" />
+    </LinearLayout>
+</RelativeLayout>

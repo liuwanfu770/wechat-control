@@ -1,0 +1,202 @@
+.class final Lcom/tencent/mm/ui/MultiTalkRoomPopupNav$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;->initView()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic LUj:Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;)V
+    .locals 0
+
+    .prologue
+    .line 173
+    iput-object p1, p0, Lcom/tencent/mm/ui/MultiTalkRoomPopupNav$1;->LUj:Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 7
+
+    .prologue
+    const v6, 0x834b
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    const-string/jumbo v0, "com/tencent/mm/ui/MultiTalkRoomPopupNav$1"
+
+    const-string/jumbo v1, "android/view/View$OnClickListener"
+
+    const-string/jumbo v2, "onClick"
+
+    const-string/jumbo v3, "(Landroid/view/View;)V"
+
+    new-instance v4, Lcom/tencent/mm/hellhoundlib/b/b;
+
+    invoke-direct {v4}, Lcom/tencent/mm/hellhoundlib/b/b;-><init>()V
+
+    invoke-virtual {v4, p1}, Lcom/tencent/mm/hellhoundlib/b/b;->aQ(Ljava/lang/Object;)V
+
+    invoke-virtual {v4}, Lcom/tencent/mm/hellhoundlib/b/b;->ajE()[Ljava/lang/Object;
+
+    move-result-object v5
+
+    move-object v4, p0
+
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/hellhoundlib/a/a;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+
+    .line 2019
+    sget-object v0, Lcom/tencent/mm/bh/d;->iAH:Lcom/tencent/mm/bh/a;
+
+    .line 177
+    if-eqz v0, :cond_0
+
+    const-class v0, Lcom/tencent/mm/plugin/multitalk/model/d;
+
+    .line 178
+    invoke-static {v0}, Lcom/tencent/mm/kernel/g;->F(Ljava/lang/Class;)Lcom/tencent/mm/kernel/c/a;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tencent/mm/plugin/multitalk/model/d;
+
+    iget-object v1, p0, Lcom/tencent/mm/ui/MultiTalkRoomPopupNav$1;->LUj:Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;
+
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Lcom/tencent/mm/plugin/multitalk/model/d;->co(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 179
+    const-string/jumbo v0, "MicroMsg.MultiTalkRoomPopupNav"
+
+    const-string/jumbo v1, "is voip talking"
+
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ai;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 180
+    const-string/jumbo v0, "com/tencent/mm/ui/MultiTalkRoomPopupNav$1"
+
+    const-string/jumbo v1, "android/view/View$OnClickListener"
+
+    const-string/jumbo v2, "onClick"
+
+    const-string/jumbo v3, "(Landroid/view/View;)V"
+
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/hellhoundlib/a/a;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    .line 189
+    :goto_0
+    return-void
+
+    .line 3019
+    :cond_0
+    sget-object v0, Lcom/tencent/mm/bh/d;->iAH:Lcom/tencent/mm/bh/a;
+
+    .line 182
+    if-eqz v0, :cond_1
+
+    .line 4019
+    sget-object v0, Lcom/tencent/mm/bh/d;->iAH:Lcom/tencent/mm/bh/a;
+
+    .line 183
+    invoke-interface {v0}, Lcom/tencent/mm/bh/a;->aQU()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 184
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ao;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ao;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const v2, 0x7f1014cc
+
+    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+
+    .line 185
+    const-string/jumbo v0, "MicroMsg.MultiTalkRoomPopupNav"
+
+    const-string/jumbo v1, "is show loation"
+
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ai;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 186
+    const-string/jumbo v0, "com/tencent/mm/ui/MultiTalkRoomPopupNav$1"
+
+    const-string/jumbo v1, "android/view/View$OnClickListener"
+
+    const-string/jumbo v2, "onClick"
+
+    const-string/jumbo v3, "(Landroid/view/View;)V"
+
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/hellhoundlib/a/a;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+
+    .line 188
+    :cond_1
+    iget-object v0, p0, Lcom/tencent/mm/ui/MultiTalkRoomPopupNav$1;->LUj:Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;
+
+    invoke-static {v0}, Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;->a(Lcom/tencent/mm/ui/MultiTalkRoomPopupNav;)V
+
+    .line 189
+    const-string/jumbo v0, "com/tencent/mm/ui/MultiTalkRoomPopupNav$1"
+
+    const-string/jumbo v1, "android/view/View$OnClickListener"
+
+    const-string/jumbo v2, "onClick"
+
+    const-string/jumbo v3, "(Landroid/view/View;)V"
+
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/hellhoundlib/a/a;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v6}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    goto :goto_0
+.end method

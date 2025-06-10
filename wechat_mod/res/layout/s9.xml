@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/aj" android:paddingLeft="16.0dip" android:paddingTop="18.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/awb" android:padding="0.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/gx" android:textColor="@color/ab" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" android:layout_toRightOf="@id/awb" android:layout_centerVertical="true" style="@style/lw" />
+    <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/gx" android:textColor="@color/aa" android:gravity="right" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_weight="1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" wallet:a1r="ftc" style="@style/lz" />
+</LinearLayout>

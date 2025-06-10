@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/bv" android:paddingStart="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.widget.RoundedCornerFrameLayout android:layout_width="168.0dip" android:layout_height="@dimen/bt" app:ht="4.0dip">
+            <ImageView android:id="@id/g8t" android:background="@color/rj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/a0" android:textColor="@android:color/white" android:layout_gravity="end|bottom|center" android:id="@id/gm_" android:background="@drawable/cb2" android:paddingLeft="@dimen/ci" android:paddingTop="2.0dip" android:paddingRight="@dimen/ci" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci" android:text="00:00" android:layout_marginEnd="@dimen/ci" />
+        </com.tencent.mm.ui.widget.RoundedCornerFrameLayout>
+        <android.support.constraint.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ci">
+            <TextView android:textSize="@dimen/gu" android:textColor="@color/FG_0" android:ellipsize="end" android:id="@id/iqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:paddingEnd="@dimen/c5" app:pv="ea8" app:py="ea8" />
+            <TextView android:textSize="@dimen/b_" android:textColor="@color/FG_1" android:id="@id/iqu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" app:pv="ea8" app:px="@id/iqs" />
+            <TextView android:textSize="@dimen/b_" android:textColor="@color/FG_1" android:id="@id/iqr" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pu="@id/iqu" app:py="@id/iqu" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

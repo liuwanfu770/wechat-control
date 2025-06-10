@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <SelectPreference android:o8="select_male" android:a0p="@string/fdf" />
+    <SelectPreference android:o8="select_female" android:a0p="@string/fde" />
+</PreferenceScreen>

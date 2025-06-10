@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/iuf" android:background="@color/a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/a" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/iue" android:background="@color/f" android:paddingLeft="@dimen/o" android:paddingRight="@dimen/o" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center_horizontal" android:id="@id/ahm" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="48.0dip" android:src="@raw/wallet_security_digital_certificate" android:layout_centerHorizontal="true" app:mj="@color/Yellow" />
+            <TextView android:textSize="22.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/aho" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/gvd" android:layout_below="@id/ahm" android:layout_centerHorizontal="true" style="@style/ok" />
+            <TextView android:textSize="@dimen/gx" android:textColor="@color/s5" android:id="@id/ahp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="48.0dip" android:text="@string/gvl" android:layout_below="@id/aho" style="@style/ok" />
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/iua" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="24.0dip" android:layout_below="@id/ahp">
+                <ImageView android:id="@id/iub" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/kl" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/y4" android:id="@id/ahq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/jn" android:text="@string/gvj" style="@style/ok" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/iuc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/iua">
+                <ImageView android:id="@id/iud" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/kl" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/y4" android:id="@id/ahr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/jn" android:text="@string/gvk" style="@style/ok" />
+            </LinearLayout>
+            <Button android:id="@id/crh" android:text="@string/gvf" android:layout_centerHorizontal="true" style="@style/o7" />
+            <Button android:textColor="@color/Red" android:id="@id/b96" android:background="@drawable/ir" android:text="@string/gvb" android:layout_centerHorizontal="true" style="@style/o_" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@color/FG_1" android:id="@id/crl" android:background="@color/a" android:paddingLeft="@dimen/o" android:paddingRight="@dimen/o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jn" android:layout_marginBottom="@dimen/jn" android:text="@string/gvg" style="@style/ok" />
+        <LinearLayout android:orientation="vertical" android:id="@id/crk" android:background="@color/a" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+.class public Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay;
+.super Lcom/tencent/mm/plugin/webview/luggage/jsapi/br;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Lcom/tencent/luggage/d/a;",
+        ">",
+        "Lcom/tencent/mm/plugin/webview/luggage/jsapi/br",
+        "<TT;>;"
+    }
+.end annotation
+
+
+# static fields
+.field private static GkB:Ljavax/net/ssl/TrustManager;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .prologue
+    const v1, 0x3a077
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 195
+    new-instance v0, Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay$2;
+
+    invoke-direct {v0}, Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay$2;-><init>()V
+
+    sput-object v0, Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay;->GkB:Ljavax/net/ssl/TrustManager;
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 43
+    invoke-direct {p0}, Lcom/tencent/mm/plugin/webview/luggage/jsapi/br;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/plugin/webview/luggage/jsapi/br$a;)V
+    .locals 0
+
+    .prologue
+    .line 223
+    return-void
+.end method
+
+.method public final b(Lcom/tencent/luggage/d/b$a;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/tencent/luggage/d/b",
+            "<TT;>.a;)V"
+        }
+    .end annotation
+
+    .prologue
+    const v2, 0x3a076
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 58
+    sget-object v0, Lcom/tencent/e/h;->OZk:Lcom/tencent/e/i;
+
+    new-instance v1, Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay$1;
+
+    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay$1;-><init>(Lcom/tencent/mm/plugin/webview/luggage/jsapi/ay;Lcom/tencent/luggage/d/b$a;)V
+
+    invoke-interface {v0, v1}, Lcom/tencent/e/i;->aW(Ljava/lang/Runnable;)Lcom/tencent/e/i/d;
+
+    .line 161
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method
+
+.method public final drV()I
+    .locals 1
+
+    .prologue
+    .line 53
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final name()Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 48
+    const-string/jumbo v0, "request"
+
+    return-object v0
+.end method

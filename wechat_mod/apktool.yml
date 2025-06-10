@@ -1,0 +1,41 @@
+version: 2.11.1
+apkFileName: wechat.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 29
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: com.wechat.control
+versionInfo:
+  versionCode: 1800
+  versionName: 7.0.22
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- gif
+- jpg
+- m4a
+- mp3
+- png
+- wav
+- assets/TencentLocationComp_sapp/1
+- assets/b7c9a7fd-851e-7761-07df-8ab7c0b02787.sec
+- assets/default_poi_categories.dat
+- assets/emoji_config.conf
+- assets/fts/feature/version.info
+- assets/game_region_default.txt
+- assets/googleLogo.data
+- assets/rel_wechat_2055-12-06.lic1.2
+- assets/tencentmap/tms_ps/tms_module/9fe30e19bc0e29c139613ea8bbe2dbcd
+- assets/wenote_config.conf
+- assets/wxa_library/develop/DEVELOP
+- assets/wxa_library/local/LOCAL
+- assets/xwalk-command-line
+- res/raw/android_wear_micro_apk.apk

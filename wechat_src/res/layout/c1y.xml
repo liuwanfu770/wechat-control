@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/YellowK" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.kidswatch.ui.login.KidsWatchHeadComponent android:id="@id/iic" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/f7j" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/iic">
+        <com.tencent.mm.ui.widget.InputPanelLinearLayout android:orientation="vertical" android:id="@id/iir" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_">
+            <LinearLayout android:orientation="vertical" android:id="@id/i_4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/i9m" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/i9l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" android:layout_marginBottom="@dimen/cd">
+                <com.tencent.mm.ui.MMImageView android:layout_gravity="right" android:layout_width="150.0dip" android:layout_height="140.0dip" android:layout_marginBottom="@dimen/c8" android:src="@drawable/cex" android:layout_marginEnd="@dimen/c_" />
+                <TextView android:textColor="@color/ach" android:gravity="center" android:id="@id/ipr" android:background="@drawable/aed" android:text="@string/ibu" android:layout_centerHorizontal="true" style="@style/ym" />
+            </LinearLayout>
+        </com.tencent.mm.ui.widget.InputPanelLinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/oq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/g4n" android:background="@color/oq" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/n3" />
+    <ListView android:id="@id/f9k" android:background="@color/oq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/oe" android:dividerHeight="@dimen/e2" style="@style/n3" />
+    <include android:id="@id/bvc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/a36" />
+    <TextView android:textColor="@color/km" android:gravity="center_horizontal" android:id="@id/f8t" android:background="@color/a_r" android:paddingTop="@dimen/he" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/c2z" />
+    <include layout="@layout/a2j" />
+</RelativeLayout>

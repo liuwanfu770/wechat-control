@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@color/c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@id/chj" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pe="24.0dip" />
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@id/chi" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pf="28.0dip" />
+    <View android:id="@id/b1_" android:layout_width="0.5dip" android:layout_height="18.0dip" app:p7="@id/chi" app:pp="ea8" app:pt="ea8" app:py="@id/chj" style="@style/hp" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/fx" android:gravity="center" android:id="@id/azz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:text="@string/b4d" android:singleLine="false" app:p7="@id/chi" app:ps="@id/b1_" app:py="@id/chj" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/fx" android:gravity="center" android:id="@id/azq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/b4k" android:singleLine="false" app:p7="@id/chi" app:pq="@id/b1_" app:py="@id/chj" />
+    <View android:id="@id/b00" android:layout_width="0.0dip" android:layout_height="0.5dip" app:p7="ea8" app:pp="ea8" app:pt="ea8" style="@style/hp" />
+</android.support.constraint.ConstraintLayout>

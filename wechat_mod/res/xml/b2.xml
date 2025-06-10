@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:i5="true" android:o8="checkbox_preference_one" android:y5="@string/hz7" android:a0p="@string/hz6" />
+    <CheckBoxPreference android:i5="false" android:o8="setting_no_see_at_tab_tips" android:y5="@string/iak" android:a0p="@string/iaj" />
+    <CheckBoxPreference android:i5="false" android:o8="settings_message_mute" android:a0p="@string/hu9" />
+    <PreferenceFooterCategory android:o8="settings_message_mute_desc" android:a0p="@string/hu8" />
+    <CheckBoxPreference android:i5="false" android:o8="feed_reproduction" android:y5="@string/hym" android:a0p="@string/hyk" />
+    <SummaryBelowPreference android:o8="settings_blacklist" android:y5="@string/c90" android:a0p="@string/hhr" />
+</PreferenceScreen>

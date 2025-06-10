@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="132.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/iiv" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/iiy" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/c5" android:layout_marginBottom="@dimen/c5">
+            <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@id/in9" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" app:w2="@dimen/bq" app:w3="@dimen/bq" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/aj" android:gravity="center" android:id="@id/ina" android:background="@drawable/cc8" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/c5" android:layout_alignLeft="@id/in9" android:layout_alignTop="@id/in9" />
+            <com.tencent.mm.plugin.finder.view.FinderLiveOnliveWidget android:id="@id/inf" android:background="@drawable/cc6" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="@dimen/c8" android:layout_alignBottom="@id/in9" app:a4c="finder_live_shopping_promoting.pag" app:a4q="@color/aj" app:a4s="@dimen/ci" app:a4u="@string/i_s" app:a4v="@dimen/b_" app:a52="@color/aj" app:a53="@dimen/c5" app:a55="@dimen/c5" app:a58="i8z" app:a59="@dimen/c5" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/iiu" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="@dimen/c5" android:layout_marginTop="@dimen/c5" android:layout_marginBottom="@dimen/c5" android:layout_toRightOf="@id/iiy" android:layout_centerVertical="true">
+            <TextView android:textSize="15.0dip" android:textColor="@color/ab" android:ellipsize="end" android:id="@id/in8" android:paddingTop="@dimen/bq" android:paddingBottom="@dimen/bq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/abu" android:id="@id/in_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/in7" android:layout_width="84.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View android:background="@color/a8" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/iiu" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

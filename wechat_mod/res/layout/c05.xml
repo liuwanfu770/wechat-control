@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="vertical" android:id="@id/ieu" android:background="@color/aab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/ieg" android:layout_width="fill_parent" android:layout_height="0.0dip" app:p8="@id/iei" app:pp="ea8" app:pt="ea8" app:py="ea8" />
+    <com.tencent.mm.live.view.LiveBottomSheetPanel android:orientation="vertical" android:id="@id/iei" android:background="@drawable/c64" android:layout_width="fill_parent" android:layout_height="0.0dip" app:p7="ea8" app:pk="0.42" app:pp="ea8" app:pt="ea8">
+        <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/iet" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/c8" android:layout_marginRight="@dimen/c5" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+                    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:id="@id/ies" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@raw/icons_filled_more" app:mj="@color/a_u" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="center" android:id="@id/ieh" android:background="@drawable/c6u" android:layout_width="48.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/c8" android:layout_centerHorizontal="true">
+                    <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@raw/icons_filled_arrow" android:rotation="90.0" app:mj="@color/a_u" />
+                </FrameLayout>
+                <RelativeLayout android:id="@id/ieq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c8" android:layout_below="@id/ieh" android:layout_marginStart="@dimen/c8" android:layout_marginEnd="@dimen/c5">
+                    <ImageView android:id="@id/ier" android:layout_width="@dimen/ce" android:layout_height="@dimen/ce" android:layout_marginEnd="@dimen/c0" />
+                    <android.support.constraint.ConstraintLayout android:id="@id/iej" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/ier">
+                        <TextView android:textSize="22.0dip" android:textColor="@color/BW_100_Alpha_0_8" android:id="@id/iek" android:layout_width="0.0dip" android:layout_height="wrap_content" app:pl="0.0" app:pn="1.0" app:pp="ea8" app:ps="@id/ien" app:py="ea8" />
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ien" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:layout_marginTop="4.0dip" android:layout_marginBottom="6.0dip" app:pt="ea8" app:py="ea8">
+                            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/c0" android:layout_height="@dimen/c0" android:layout_marginRight="@dimen/bq" android:src="@raw/finder_live_icon_comment_forbidden" app:mj="@color/Red" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/Red" android:id="@id/iep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i_a" android:includeFontPadding="false" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ieo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci" app:pp="ea8" app:px="@id/iek">
+                            <com.tencent.mm.ui.widget.imageview.WeImageView android:layout_width="@dimen/c0" android:layout_height="@dimen/c0" android:layout_marginRight="@dimen/bq" android:src="@raw/finder_live_icon_comment_forbidden" app:mj="@color/Red" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/Red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i_a" android:includeFontPadding="false" />
+                        </LinearLayout>
+                        <TextView android:textSize="14.0dip" android:textColor="@color/BW_100_Alpha_0_6" android:id="@id/iel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci" app:pp="ea8" app:px="@id/ieo" />
+                        <TextView android:textSize="14.0dip" android:textColor="@color/BW_100_Alpha_0_6" android:id="@id/iem" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:pp="ea8" app:px="@id/iel" />
+                    </android.support.constraint.ConstraintLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </com.tencent.mm.live.view.LiveBottomSheetPanel>
+</android.support.constraint.ConstraintLayout>

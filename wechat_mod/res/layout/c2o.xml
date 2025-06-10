@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ilz" android:background="@color/a7c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.voip.video.render.VoIPRenderTextureView android:id="@id/imd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ti" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <View android:id="@id/dl2" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/d41" android:background="@drawable/a4g" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/gx" android:textColor="@color/a_u" android:gravity="center" android:id="@id/g36" android:background="#dd1f2127" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dvv" />
+    <RelativeLayout android:id="@id/iqz" android:visibility="gone" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/gqf" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6" android:src="@drawable/bt4" />
+    </RelativeLayout>
+    <ImageView android:id="@id/dwm" android:visibility="gone" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@raw/multitalk_network_mark" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/dw_" android:background="@drawable/a4h" android:visibility="gone" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/dwa" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/hao" android:layout_width="wrap_content" android:layout_height="@dimen/cb" android:layout_alignBottom="@id/imd" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/hap" android:background="@drawable/icon_shadow_multitalk_avatar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cb" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/BW_100_Alpha_0_9" android:id="@id/haq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ci" android:text="fafasfasfasgasgasggada" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/ci" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="vertical" android:id="@id/f47" android:background="@color/a4k" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/ipn" android:layout_width="0.0dip" android:layout_height="0.0dip" app:pg="0.125" />
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/iai" android:layout_width="0.0dip" android:layout_height="0.0dip" app:pg="0.875" />
+    <ImageView android:id="@id/iae" android:layout_width="fill_parent" android:layout_height="0.0dip" app:pb="750:224" app:py="ea8" />
+    <ImageView android:id="@id/iad" android:layout_width="fill_parent" android:layout_height="0.0dip" app:p7="ea8" app:pb="750:464" />
+    <com.tencent.mm.plugin.gif.MMAnimateView android:id="@id/iky" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:p7="@id/d9q" app:pc="@id/d9q" app:pv="@id/d9q" app:py="@id/d9q" />
+    <com.tencent.mm.plugin.gif.MMAnimateView android:id="@id/d9q" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="72.0dip" app:p7="ea8" app:pc="@id/iai" app:pv="@id/ipn" app:px="@id/iae" app:py="ea8" />
+</android.support.constraint.ConstraintLayout>

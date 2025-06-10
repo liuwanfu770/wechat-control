@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0" android:layout_marginStart="@dimen/c0" android:layout_marginEnd="@dimen/c0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/il_" app:pb="16:9" app:pv="ea8" app:py="ea8" style="@style/ff" />
+    <ImageView android:id="@id/ila" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/gx" app:p8="@id/il9" app:pp="ea8" app:pt="ea8" app:py="@id/il_" app:q0="ea0" />
+    <TextView android:textSize="@dimen/jv" android:textColor="@color/a_u" android:id="@id/il9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hk" android:shadowColor="@color/BW_0_Alpha_0_5" android:shadowRadius="10.0" app:p7="@id/il_" app:pp="ea8" app:pt="ea8" app:px="@id/ila" />
+    <TextView android:textSize="@dimen/jo" android:textColor="@color/a_u" android:id="@id/ikg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bq" android:layout_marginStart="@dimen/c5" app:p7="@id/il_" app:pv="ea8" app:qb="@dimen/ci" />
+    <View android:id="@id/ijk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/c_" app:p7="@id/il_" app:pc="ea8" app:pv="ea8" />
+    <FrameLayout android:id="@id/ilb" android:background="@drawable/fw" android:layout_width="fill_parent" android:layout_height="wrap_content" app:px="@id/il_">
+        <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/q" android:textColor="@color/FG_0" android:ellipsize="end" android:id="@id/ir4" android:paddingTop="@dimen/hk" android:paddingBottom="@dimen/i_" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="2.0dip" android:paddingStart="@dimen/c0" android:paddingEnd="@dimen/c0" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

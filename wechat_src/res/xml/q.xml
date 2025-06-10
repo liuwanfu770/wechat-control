@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:o8="roominfo_contact_anchor" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.chatroom.ui.preference.SignaturePreference android:o8="room_name" android:oq="@layout/aop" android:a0p="@string/ahs" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:o8="room_placed_to_the_top" android:oq="@layout/aop" android:a0p="@string/aht" />
+    <CheckBoxPreference android:o8="room_notify_new_msg" android:oq="@layout/aop" android:a0p="@string/ahr" />
+    <CheckBoxPreference android:o8="room_save_to_contact" android:oq="@layout/aop" android:a0p="@string/afv" />
+    <PreferenceSmallCategory />
+    <Preference android:o8="room_del_quit" android:oq="@layout/ajc" android:a0p="@string/ahq" />
+    <PreferenceCategory />
+</PreferenceScreen>

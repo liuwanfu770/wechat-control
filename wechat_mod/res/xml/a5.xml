@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoHeaderPreference android:o8="contact_info_header_newbizinfo" android:oq="@layout/u1" />
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoNotFollowPreference android:o8="contact_info_biz_add" android:oq="@layout/u_" android:a0p="@string/b4l" />
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoFollowPreference android:o8="contact_info_biz_go_chatting" android:oq="@layout/tu" />
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoMenuPreference android:o8="contact_info_biz_menu_newbizinfo" android:oq="@layout/tc" />
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoErrMsgPreference android:o8="contact_info_biz_err_msg" android:oq="@layout/t_" />
+    <Preference android:o8="contact_info_footer_space" android:oq="@layout/tw" android:a0p="" />
+</PreferenceScreen>

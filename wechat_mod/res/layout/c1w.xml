@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/i_2" android:background="@drawable/ccy" android:padding="@dimen/c_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c5" android:layout_marginStart="@dimen/c8" android:layout_marginEnd="@dimen/c8">
+        <com.tencent.mm.ui.widget.RoundCornerImageView android:id="@id/tb" android:layout_width="@dimen/ch" android:layout_height="@dimen/ch" android:src="@drawable/aq8" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginStart="@dimen/c0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/gy" android:textColor="@color/aco" android:ellipsize="end" android:gravity="center|left|top" android:id="@id/e3u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小赖你个小子算什么" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_marginStart="@dimen/c5">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/ik1" android:background="@drawable/cd5" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginEnd="2.0dip" />
+                    <TextView android:textSize="@dimen/b_" android:textColor="@color/aco" android:gravity="center|left" android:id="@id/ik2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/icd" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/abp" android:ellipsize="end" android:id="@id/bb8" android:layout_marginTop="@dimen/ci" android:text="我是设备名我是设备名我是设备名你好" android:singleLine="true" style="@style/ym" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

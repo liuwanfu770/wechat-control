@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/t9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gu" android:textColor="@color/h1" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0" android:text="@string/cxe" />
+    <View android:id="@id/ch3" android:background="@color/BW_90" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/c0" />
+    <com.tencent.mm.ui.widget.picker.CustomDatePicker android:gravity="center" android:layout_gravity="center" android:id="@id/b8i" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="250.0dip" android:layout_height="200.0dip" android:layout_marginTop="0.5dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ci">
+        <Button android:textSize="@dimen/jo" android:id="@id/aay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip" android:minHeight="@dimen/cb" android:text="@string/cxc" style="@style/od" />
+        <Button android:textSize="@dimen/jo" android:id="@id/e7h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c5" android:minWidth="120.0dip" android:minHeight="@dimen/cb" android:text="@string/cxd" style="@style/o7" />
+    </LinearLayout>
+</LinearLayout>

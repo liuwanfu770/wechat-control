@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/as" android:layout_height="@dimen/as"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ta" android:layout_width="@dimen/as" android:layout_height="@dimen/as" />
+    <ImageView android:id="@id/dkt" android:background="@color/ry" android:visibility="gone" android:layout_width="@dimen/as" android:layout_height="@dimen/as" />
+</FrameLayout>

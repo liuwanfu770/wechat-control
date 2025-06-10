@@ -1,0 +1,117 @@
+.class final Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;
+.super Lf/g/b/q;
+.source "SourceFile"
+
+# interfaces
+.implements Lf/g/a/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;->onSceneEnd(IILjava/lang/String;Lcom/tencent/mm/aj/q;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lf/g/b/q;",
+        "Lf/g/a/b",
+        "<",
+        "Ljava/lang/Void;",
+        "Lf/z;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lf/l;
+    gPh = {
+        0x1,
+        0x1,
+        0x10
+    }
+    gPi = {
+        "\u0000\u0010\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0000\u001a\u00020\u00012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003H\n\u00a2\u0006\u0002\u0008\u0004\u00a8\u0006\u0005"
+    }
+    gPj = {
+        "<anonymous>",
+        "",
+        "it",
+        "Ljava/lang/Void;",
+        "invoke",
+        "com/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$1$1"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic ttI:Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;
+
+.field final synthetic ttJ:Lf/g/b/y$a;
+
+.field final synthetic ttK:Lcom/tencent/mm/aj/q;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;Lf/g/b/y$a;Lcom/tencent/mm/aj/q;)V
+    .locals 1
+
+    iput-object p1, p0, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;->ttI:Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;
+
+    iput-object p2, p0, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;->ttJ:Lf/g/b/y$a;
+
+    iput-object p3, p0, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;->ttK:Lcom/tencent/mm/aj/q;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lf/g/b/q;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    .prologue
+    const v2, 0x34fa7
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 1104
+    iget-object v0, p0, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;->ttI:Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;->a(Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;)Lcom/tencent/mm/plugin/finder/storage/data/f;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/finder/storage/data/f;->aVD()V
+
+    .line 1105
+    iget-object v0, p0, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;->ttI:Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;->a(Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent;)Lcom/tencent/mm/plugin/finder/storage/data/f;
+
+    move-result-object v1
+
+    iget-object v0, p0, Lcom/tencent/mm/plugin/finder/presenter/contract/FinderFollowListContract$FollowListPresent$onSceneEnd$$inlined$let$lambda$1;->ttK:Lcom/tencent/mm/aj/q;
+
+    check-cast v0, Lcom/tencent/mm/plugin/finder/cgi/ax;
+
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/finder/cgi/ax;->cHt()Ljava/util/LinkedList;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/plugin/finder/storage/data/f;->r(Ljava/util/LinkedList;)V
+
+    .line 64
+    sget-object v0, Lf/z;->Qbv:Lf/z;
+
+    invoke-static {v2}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-object v0
+.end method

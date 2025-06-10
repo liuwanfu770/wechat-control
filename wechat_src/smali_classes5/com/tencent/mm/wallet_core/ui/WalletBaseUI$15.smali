@@ -1,0 +1,70 @@
+.class final Lcom/tencent/mm/wallet_core/ui/WalletBaseUI$15;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/wallet_core/ui/WalletBaseUI;->setWPKeyboard(Landroid/widget/EditText;ZZ)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic OEi:Lcom/tencent/mm/wallet_core/ui/WalletBaseUI;
+
+.field final synthetic val$editText:Landroid/widget/EditText;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/wallet_core/ui/WalletBaseUI;Landroid/widget/EditText;)V
+    .locals 0
+
+    .prologue
+    .line 600
+    iput-object p1, p0, Lcom/tencent/mm/wallet_core/ui/WalletBaseUI$15;->OEi:Lcom/tencent/mm/wallet_core/ui/WalletBaseUI;
+
+    iput-object p2, p0, Lcom/tencent/mm/wallet_core/ui/WalletBaseUI$15;->val$editText:Landroid/widget/EditText;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .prologue
+    const v1, 0x11d10
+
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->i(I)V
+
+    .line 603
+    iget-object v0, p0, Lcom/tencent/mm/wallet_core/ui/WalletBaseUI$15;->val$editText:Landroid/widget/EditText;
+
+    invoke-virtual {v0}, Landroid/widget/EditText;->findFocus()Landroid/view/View;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    .line 604
+    iget-object v0, p0, Lcom/tencent/mm/wallet_core/ui/WalletBaseUI$15;->val$editText:Landroid/widget/EditText;
+
+    invoke-virtual {v0}, Landroid/widget/EditText;->requestFocus()Z
+
+    .line 606
+    :cond_0
+    invoke-static {v1}, Lcom/tencent/matrix/trace/core/AppMethodBeat;->o(I)V
+
+    return-void
+.end method

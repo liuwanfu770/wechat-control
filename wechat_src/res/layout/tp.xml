@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a1u" app:pb="366:205" app:pv="ea8" app:py="ea8" style="@style/ff" />
+    <android.support.constraint.Barrier android:id="@id/a1q" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bz="gcy" app:gu="biz_slot_show_desc_tv,biz_slot_title_neat_tv" />
+    <include layout="@layout/tm" />
+    <ImageView android:id="@id/a24" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/gx" app:p8="@id/biz_slot_title_neat_tv" app:pp="ea8" app:pt="ea8" app:py="@id/a1u" />
+    <TextView android:textSize="@dimen/jv" android:textColor="@color/a_u" android:id="@id/a23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hk" android:shadowColor="@color/BW_0_Alpha_0_5" android:shadowRadius="10.0" app:pp="ea8" app:pt="ea8" app:px="@id/a24" />
+</android.support.constraint.ConstraintLayout>

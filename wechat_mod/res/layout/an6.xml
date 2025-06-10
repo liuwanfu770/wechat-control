@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/gl5" android:background="@color/a_r" android:padding="@dimen/c5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/q" android:textColor="@color/fg" android:gravity="center" android:id="@id/cwm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dp1" app:pp="ea8" app:py="ea8" style="@style/ya" />
+    <TextView android:textSize="@dimen/q" android:textColor="@color/fg" android:gravity="center" android:id="@id/cwl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="700ms" app:pt="ea8" app:py="ea8" style="@style/ya" />
+    <SeekBar android:id="@id/g8m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_" android:max="100" android:progress="100" app:pp="ea8" app:pt="ea8" app:py="@id/cwm" style="@style/o2" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.sortview.CatalogView android:id="@id/aha" android:paddingLeft="@dimen/c5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/n4" />
+    <android.support.constraint.ConstraintLayout android:paddingLeft="@dimen/c5" android:paddingRight="@dimen/c5" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mc">
+        <ImageView android:id="@id/c89" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/c0" android:layout_marginBottom="@dimen/c0" app:p7="ea8" app:pp="ea8" app:py="ea8" />
+        <TextView android:textSize="@dimen/q" android:textColor="@color/FG_0" android:ellipsize="end" android:id="@id/c8i" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0" android:layout_marginRight="@dimen/ci" android:maxLines="1" app:p8="@id/c8h" app:pq="@id/c89" app:pt="@id/f2c" app:py="@id/c89" app:q0="ea0" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/FG_1" android:ellipsize="end" android:id="@id/c8h" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0" android:layout_marginRight="@dimen/ci" android:maxLines="1" app:p7="@id/c89" app:pq="@id/c89" app:pt="@id/f2c" app:px="@id/c8i" />
+        <android.support.constraint.Barrier android:id="@id/f2c" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bz="d0p" app:gu="add_btn,add_state_tv" />
+        <Button android:id="@id/ep" android:text="@string/g9" app:p7="@id/c89" app:pq="@id/f2c" app:pt="ea8" app:py="@id/c89" style="@style/o8" />
+        <TextView android:textSize="@dimen/gx" android:textColor="@color/BW_0_Alpha_0_5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ci" android:maxWidth="@dimen/cg" android:maxLines="1" app:p7="@id/c89" app:pq="@id/f2c" app:pt="ea8" app:py="@id/c89" />
+        <TextView android:background="@drawable/x8" android:layout_width="fill_parent" android:layout_height="@dimen/bk" app:p7="ea8" app:px="ea8" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.finder.widget.edit.FinderEditTextView android:id="@id/bgm" android:background="@color/a25" android:padding="@dimen/cb" android:layout_width="fill_parent" android:layout_height="400.0dip" />
+    <com.tencent.mm.plugin.finder.widget.edit.FinderEditFooter android:id="@id/bga" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

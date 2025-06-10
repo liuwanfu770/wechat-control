@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/i5u" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/i5y" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:ph="frt" app:py="ea8" />
+    <com.tencent.mm.plugin.finder.view.FinderLiveOnliveWidget android:layout_gravity="center|left|top" android:id="@id/ibs" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_margin="@dimen/bq" android:minWidth="@dimen/am1" app:pp="ea8" app:py="ea8" app:a4q="@color/aj" app:a4s="2.0dip" app:a4t="@dimen/bq" app:a4u="@string/i_j" app:a4v="@dimen/a0" app:a51="true" app:a52="@color/aj" app:a53="@dimen/c0" app:a55="@dimen/bq" app:a57="imq" app:a58="ist" app:a59="@dimen/c0" />
+    <com.tencent.mm.plugin.finder.view.FinderLiveOnliveWidget android:id="@id/ibm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_margin="@dimen/ci" app:p7="ea8" app:pp="ea8" app:pt="ea8" app:py="ea8" app:a4q="@color/aj" app:a4s="@dimen/bq" app:a4u="@string/i7v" app:a4v="@dimen/gu" app:a51="false" app:a52="@color/aj" app:a53="@dimen/c6" app:a58="co4" app:a59="@dimen/c6" />
+</android.support.constraint.ConstraintLayout>

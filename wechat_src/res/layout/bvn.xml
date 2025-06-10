@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gw" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/a0v" android:paddingLeft="@dimen/ha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.5dip" android:layout_marginBottom="13.5dip">
+        <TextView android:textSize="15.0dip" android:textColor="@color/FG_2" android:ellipsize="end" android:gravity="bottom" android:id="@id/e3q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/gu" android:ellipsize="end" android:gravity="bottom" android:id="@id/i3k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/jn" android:singleLine="true" android:layout_toLeftOf="@id/atf" android:layout_toRightOf="@id/e3q" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/atf" android:paddingTop="3.0dip" android:paddingRight="@dimen/c5" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/ate" android:layout_width="22.0dip" android:layout_height="15.0dip" android:src="@raw/biz_rec_card_close_icon" app:mj="@color/FG_2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@id/i0g" android:layout="@layout/bud" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/gpk" android:layout="@layout/bue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/h8f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

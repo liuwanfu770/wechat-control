@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bcm" android:background="@color/a7c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/iah" android:layout_width="fill_parent" android:layout_height="130.0dip" android:minHeight="130.0dip" />
+    <View android:id="@id/b4g" android:background="@drawable/cec" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/iah" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/cj_" android:layout_width="fill_parent" android:layout_height="@dimen/cd" android:layout_below="@id/iah">
+        <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/at6" android:padding="@dimen/c0" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@raw/icons_outlined_arrow" android:rotation="90.0" />
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/y4" android:id="@id/gbv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ifi" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/il7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cj_">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/f84" android:background="@drawable/ceb" android:layout_width="fill_parent" android:layout_height="@dimen/c_" android:layout_marginLeft="@dimen/c5" android:layout_marginRight="@dimen/c5">
+            <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/f8y" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6" android:layout_margin="@dimen/bq" android:src="@raw/icons_outlined_search" app:mj="@color/BW_70" />
+            <com.tencent.mm.ui.search.FTSEditTextView android:id="@id/c8x" android:layout_width="0.0dip" android:layout_height="@dimen/c8" android:layout_weight="1.0" android:textCursorDrawable="@drawable/x5" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/il8" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/c5" android:layout_below="@id/f84" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ilw" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cj_">
+        <FrameLayout android:id="@id/ilx" android:background="@color/c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>
